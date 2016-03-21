@@ -7360,6 +7360,23 @@
     ],
     "timestamp": "Jul/15/2022 16:41"
   },
+  "CF16859830": {
+    "contest_id": 476,
+    "language": "Python 3",
+    "path": "codeforces/476/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Dreamoon and Stairs",
+    "problem_url": "https://codeforces.com/contest/476/problem/A",
+    "submission_id": "CF16859830",
+    "submission_url": "https://codeforces.com/contest/476/submission/16859830",
+    "tags": [
+      "implementation",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Mar/21/2016 17:12"
+  },
   "CF17023978": {
     "contest_id": 630,
     "language": "Python 3",
