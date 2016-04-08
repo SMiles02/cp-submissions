@@ -7360,6 +7360,23 @@
     ],
     "timestamp": "Jul/15/2022 16:41"
   },
+  "CF17244957": {
+    "contest_id": 4,
+    "language": "Python 3",
+    "path": "codeforces/4/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Watermelon",
+    "problem_url": "https://codeforces.com/contest/4/problem/A",
+    "submission_id": "CF17244957",
+    "submission_url": "https://codeforces.com/contest/4/submission/17244957",
+    "tags": [
+      "brute force",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Apr/08/2016 23:16"
+  },
   "CF17245072": {
     "contest_id": 25,
     "language": "Python 3",
