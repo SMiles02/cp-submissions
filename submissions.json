@@ -7360,6 +7360,22 @@
     ],
     "timestamp": "Jul/15/2022 16:41"
   },
+  "CF17252400": {
+    "contest_id": 61,
+    "language": "Python 3",
+    "path": "codeforces/61/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Ultra-Fast Mathematician",
+    "problem_url": "https://codeforces.com/contest/61/problem/A",
+    "submission_id": "CF17252400",
+    "submission_url": "https://codeforces.com/contest/61/submission/17252400",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Apr/09/2016 14:40"
+  },
   "CF17268323": {
     "contest_id": 59,
     "language": "Python 3",
