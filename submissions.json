@@ -7360,6 +7360,23 @@
     ],
     "timestamp": "Jul/15/2022 16:41"
   },
+  "CF17251880": {
+    "contest_id": 41,
+    "language": "Python 3",
+    "path": "codeforces/41/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Translation",
+    "problem_url": "https://codeforces.com/contest/41/problem/A",
+    "submission_id": "CF17251880",
+    "submission_url": "https://codeforces.com/contest/41/submission/17251880",
+    "tags": [
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Apr/09/2016 13:45"
+  },
   "CF17252400": {
     "contest_id": 61,
     "language": "Python 3",
