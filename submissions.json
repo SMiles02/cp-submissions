@@ -7360,6 +7360,23 @@
     ],
     "timestamp": "Jul/15/2022 16:41"
   },
+  "CF17268323": {
+    "contest_id": 59,
+    "language": "Python 3",
+    "path": "codeforces/59/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Word",
+    "problem_url": "https://codeforces.com/contest/59/problem/A",
+    "submission_id": "CF17268323",
+    "submission_url": "https://codeforces.com/contest/59/submission/17268323",
+    "tags": [
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Apr/10/2016 19:22"
+  },
   "CF173228027": {
     "contest_id": 1734,
     "language": "C++20 (GCC 11-64)",
