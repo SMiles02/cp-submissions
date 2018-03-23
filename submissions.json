@@ -12881,6 +12881,22 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF36557697": {
+    "contest_id": 946,
+    "language": "Python 3",
+    "path": "codeforces/946/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Partition",
+    "problem_url": "https://codeforces.com/contest/946/problem/A",
+    "submission_id": "CF36557697",
+    "submission_url": "https://codeforces.com/contest/946/submission/36557697",
+    "tags": [
+      "greedy",
+      "*800"
+    ],
+    "timestamp": "Mar/23/2018 23:51"
+  },
   "CF36557779": {
     "contest_id": 950,
     "language": "Python 3",
