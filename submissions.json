@@ -12881,6 +12881,23 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF36557779": {
+    "contest_id": 950,
+    "language": "Python 3",
+    "path": "codeforces/950/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Left-handers, Right-handers and Ambidexters",
+    "problem_url": "https://codeforces.com/contest/950/problem/A",
+    "submission_id": "CF36557779",
+    "submission_url": "https://codeforces.com/contest/950/submission/36557779",
+    "tags": [
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Mar/24/2018 00:00"
+  },
   "CF36558390": {
     "contest_id": 581,
     "language": "Python 3",
