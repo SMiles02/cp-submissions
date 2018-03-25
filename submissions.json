@@ -12881,6 +12881,22 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF36618347": {
+    "contest_id": 935,
+    "language": "Python 3",
+    "path": "codeforces/935/B.py",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Fafa and the Gates",
+    "problem_url": "https://codeforces.com/contest/935/problem/B",
+    "submission_id": "CF36618347",
+    "submission_url": "https://codeforces.com/contest/935/submission/36618347",
+    "tags": [
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "Mar/25/2018 15:42"
+  },
   "CF36618446": {
     "contest_id": 932,
     "language": "Python 3",
