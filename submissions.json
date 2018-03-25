@@ -12881,6 +12881,22 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF36618446": {
+    "contest_id": 932,
+    "language": "Python 3",
+    "path": "codeforces/932/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Palindromic Supersequence",
+    "problem_url": "https://codeforces.com/contest/932/problem/A",
+    "submission_id": "CF36618446",
+    "submission_url": "https://codeforces.com/contest/932/submission/36618446",
+    "tags": [
+      "constructive algorithms",
+      "*800"
+    ],
+    "timestamp": "Mar/25/2018 15:46"
+  },
   "CF36641373": {
     "contest_id": 677,
     "language": "Python 3",
