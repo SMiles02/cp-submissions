@@ -12881,6 +12881,23 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF36642770": {
+    "contest_id": 131,
+    "language": "Python 3",
+    "path": "codeforces/131/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "cAPS lOCK",
+    "problem_url": "https://codeforces.com/contest/131/problem/A",
+    "submission_id": "CF36642770",
+    "submission_url": "https://codeforces.com/contest/131/submission/36642770",
+    "tags": [
+      "implementation",
+      "strings",
+      "*1000"
+    ],
+    "timestamp": "Mar/26/2018 14:47"
+  },
   "CF36803421": {
     "contest_id": 952,
     "language": "Python 3",
