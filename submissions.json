@@ -12881,6 +12881,22 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF36641373": {
+    "contest_id": 677,
+    "language": "Python 3",
+    "path": "codeforces/677/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Vanya and Fence",
+    "problem_url": "https://codeforces.com/contest/677/problem/A",
+    "submission_id": "CF36641373",
+    "submission_url": "https://codeforces.com/contest/677/submission/36641373",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Mar/26/2018 14:03"
+  },
   "CF36642770": {
     "contest_id": 131,
     "language": "Python 3",
