@@ -12881,6 +12881,22 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF36951505": {
+    "contest_id": 952,
+    "language": "Python 3",
+    "path": "codeforces/952/D.py",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "I'm Feeling Lucky!",
+    "problem_url": "https://codeforces.com/contest/952/problem/D",
+    "submission_id": "CF36951505",
+    "submission_url": "https://codeforces.com/contest/952/submission/36951505",
+    "tags": [
+      "probabilities",
+      "*1800"
+    ],
+    "timestamp": "Apr/04/2018 15:55"
+  },
   "CF37713935": {
     "contest_id": 967,
     "language": "Python 3",
