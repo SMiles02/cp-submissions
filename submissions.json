@@ -12881,6 +12881,22 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF38052422": {
+    "contest_id": 980,
+    "language": "Python 3",
+    "path": "codeforces/980/B.py",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Marlin",
+    "problem_url": "https://codeforces.com/contest/980/problem/B",
+    "submission_id": "CF38052422",
+    "submission_url": "https://codeforces.com/contest/980/submission/38052422",
+    "tags": [
+      "constructive algorithms",
+      "*1600"
+    ],
+    "timestamp": "May/08/2018 20:55"
+  },
   "CF38055842": {
     "contest_id": 960,
     "language": "Python 3",
