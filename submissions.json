@@ -12881,6 +12881,22 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF38382156": {
+    "contest_id": 268,
+    "language": "Python 3",
+    "path": "codeforces/268/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Games",
+    "problem_url": "https://codeforces.com/contest/268/problem/A",
+    "submission_id": "CF38382156",
+    "submission_url": "https://codeforces.com/contest/268/submission/38382156",
+    "tags": [
+      "brute force",
+      "*800"
+    ],
+    "timestamp": "May/17/2018 22:36"
+  },
   "CF38382431": {
     "contest_id": 144,
     "language": "Python 3",
