@@ -12881,6 +12881,24 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF38381626": {
+    "contest_id": 723,
+    "language": "Python 3",
+    "path": "codeforces/723/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "The New Year: Meeting Friends",
+    "problem_url": "https://codeforces.com/contest/723/problem/A",
+    "submission_id": "CF38381626",
+    "submission_url": "https://codeforces.com/contest/723/submission/38381626",
+    "tags": [
+      "implementation",
+      "math",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "May/17/2018 22:17"
+  },
   "CF38382156": {
     "contest_id": 268,
     "language": "Python 3",
