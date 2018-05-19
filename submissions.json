@@ -12881,6 +12881,23 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF38435654": {
+    "contest_id": 711,
+    "language": "Python 3",
+    "path": "codeforces/711/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Bus to Udayland",
+    "problem_url": "https://codeforces.com/contest/711/problem/A",
+    "submission_id": "CF38435654",
+    "submission_url": "https://codeforces.com/contest/711/submission/38435654",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "May/19/2018 17:36"
+  },
   "CF38437063": {
     "contest_id": 478,
     "language": "Python 3",
