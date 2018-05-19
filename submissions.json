@@ -12881,6 +12881,24 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF38413113": {
+    "contest_id": 490,
+    "language": "Python 3",
+    "path": "codeforces/490/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Team Olympiad",
+    "problem_url": "https://codeforces.com/contest/490/problem/A",
+    "submission_id": "CF38413113",
+    "submission_url": "https://codeforces.com/contest/490/submission/38413113",
+    "tags": [
+      "greedy",
+      "implementation",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "May/19/2018 02:10"
+  },
   "CF38434778": {
     "contest_id": 270,
     "language": "Python 3",
