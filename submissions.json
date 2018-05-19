@@ -12881,6 +12881,22 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF38441201": {
+    "contest_id": 791,
+    "language": "Python 3",
+    "path": "codeforces/791/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Bear and Big Brother",
+    "problem_url": "https://codeforces.com/contest/791/problem/A",
+    "submission_id": "CF38441201",
+    "submission_url": "https://codeforces.com/contest/791/submission/38441201",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "May/19/2018 21:23"
+  },
   "CF38441345": {
     "contest_id": 584,
     "language": "Python 3",
