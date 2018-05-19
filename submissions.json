@@ -12881,6 +12881,22 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF38437063": {
+    "contest_id": 478,
+    "language": "Python 3",
+    "path": "codeforces/478/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Initial Bet",
+    "problem_url": "https://codeforces.com/contest/478/problem/A",
+    "submission_id": "CF38437063",
+    "submission_url": "https://codeforces.com/contest/478/submission/38437063",
+    "tags": [
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "May/19/2018 18:39"
+  },
   "CF38437321": {
     "contest_id": 427,
     "language": "Python 3",
