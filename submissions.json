@@ -12881,6 +12881,22 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF38723260": {
+    "contest_id": 987,
+    "language": "Python 3",
+    "path": "codeforces/987/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Infinity Gauntlet",
+    "problem_url": "https://codeforces.com/contest/987/problem/A",
+    "submission_id": "CF38723260",
+    "submission_url": "https://codeforces.com/contest/987/submission/38723260",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "May/29/2018 17:40"
+  },
   "CF38813931": {
     "contest_id": 984,
     "language": "Python 3",
