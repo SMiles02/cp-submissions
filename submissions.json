@@ -12881,6 +12881,23 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF38838129": {
+    "contest_id": 988,
+    "language": "Python 3",
+    "path": "codeforces/988/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Diverse Team",
+    "problem_url": "https://codeforces.com/contest/988/problem/A",
+    "submission_id": "CF38838129",
+    "submission_url": "https://codeforces.com/contest/988/submission/38838129",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Jun/01/2018 16:51"
+  },
   "CF38842261": {
     "contest_id": 988,
     "language": "Python 3",
