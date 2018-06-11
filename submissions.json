@@ -12881,6 +12881,23 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF39155019": {
+    "contest_id": 989,
+    "language": "Python 3",
+    "path": "codeforces/989/B.py",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "A Tide of Riverscape",
+    "problem_url": "https://codeforces.com/contest/989/problem/B",
+    "submission_id": "CF39155019",
+    "submission_url": "https://codeforces.com/contest/989/submission/39155019",
+    "tags": [
+      "constructive algorithms",
+      "strings",
+      "*1200"
+    ],
+    "timestamp": "Jun/11/2018 16:00"
+  },
   "CF39295828": {
     "contest_id": 994,
     "language": "Python 3",
