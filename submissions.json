@@ -12881,6 +12881,22 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF39295828": {
+    "contest_id": 994,
+    "language": "Python 3",
+    "path": "codeforces/994/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Fingerprints",
+    "problem_url": "https://codeforces.com/contest/994/problem/A",
+    "submission_id": "CF39295828",
+    "submission_url": "https://codeforces.com/contest/994/submission/39295828",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Jun/16/2018 18:50"
+  },
   "CF39468845": {
     "contest_id": 999,
     "language": "Python 3",
