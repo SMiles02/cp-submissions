@@ -12881,6 +12881,23 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF39468845": {
+    "contest_id": 999,
+    "language": "Python 3",
+    "path": "codeforces/999/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Mishka and Contest",
+    "problem_url": "https://codeforces.com/contest/999/problem/A",
+    "submission_id": "CF39468845",
+    "submission_url": "https://codeforces.com/contest/999/submission/39468845",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Jun/21/2018 16:45"
+  },
   "CF39471360": {
     "contest_id": 999,
     "language": "Python 3",
