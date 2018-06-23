@@ -12881,6 +12881,23 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF39554115": {
+    "contest_id": 991,
+    "language": "Python 3",
+    "path": "codeforces/991/B.py",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Getting an A",
+    "problem_url": "https://codeforces.com/contest/991/problem/B",
+    "submission_id": "CF39554115",
+    "submission_url": "https://codeforces.com/contest/991/submission/39554115",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*900"
+    ],
+    "timestamp": "Jun/23/2018 17:53"
+  },
   "CF39611132": {
     "contest_id": 996,
     "language": "Python 3",
