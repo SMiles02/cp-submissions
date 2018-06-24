@@ -1,0 +1,13 @@
+import math
+n = float(input())
+ans = math.floor(n/100)
+n -= (100*ans)
+ans2 = math.floor(n/20)
+n -= (20*ans2)
+ans3 = math.floor(n/10)
+n -= (10*ans3)
+ans4 = math.floor(n/5)
+n -= (5*ans4)
+ans5 = math.floor(n)
+n -= (ans5)
+print(int(ans+ans2+ans3+ans4+ans5))

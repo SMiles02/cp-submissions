@@ -12881,6 +12881,23 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF39611132": {
+    "contest_id": 996,
+    "language": "Python 3",
+    "path": "codeforces/996/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Hit the Lottery",
+    "problem_url": "https://codeforces.com/contest/996/problem/A",
+    "submission_id": "CF39611132",
+    "submission_url": "https://codeforces.com/contest/996/submission/39611132",
+    "tags": [
+      "dp",
+      "greedy",
+      "*800"
+    ],
+    "timestamp": "Jun/24/2018 18:43"
+  },
   "CF39707560": {
     "contest_id": 1000,
     "language": "Python 3",
