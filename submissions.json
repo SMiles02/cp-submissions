@@ -12881,6 +12881,23 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF39707560": {
+    "contest_id": 1000,
+    "language": "Python 3",
+    "path": "codeforces/1000/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Codehorses T-shirts",
+    "problem_url": "https://codeforces.com/contest/1000/problem/A",
+    "submission_id": "CF39707560",
+    "submission_url": "https://codeforces.com/contest/1000/submission/39707560",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Jun/27/2018 16:54"
+  },
   "CF39829312": {
     "contest_id": 998,
     "language": "Python 3",
