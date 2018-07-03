@@ -12881,6 +12881,22 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF39897498": {
+    "contest_id": 1003,
+    "language": "Python 3",
+    "path": "codeforces/1003/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Polycarp's Pockets",
+    "problem_url": "https://codeforces.com/contest/1003/problem/A",
+    "submission_id": "CF39897498",
+    "submission_url": "https://codeforces.com/contest/1003/submission/39897498",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Jul/03/2018 16:38"
+  },
   "CF40118484": {
     "contest_id": 1005,
     "language": "Python 3",
