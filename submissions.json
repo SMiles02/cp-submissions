@@ -12881,6 +12881,22 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF40118484": {
+    "contest_id": 1005,
+    "language": "Python 3",
+    "path": "codeforces/1005/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Tanya and Stairways",
+    "problem_url": "https://codeforces.com/contest/1005/problem/A",
+    "submission_id": "CF40118484",
+    "submission_url": "https://codeforces.com/contest/1005/submission/40118484",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Jul/09/2018 17:40"
+  },
   "CF41166188": {
     "contest_id": 1016,
     "language": "Python 3",
