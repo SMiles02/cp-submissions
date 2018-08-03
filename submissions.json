@@ -12881,6 +12881,24 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF41166188": {
+    "contest_id": 1016,
+    "language": "Python 3",
+    "path": "codeforces/1016/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Death Note",
+    "problem_url": "https://codeforces.com/contest/1016/problem/A",
+    "submission_id": "CF41166188",
+    "submission_url": "https://codeforces.com/contest/1016/submission/41166188",
+    "tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "*900"
+    ],
+    "timestamp": "Aug/03/2018 17:06"
+  },
   "CF50991593": {
     "contest_id": 1133,
     "language": "Python 3",
