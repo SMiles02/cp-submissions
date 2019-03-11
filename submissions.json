@@ -12881,6 +12881,22 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF51176081": {
+    "contest_id": 1136,
+    "language": "Python 3",
+    "path": "codeforces/1136/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Nastya Is Reading a Book",
+    "problem_url": "https://codeforces.com/contest/1136/problem/A",
+    "submission_id": "CF51176081",
+    "submission_url": "https://codeforces.com/contest/1136/submission/51176081",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Mar/11/2019 17:48"
+  },
   "CF51183160": {
     "contest_id": 1136,
     "language": "Python 3",
