@@ -12881,6 +12881,23 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF52099225": {
+    "contest_id": 1144,
+    "language": "PyPy 3",
+    "path": "codeforces/1144/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Diverse Strings",
+    "problem_url": "https://codeforces.com/contest/1144/problem/A",
+    "submission_id": "CF52099225",
+    "submission_url": "https://codeforces.com/contest/1144/submission/52099225",
+    "tags": [
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Mar/31/2019 16:45"
+  },
   "CF52104228": {
     "contest_id": 1144,
     "language": "PyPy 3",
