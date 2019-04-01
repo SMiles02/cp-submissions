@@ -12881,6 +12881,21 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF52206563": {
+    "contest_id": 1145,
+    "language": "PyPy 3",
+    "path": "codeforces/1145/D.py",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Pigeon d'Or",
+    "problem_url": "https://codeforces.com/contest/1145/problem/D",
+    "submission_id": "CF52206563",
+    "submission_url": "https://codeforces.com/contest/1145/submission/52206563",
+    "tags": [
+      "implementation"
+    ],
+    "timestamp": "Apr/01/2019 19:37"
+  },
   "CF53324432": {
     "contest_id": 1157,
     "language": "PyPy 3",
