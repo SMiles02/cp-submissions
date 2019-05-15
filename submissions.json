@@ -12881,6 +12881,24 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF54193745": {
+    "contest_id": 1167,
+    "language": "Python 3",
+    "path": "codeforces/1167/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Telephone Number",
+    "problem_url": "https://codeforces.com/contest/1167/problem/A",
+    "submission_id": "CF54193745",
+    "submission_url": "https://codeforces.com/contest/1167/submission/54193745",
+    "tags": [
+      "brute force",
+      "greedy",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "May/15/2019 17:24"
+  },
   "CF54202241": {
     "contest_id": 1167,
     "language": "Python 3",
