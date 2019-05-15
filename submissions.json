@@ -12881,6 +12881,23 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF54202241": {
+    "contest_id": 1167,
+    "language": "Python 3",
+    "path": "codeforces/1167/D.py",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Bicolored RBS",
+    "problem_url": "https://codeforces.com/contest/1167/problem/D",
+    "submission_id": "CF54202241",
+    "submission_url": "https://codeforces.com/contest/1167/submission/54202241",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*1500"
+    ],
+    "timestamp": "May/15/2019 18:03"
+  },
   "CF54918574": {
     "contest_id": 1148,
     "language": "Python 3",
