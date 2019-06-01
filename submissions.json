@@ -12881,6 +12881,22 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF54918574": {
+    "contest_id": 1148,
+    "language": "Python 3",
+    "path": "codeforces/1148/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Another One Bites The Dust",
+    "problem_url": "https://codeforces.com/contest/1148/problem/A",
+    "submission_id": "CF54918574",
+    "submission_url": "https://codeforces.com/contest/1148/submission/54918574",
+    "tags": [
+      "greedy",
+      "*800"
+    ],
+    "timestamp": "Jun/01/2019 16:39"
+  },
   "CF55024383": {
     "contest_id": 1174,
     "language": "Python 3",
