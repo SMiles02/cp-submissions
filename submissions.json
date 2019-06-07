@@ -12881,6 +12881,23 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF55278858": {
+    "contest_id": 1175,
+    "language": "Python 3",
+    "path": "codeforces/1175/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "From Hero to Zero",
+    "problem_url": "https://codeforces.com/contest/1175/problem/A",
+    "submission_id": "CF55278858",
+    "submission_url": "https://codeforces.com/contest/1175/submission/55278858",
+    "tags": [
+      "implementation",
+      "math",
+      "*900"
+    ],
+    "timestamp": "Jun/07/2019 23:35"
+  },
   "CF55316306": {
     "contest_id": 1173,
     "language": "Python 3",
