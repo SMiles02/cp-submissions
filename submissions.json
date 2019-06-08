@@ -12881,6 +12881,22 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF55316306": {
+    "contest_id": 1173,
+    "language": "Python 3",
+    "path": "codeforces/1173/A.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Nauuo and Votes",
+    "problem_url": "https://codeforces.com/contest/1173/problem/A",
+    "submission_id": "CF55316306",
+    "submission_url": "https://codeforces.com/contest/1173/submission/55316306",
+    "tags": [
+      "greedy",
+      "*800"
+    ],
+    "timestamp": "Jun/09/2019 00:21"
+  },
   "CF55346923": {
     "contest_id": 1176,
     "language": "Python 3",
