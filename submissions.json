@@ -12881,6 +12881,22 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF57298552": {
+    "contest_id": 1005,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces/1005/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Tanya and Stairways",
+    "problem_url": "https://codeforces.com/contest/1005/problem/A",
+    "submission_id": "CF57298552",
+    "submission_url": "https://codeforces.com/contest/1005/submission/57298552",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Jul/18/2019 22:58"
+  },
   "CF57299325": {
     "contest_id": 620,
     "language": "C++17 (GCC 7-32)",
