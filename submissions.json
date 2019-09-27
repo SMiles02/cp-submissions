@@ -12881,6 +12881,23 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF61384551": {
+    "contest_id": 1107,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces/1107/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Digits Sequence Dividing",
+    "problem_url": "https://codeforces.com/contest/1107/problem/A",
+    "submission_id": "CF61384551",
+    "submission_url": "https://codeforces.com/contest/1107/submission/61384551",
+    "tags": [
+      "greedy",
+      "strings",
+      "*900"
+    ],
+    "timestamp": "Sep/27/2019 20:35"
+  },
   "CF61386391": {
     "contest_id": 600,
     "language": "C++17 (GCC 7-32)",
