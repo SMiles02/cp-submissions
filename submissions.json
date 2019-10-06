@@ -12881,6 +12881,23 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF61997937": {
+    "contest_id": 1241,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces/1241/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Strings Equalization",
+    "problem_url": "https://codeforces.com/contest/1241/problem/B",
+    "submission_id": "CF61997937",
+    "submission_url": "https://codeforces.com/contest/1241/submission/61997937",
+    "tags": [
+      "brute force",
+      "strings",
+      "*1000"
+    ],
+    "timestamp": "Oct/06/2019 17:17"
+  },
   "CF62120988": {
     "contest_id": 1238,
     "language": "C++17 (GCC 7-32)",
