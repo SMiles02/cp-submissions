@@ -12881,6 +12881,21 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF65260145": {
+    "contest_id": 952,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces/952/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Cheese Board",
+    "problem_url": "https://codeforces.com/contest/952/problem/E",
+    "submission_id": "CF65260145",
+    "submission_url": "https://codeforces.com/contest/952/submission/65260145",
+    "tags": [
+      "*2000"
+    ],
+    "timestamp": "Nov/17/2019 15:46"
+  },
   "CF65324225": {
     "contest_id": 978,
     "language": "C++17 (GCC 7-32)",
