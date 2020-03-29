@@ -12881,6 +12881,23 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF74749199": {
+    "contest_id": 469,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces/469/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "24 Game",
+    "problem_url": "https://codeforces.com/contest/469/problem/C",
+    "submission_id": "CF74749199",
+    "submission_url": "https://codeforces.com/contest/469/submission/74749199",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Mar/29/2020 18:41"
+  },
   "CF74770360": {
     "contest_id": 630,
     "language": "C++17 (GCC 7-32)",
