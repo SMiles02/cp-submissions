@@ -12881,6 +12881,23 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF81424711": {
+    "contest_id": 614,
+    "language": "C++17 (GCC 9-64)",
+    "path": "codeforces/614/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Gena's Code",
+    "problem_url": "https://codeforces.com/contest/614/problem/B",
+    "submission_id": "CF81424711",
+    "submission_url": "https://codeforces.com/contest/614/submission/81424711",
+    "tags": [
+      "implementation",
+      "math",
+      "*1400"
+    ],
+    "timestamp": "May/26/2020 00:51"
+  },
   "CF81481859": {
     "contest_id": 1358,
     "language": "C++17 (GCC 9-64)",
