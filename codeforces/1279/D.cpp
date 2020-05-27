@@ -18,7 +18,7 @@ ll binpow(ll a, ll b) {
  
 ll mult(ll a, ll b)
 {
-    return (a*b)%mod;
+    return ((a%mod)*(b%mod))%mod;
 }
  
 ll sum(ll a, ll b)
@@ -44,7 +44,7 @@ int main()
         {
             cin>>x;
             ++picking[x];
-            choosing[x]=sum(choosing[x],cur);
+            choosing[x]+=cur;
         }
     }
     for (int i=1;i<1000001;++i)
