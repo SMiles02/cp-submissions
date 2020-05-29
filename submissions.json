@@ -12881,6 +12881,23 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF81895674": {
+    "contest_id": 1346,
+    "language": "Kotlin 1.4",
+    "path": "codeforces/1346/A..kt",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Color Revolution",
+    "problem_url": "https://codeforces.com/contest/1346/problem/A",
+    "submission_id": "CF81895674",
+    "submission_url": "https://codeforces.com/contest/1346/submission/81895674",
+    "tags": [
+      "*special problem",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "May/29/2020 16:40"
+  },
   "CF81898245": {
     "contest_id": 1346,
     "language": "Kotlin 1.4",
