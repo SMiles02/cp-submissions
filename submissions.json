@@ -12881,6 +12881,23 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF81898245": {
+    "contest_id": 1346,
+    "language": "Kotlin 1.4",
+    "path": "codeforces/1346/B..kt",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Boot Camp",
+    "problem_url": "https://codeforces.com/contest/1346/problem/B",
+    "submission_id": "CF81898245",
+    "submission_url": "https://codeforces.com/contest/1346/submission/81898245",
+    "tags": [
+      "*special problem",
+      "greedy",
+      "*1400"
+    ],
+    "timestamp": "May/29/2020 16:56"
+  },
   "CF81923087": {
     "contest_id": 295,
     "language": "C++17 (GCC 9-64)",
