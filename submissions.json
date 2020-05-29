@@ -12881,6 +12881,24 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF81894735": {
+    "contest_id": 1311,
+    "language": "Kotlin 1.4",
+    "path": "codeforces/1311/A..kt",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Add Odd or Subtract Even",
+    "problem_url": "https://codeforces.com/contest/1311/problem/A",
+    "submission_id": "CF81894735",
+    "submission_url": "https://codeforces.com/contest/1311/submission/81894735",
+    "tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "May/29/2020 16:32"
+  },
   "CF81895674": {
     "contest_id": 1346,
     "language": "Kotlin 1.4",
