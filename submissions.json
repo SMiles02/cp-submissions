@@ -12881,6 +12881,25 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF83649643": {
+    "contest_id": 1364,
+    "language": "C++17 (GCC 9-64)",
+    "path": "codeforces/1364/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "XXXXX",
+    "problem_url": "https://codeforces.com/contest/1364/problem/A",
+    "submission_id": "CF83649643",
+    "submission_url": "https://codeforces.com/contest/1364/submission/83649643",
+    "tags": [
+      "brute force",
+      "data structures",
+      "number theory",
+      "two pointers",
+      "*1200"
+    ],
+    "timestamp": "Jun/13/2020 17:47"
+  },
   "CF83936515": {
     "contest_id": 1367,
     "language": "C++17 (GCC 9-64)",
