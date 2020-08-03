@@ -12881,6 +12881,23 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF88825258": {
+    "contest_id": 1143,
+    "language": "C++17 (GCC 9-64)",
+    "path": "codeforces/1143/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Queen",
+    "problem_url": "https://codeforces.com/contest/1143/problem/C",
+    "submission_id": "CF88825258",
+    "submission_url": "https://codeforces.com/contest/1143/submission/88825258",
+    "tags": [
+      "dfs and similar",
+      "trees",
+      "*1400"
+    ],
+    "timestamp": "Aug/03/2020 21:20"
+  },
   "CF88828333": {
     "contest_id": 1143,
     "language": "C++17 (GCC 9-64)",
