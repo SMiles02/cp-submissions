@@ -12881,6 +12881,24 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF89143167": {
+    "contest_id": 1068,
+    "language": "C++17 (GCC 9-64)",
+    "path": "codeforces/1068/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Multihedgehog",
+    "problem_url": "https://codeforces.com/contest/1068/problem/E",
+    "submission_id": "CF89143167",
+    "submission_url": "https://codeforces.com/contest/1068/submission/89143167",
+    "tags": [
+      "graphs",
+      "shortest paths",
+      "trees",
+      "*1800"
+    ],
+    "timestamp": "Aug/06/2020 18:36"
+  },
   "CF89162087": {
     "contest_id": 1068,
     "language": "C++17 (GCC 9-64)",
