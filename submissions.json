@@ -12881,6 +12881,23 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF90100435": {
+    "contest_id": 1392,
+    "language": "C++17 (GCC 9-64)",
+    "path": "codeforces/1392/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Omkar and Waterslide",
+    "problem_url": "https://codeforces.com/contest/1392/problem/C",
+    "submission_id": "CF90100435",
+    "submission_url": "https://codeforces.com/contest/1392/submission/90100435",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Aug/16/2020 16:48"
+  },
   "CF96166784": {
     "contest_id": 1433,
     "language": "C++17 (GCC 9-64)",
