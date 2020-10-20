@@ -63,10 +63,13 @@ int main()
     }
     for (pii i : allEdges)
     {
+        edges[i.f].push_back({i.s,0});
+        dijkstra(0,i.f);
         cur=0;
         for (int j=0;j<k;++j)
-            cur+=min(dist[r[j][0]][r[j][1]],min(dist[i.f][r[j][0]],dist[i.s][r[j][0]])+min(dist[i.f][r[j][1]],dist[i.s][r[j][1]]));
+            cur+=min(dist[r[j][0]][r[j][1]],dist[0][r[j][0]]+dist[0][r[j][1]]);
         ans=min(ans,cur);
+        edges[i.f].pop_back();
     }
     cout<<ans;
     return 0;
