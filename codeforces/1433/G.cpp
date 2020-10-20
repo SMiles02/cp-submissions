@@ -14,7 +14,7 @@ ll min(ll a, ll b)
 }
 
 const int maxn = 1001, INF = 1e9;
-int n,dist[maxn][maxn],d[maxn][maxn],x,y;
+int n,m,k,dist[maxn][maxn],d[maxn][maxn],x,y;
 vector<pii> edges[maxn];
 
 void dijkstra(int id, int src)
@@ -43,9 +43,8 @@ void dijkstra(int id, int src)
 int main()
 {
     ios_base::sync_with_stdio(0); cin.tie(0);
-    int a,b,c,m,k;
     cin>>n>>m>>k;
-    int r[k][2];
+    int a,b,c,r[k][2];
     vector<pii> allEdges;
     while (m--)
     {
