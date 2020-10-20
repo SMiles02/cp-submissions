@@ -14,8 +14,8 @@ ll min(ll a, ll b)
     return b;
 }
 
-const int maxn = 1001, INF = 1e9;
-int n,m,k,dist[maxn][maxn],d[maxn][maxn],x,y;
+const int maxn = 1002, INF = 1e9;
+int n,m,k,dist[2001][maxn],d[maxn][maxn],x,y;
 vector<pii> edges[maxn];
 
 void dijkstra(int id, int src)
@@ -65,10 +65,10 @@ int main()
     for (pii i : allEdges)
     {
         edges[i.f].push_back({i.s,0});
-        dijkstra(0,i.f);
+        dijkstra(n+1,i.f);
         cur=0;
         for (int j=0;j<k;++j)
-            cur+=min(dist[r[j][0]][r[j][1]],dist[0][r[j][0]]+dist[0][r[j][1]]);
+            cur+=min(dist[r[j][0]][r[j][1]],dist[n+1][r[j][0]]+dist[n+1][r[j][1]]);
         ans=min(ans,cur);
         edges[i.f].pop_back();
     }
