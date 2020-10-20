@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 #define ll long long
+#define sz(x) (int)(x).size()
 #define pii pair<int,int>
 #define f first
 #define s second
