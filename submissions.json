@@ -12881,6 +12881,25 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF96401298": {
+    "contest_id": 1340,
+    "language": "C++17 (GCC 9-64)",
+    "path": "codeforces/1340/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Nastya and Unexpected Guest",
+    "problem_url": "https://codeforces.com/contest/1340/problem/C",
+    "submission_id": "CF96401298",
+    "submission_url": "https://codeforces.com/contest/1340/submission/96401298",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "graphs",
+      "shortest paths",
+      "*2400"
+    ],
+    "timestamp": "Oct/23/2020 00:45"
+  },
   "CF96465275": {
     "contest_id": 95,
     "language": "C++17 (GCC 9-64)",
