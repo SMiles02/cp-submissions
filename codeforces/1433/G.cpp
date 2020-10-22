@@ -16,25 +16,25 @@ const int maxn = 1001, INF = 1e9;
 int n,dist[maxn][maxn],d[maxn][maxn],x,y;
 vector<pii> edges[maxn];
 
-void dijkstra(int src)
+void dijkstra(int id, int src)
 {
     priority_queue<pii,vector<pii>,greater<pii>> q;
     for (int i=1;i<=n;++i)
-        dist[src][i]=INF;
+        dist[id][i]=INF;
     q.push({0,src});
-    dist[src][src]=0;
+    dist[id][src]=0;
     while (!q.empty())
     {
         y=q.top().f;
         x=q.top().s;
         q.pop();
-        if (dist[src][x]<y)
+        if (dist[id][x]<y)
             continue;
         for (pii i : edges[x])
-            if (y+i.s<dist[src][i.f])
+            if (y+i.s<dist[id][i.f])
             {
-                dist[src][i.f]=y+i.s;
-                q.push({dist[src][i.f],i.f});
+                dist[id][i.f]=y+i.s;
+                q.push({dist[id][i.f],i.f});
             }
     }
 }
@@ -54,7 +54,7 @@ int main()
         allEdges.push_back({a,b});
     }
     for (int i=1;i<=n;++i)
-        dijkstra(i);
+        dijkstra(i,i);
     ll ans=0,cur;
     for (int i=0;i<k;++i)
     {
