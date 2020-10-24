@@ -12881,6 +12881,22 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF96537891": {
+    "contest_id": 1436,
+    "language": "C++17 (GCC 9-64)",
+    "path": "codeforces/1436/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Reorder",
+    "problem_url": "https://codeforces.com/contest/1436/problem/A",
+    "submission_id": "CF96537891",
+    "submission_url": "https://codeforces.com/contest/1436/submission/96537891",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Oct/24/2020 16:09"
+  },
   "CF96558938": {
     "contest_id": 1436,
     "language": "C++17 (GCC 9-64)",
