@@ -12881,6 +12881,23 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF98217157": {
+    "contest_id": 1431,
+    "language": "Kotlin 1.4",
+    "path": "codeforces/1431/D..kt",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Used Markers",
+    "problem_url": "https://codeforces.com/contest/1431/problem/D",
+    "submission_id": "CF98217157",
+    "submission_url": "https://codeforces.com/contest/1431/submission/98217157",
+    "tags": [
+      "*special problem",
+      "greedy",
+      "*1500"
+    ],
+    "timestamp": "Nov/12/2020 17:03"
+  },
   "CF98281662": {
     "contest_id": 1438,
     "language": "C++17 (GCC 9-64)",
