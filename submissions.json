@@ -12881,6 +12881,22 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF98202680": {
+    "contest_id": 1432,
+    "language": "Kotlin 1.4",
+    "path": "codeforces/1432/D..kt",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Construct the String",
+    "problem_url": "https://codeforces.com/contest/1432/problem/D",
+    "submission_id": "CF98202680",
+    "submission_url": "https://codeforces.com/contest/1432/submission/98202680",
+    "tags": [
+      "*special problem",
+      "constructive algorithms"
+    ],
+    "timestamp": "Nov/12/2020 14:23"
+  },
   "CF98205192": {
     "contest_id": 1256,
     "language": "Kotlin 1.4",
