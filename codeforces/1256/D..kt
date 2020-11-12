@@ -100,46 +100,47 @@ private fun readDoubles() = readStrings().map { it.toDouble() } // list of doubl
 //a[i] = x
 //b[i] = y
 
-fun main(args: Array<String>) {
-    val T = readInt()
-    val out = StringBuilder()
-    for (testcases in 1..T) {
-        var a = readLongs()
-        val n = a[0].toInt()
-        var k = a[1]
-        var s = readString()
-        val z = 0.toLong()
-        var ones : Int
-        ones = 0
-        for (i in 0 until n) {
-            if (k==z)
-                out.append(s[i])
-            else if (s[i]=='1')
-                ++ones
-            else if (ones<=k) {
-                k-=ones
-                out.append('0')
-                if (k==z) {
-                    for (j in 0 until ones)
-                        out.append('1')
-                    ones=0
-                }
-            }
-            else {
-                for (j in 0 until (ones-k))
-                    out.append('1')
-                out.append('0')
-                for (j in 0 until k)
-                    out.append('1')
-                k=0
-                ones = 0
+fun solve() {
+    var a = readLongs()
+    val n = a[0].toInt()
+    var k = a[1]
+    var s = readString()
+    val t = StringBuilder()
+    val z = 0.toLong()
+    var ones : Int
+    ones = 0
+    for (i in 0 until n) {
+        if (k==z)
+            t.append(s[i])
+        else if (s[i]=='1')
+            ++ones
+        else if (ones<=k) {
+            k-=ones
+            t.append('0')
+            if (k==z) {
+                for (j in 0 until ones)
+                    t.append('1')
+                ones=0
             }
         }
-        for (j in 0 until ones)
-            out.append('1')
-        out.appendln()
+        else {
+            for (j in 0 until (ones-k))
+                t.append('1')
+            t.append('0')
+            for (j in 0 until k)
+                t.append('1')
+            k=0
+            ones = 0
+        }
     }
-    print(out)
+    for (j in 0 until ones)
+        t.append('1')
+    println(t)
+}
+
+fun main(args: Array<String>) {
+    val T = readInt()
+    for (i in 1..T) solve()
 }
 
 //yes I stole Benq's template, Benq orz
