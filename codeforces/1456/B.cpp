@@ -21,8 +21,9 @@ int main()
     for (int i=1;i<=n;++i)
         for (int j=i;j<=n;++j)
             for (int k=j+1;k<=n;++k)
-                    if ((x[j]^x[i-1])>(x[k]^x[j]))
-                        ans=min(ans,k-i-1);
+                for (int l=k;l<=n;++l)
+                    if ((x[j]^x[i-1])>(x[l]^x[k-1]))
+                        ans=min(ans,j+l-i-k);
     if (ans==n)
         ans=-1;
     cout<<ans;
