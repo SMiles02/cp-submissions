@@ -1,4 +1,24 @@
 {
+  "CF100847391": {
+    "contest_id": 1420,
+    "language": "C++17 (GCC 9-64)",
+    "path": "codeforces/1420/C2.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C2",
+    "problem_name": "Pok\u00e9mon Army (hard version)",
+    "problem_url": "https://codeforces.com/contest/1420/problem/C2",
+    "submission_id": "CF100847391",
+    "submission_url": "https://codeforces.com/contest/1420/submission/100847391",
+    "tags": [
+      "data structures",
+      "divide and conquer",
+      "dp",
+      "greedy",
+      "implementation",
+      "*2100"
+    ],
+    "timestamp": "Dec/10/2020 16:33"
+  },
   "CF100857080": {
     "contest_id": 31,
     "language": "C++17 (GCC 9-64)",
