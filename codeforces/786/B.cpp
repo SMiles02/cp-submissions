@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 #define ll long long
+#define sz(x) (int)(x).size()
 #define pii pair<int,int>
 #define pli pair<ll,int>
 #define f first
@@ -8,9 +9,10 @@ using namespace std;
 
 const int mn = 1e5+7;
 const ll INF = 1e18;
-int x,segTree[mn*4][2],c;;
+int x;
 vector<pii> edges[mn*9];
 ll dist[mn*9],y;
+int segTree[mn*4][2],c;
 
 void build(int i, int l, int r)
 {
@@ -21,12 +23,15 @@ void build(int i, int l, int r)
     }
     segTree[i][0]=++c;
     segTree[i][1]=++c;
+    //cout<<l<<" "<<r<<": "<<c-1<<"\n";
+    //cout<<l<<" "<<r<<": "<<c<<"\n";
     build(i*2+1,l,l+(r-l)/2);
     build(i*2+2,l+(r-l)/2+1,r);
     edges[segTree[i][0]].push_back({segTree[i*2+1][0],0});
     edges[segTree[i][0]].push_back({segTree[i*2+2][0],0});
     edges[segTree[i*2+1][1]].push_back({segTree[i][1],0});
     edges[segTree[i*2+2][1]].push_back({segTree[i][1],0});
+
 }
 
 vector<int> v;
