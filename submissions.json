@@ -1,4 +1,26 @@
 {
+  "CF105923772": {
+    "contest_id": 1476,
+    "language": "C++17 (GCC 9-64)",
+    "path": "codeforces/1476/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Pattern Matching",
+    "problem_url": "https://codeforces.com/contest/1476/problem/E",
+    "submission_id": "CF105923772",
+    "submission_url": "https://codeforces.com/contest/1476/submission/105923772",
+    "tags": [
+      "bitmasks",
+      "data structures",
+      "dfs and similar",
+      "graphs",
+      "hashing",
+      "sortings",
+      "strings",
+      "*2300"
+    ],
+    "timestamp": "Jan/29/2021 17:06"
+  },
   "CF106539950": {
     "contest_id": 1481,
     "language": "C++17 (GCC 9-64)",
