@@ -1,4 +1,22 @@
 {
+  "CF106637231": {
+    "contest_id": 1095,
+    "language": "C++17 (GCC 9-64)",
+    "path": "codeforces/1095/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Make It Connected",
+    "problem_url": "https://codeforces.com/contest/1095/problem/F",
+    "submission_id": "CF106637231",
+    "submission_url": "https://codeforces.com/contest/1095/submission/106637231",
+    "tags": [
+      "dsu",
+      "graphs",
+      "greedy",
+      "*1900"
+    ],
+    "timestamp": "Feb/06/2021 04:06"
+  },
   "CF106847505": {
     "contest_id": 1479,
     "language": "C++17 (GCC 9-64)",
