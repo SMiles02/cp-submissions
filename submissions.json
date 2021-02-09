@@ -1,4 +1,23 @@
 {
+  "CF107018463": {
+    "contest_id": 1270,
+    "language": "C++17 (GCC 9-64)",
+    "path": "codeforces/1270/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Strange Device",
+    "problem_url": "https://codeforces.com/contest/1270/problem/D",
+    "submission_id": "CF107018463",
+    "submission_url": "https://codeforces.com/contest/1270/submission/107018463",
+    "tags": [
+      "constructive algorithms",
+      "interactive",
+      "math",
+      "sortings",
+      "*1900"
+    ],
+    "timestamp": "Feb/09/2021 23:15"
+  },
   "CF107192891": {
     "contest_id": 1485,
     "language": "C++17 (GCC 9-64)",
