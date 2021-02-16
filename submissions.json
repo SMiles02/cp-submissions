@@ -1,4 +1,22 @@
 {
+  "CF107644026": {
+    "contest_id": 1481,
+    "language": "C++17 (GCC 9-64)",
+    "path": "codeforces/1481/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Sorting Books",
+    "problem_url": "https://codeforces.com/contest/1481/problem/E",
+    "submission_id": "CF107644026",
+    "submission_url": "https://codeforces.com/contest/1481/submission/107644026",
+    "tags": [
+      "data structures",
+      "dp",
+      "greedy",
+      "*2500"
+    ],
+    "timestamp": "Feb/17/2021 00:23"
+  },
   "CF107644781": {
     "contest_id": 1472,
     "language": "C++17 (GCC 9-64)",
