@@ -1,4 +1,24 @@
 {
+  "CF107638297": {
+    "contest_id": 1479,
+    "language": "C++17 (GCC 9-64)",
+    "path": "codeforces/1479/B1.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B1",
+    "problem_name": "Painting the Array I",
+    "problem_url": "https://codeforces.com/contest/1479/problem/B1",
+    "submission_id": "CF107638297",
+    "submission_url": "https://codeforces.com/contest/1479/submission/107638297",
+    "tags": [
+      "constructive algorithms",
+      "data structures",
+      "dp",
+      "greedy",
+      "implementation",
+      "*1900"
+    ],
+    "timestamp": "Feb/16/2021 21:13"
+  },
   "CF107638539": {
     "contest_id": 1479,
     "language": "C++17 (GCC 9-64)",
