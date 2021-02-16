@@ -1,4 +1,21 @@
 {
+  "CF107643374": {
+    "contest_id": 1479,
+    "language": "C++17 (GCC 9-64)",
+    "path": "codeforces/1479/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Continuous City",
+    "problem_url": "https://codeforces.com/contest/1479/problem/C",
+    "submission_id": "CF107643374",
+    "submission_url": "https://codeforces.com/contest/1479/submission/107643374",
+    "tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "*2500"
+    ],
+    "timestamp": "Feb/16/2021 23:51"
+  },
   "CF107644026": {
     "contest_id": 1481,
     "language": "C++17 (GCC 9-64)",
