@@ -1,12 +1,14 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+const int mn = 2e5+1;
+vector<int> edges[mn],to[mn];
+int d[mn],ans[mn],from[mn];
+
 void solve()
 {
     int n,m,x,y;
     cin>>n>>m;
-    vector<int> edges[n+1],to[n+1];
-    int d[n+1],from[n+1],ans[n+1];
     for (int i=1;i<=n;++i)
     {
         d[i]=n;
