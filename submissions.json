@@ -1,4 +1,23 @@
 {
+  "CF108557724": {
+    "contest_id": 1156,
+    "language": "C++17 (GCC 9-64)",
+    "path": "codeforces/1156/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Special Segments of Permutation",
+    "problem_url": "https://codeforces.com/contest/1156/problem/E",
+    "submission_id": "CF108557724",
+    "submission_url": "https://codeforces.com/contest/1156/submission/108557724",
+    "tags": [
+      "data structures",
+      "divide and conquer",
+      "dsu",
+      "two pointers",
+      "*2200"
+    ],
+    "timestamp": "Feb/26/2021 18:25"
+  },
   "CF108633269": {
     "contest_id": 1457,
     "language": "C++17 (GCC 9-64)",
