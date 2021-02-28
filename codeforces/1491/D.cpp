@@ -1,24 +1,26 @@
 #include <bits/stdc++.h>
+#define ll long long
+#define sz(x) (int)(x).size()
 using namespace std;
 
 void solve()
 {
-    int u,v;
+    ll u,v;
     cin>>u>>v;
-    if (u>v||__builtin_popcount(u)<__builtin_popcount(v))
-    {
-        cout<<"NO\n";
-        return;
-    }
     vector<int> x,y;
-    for (int i=0;i<30;++i)
+    for (int i=0;i<31;++i)
     {
         if ((1LL<<i)&u)
             x.push_back(i);
         if ((1LL<<i)&v)
             y.push_back(i);
     }
-    for (int i=0;i<__builtin_popcount(v);++i)
+    if (u>v||__builtin_popcountll(u)<__builtin_popcountll(v))
+    {
+        cout<<"NO\n";
+        return;
+    }
+    for (int i=0;i<sz(y);++i)
         if (x[i]>y[i])
         {
             cout<<"NO\n";
