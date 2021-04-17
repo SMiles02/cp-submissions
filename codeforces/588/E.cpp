@@ -49,8 +49,6 @@ void dfs(int c, int p, int H)
     tin[c]=++t;
     h[c]=H;
     sort(d[c].begin(), d[c].end());
-    while (sz(d[c])>10)
-        d[c].pop_back();
     up[0][c]=p;
     path[0][c]=merge(d[c],d[p]);
     for (int i=1;i<lg;++i)
