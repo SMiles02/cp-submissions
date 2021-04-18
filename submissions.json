@@ -1,4 +1,22 @@
 {
+  "CF113443287": {
+    "contest_id": 1120,
+    "language": "C++17 (GCC 9-64)",
+    "path": "codeforces/1120/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Diana and Liana",
+    "problem_url": "https://codeforces.com/contest/1120/problem/A",
+    "submission_id": "CF113443287",
+    "submission_url": "https://codeforces.com/contest/1120/submission/113443287",
+    "tags": [
+      "greedy",
+      "implementation",
+      "two pointers",
+      "*1900"
+    ],
+    "timestamp": "Apr/18/2021 23:09"
+  },
   "CF113490768": {
     "contest_id": 1514,
     "language": "C++17 (GCC 7-32)",
