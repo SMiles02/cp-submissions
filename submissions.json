@@ -1,4 +1,21 @@
 {
+  "CF115951036": {
+    "contest_id": 1055,
+    "language": "C++17 (GCC 9-64)",
+    "path": "codeforces/1055/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Alice and Hairdresser",
+    "problem_url": "https://codeforces.com/contest/1055/problem/B",
+    "submission_id": "CF115951036",
+    "submission_url": "https://codeforces.com/contest/1055/submission/115951036",
+    "tags": [
+      "dsu",
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "May/11/2021 15:55"
+  },
   "CF116008882": {
     "contest_id": 1055,
     "language": "C++17 (GCC 9-64)",
