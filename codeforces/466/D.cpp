@@ -31,10 +31,13 @@ int main()
             cout<<0;
             return 0;
         }
+        // -
         dp[i][h-k]=dp[i-1][h-k];
         if (h-k>0)
         {
+            // [
             dp[i][h-k]=add(dp[i][h-k],dp[i-1][h-k-1]);
+            // [], ]
             dp[i][h-k-1]=add(mul(dp[i-1][h-k-1],h-k),mul(dp[i-1][h-k],h-k));
         }
     }

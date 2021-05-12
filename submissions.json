@@ -1,4 +1,21 @@
 {
+  "CF116058324": {
+    "contest_id": 466,
+    "language": "C++17 (GCC 9-64)",
+    "path": "codeforces/466/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Increase Sequence",
+    "problem_url": "https://codeforces.com/contest/466/problem/D",
+    "submission_id": "CF116058324",
+    "submission_url": "https://codeforces.com/contest/466/submission/116058324",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "*2100"
+    ],
+    "timestamp": "May/12/2021 22:06"
+  },
   "CF116058340": {
     "contest_id": 466,
     "language": "C++17 (GCC 9-64)",
