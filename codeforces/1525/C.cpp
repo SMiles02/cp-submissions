@@ -1,8 +1,68 @@
 #include <bits/stdc++.h>
+#define ll long long
 #define sz(x) (int)(x).size()
 using namespace std;
 
-const int N = 3e5+1, INF = 1e9;
+struct segTree
+{
+    int n,k;
+    vector<int> v;
+    segTree(int n) : n(n), v(n*4,0) {}
+    void update(int i, int l, int r, int x, int y)
+    {
+        if (x<l||r<x)
+            return;
+        v[i]+=y;
+        if (l==r)
+            return;
+        update(i*2+1,l,l+(r-l)/2,x,y);
+        update(i*2+2,l+(r-l)/2+1,r,x,y);
+    }
+    void update(int x, int y)
+    {
+        update(0,1,n,x,y);
+    }
+    int findNext(int i, int l, int r, int x)
+    {
+        if (r<x||v[i]==0)
+            return 0;
+        if (l==r)
+        {
+            if (x<=l)
+                return l;
+            return 0;
+        }
+        k=findNext(i*2+1,l,l+(r-l)/2,x);
+        if (k==0)
+            k=findNext(i*2+2,l+(r-l)/2+1,r,x); 
+        return k;
+    }
+    int findNext(int x)
+    {
+        return findNext(0,1,n,x);
+    }
+    int findLast(int i, int l, int r, int x)
+    {
+        if (x<l||v[i]==0)
+            return 0;
+        if (l==r)
+        {
+            if (l<=x)
+                return l;
+            return 0;
+        }
+        k=findLast(i*2+2,l+(r-l)/2+1,r,x);
+        if (k==0)
+            k=findLast(i*2+1,l,l+(r-l)/2,x);
+        return k;
+    }
+    int findLast(int x)
+    {
+        return findLast(0,1,n,x);
+    }
+};
+
+const int N = 3e5+1;
 int m, a[N], ans[N], p[N];
 char c[N];
 bitset<N> done;
@@ -23,11 +83,7 @@ void solve()
 {
     int n,x;
     cin>>n>>m;
-    set<int> s1, s2;
-    s1.insert(0);
-    s2.insert(0);
-    s1.insert(INF);
-    s2.insert(INF);
+    segTree s1(n),s2(n);
     vector<int> v,w;
     for (int i=1;i<=n;++i)
     {
@@ -46,12 +102,12 @@ void solve()
         if (a[i]&1)
         {
             v.push_back(i);
-            s1.insert(i);
+            s1.update(i,1);
         }
         else
         {
             w.push_back(i);
-            s2.insert(i);
+            s2.update(i,1);
         }
     }
     priority_queue<array<int,3>,vector<array<int,3>>,greater<array<int,3>>> pq;
@@ -69,34 +125,36 @@ void solve()
         if (done[t[2]])
         {
             if (a[t[1]]&1)
-                x=*s1.upper_bound(t[1]);
+                x=s1.findNext(t[2]);
             else
-                x=*s2.upper_bound(t[1]);
-            if (x!=0&&x!=INF)
+                x=s2.findNext(t[2]);
+            if (x!=0)
                 pq.push({dt(t[1],x),t[1],x});
             continue;
         }
         if (done[t[1]])
         {
+            //cout<<t[1]<<" "<<t[2]<<"\n";
             if (a[t[2]]&1)
-                x=*--s1.lower_bound(t[2]);
+                x=s1.findLast(t[1]);
             else
-                x=*--s2.lower_bound(t[2]);
-            if (x!=0&&x!=INF)
+                x=s2.findLast(t[1]);
+            if (x!=0)
                 pq.push({dt(x,t[2]),x,t[2]});
             continue;
         }
+        //cout<<t[1]<<" "<<t[2]<<" "<<t[0]<<"\n";
         ans[p[t[1]]]=ans[p[t[2]]]=t[0];
         done[t[1]]=done[t[2]]=1;
         if (a[t[1]]&1)
         {
-            s1.erase(t[1]);
-            s1.erase(t[2]);
+            s1.update(t[1],-1);
+            s1.update(t[2],-1);
         }
         else
         {
-            s2.erase(t[1]);
-            s2.erase(t[2]);
+            s2.update(t[1],-1);
+            s2.update(t[2],-1);
         }
     }
     for (int i=1;i<=n;++i)
