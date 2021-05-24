@@ -53,14 +53,11 @@ struct pst
     }
     int query(node *v, int l, int r, int qL, int qR)
     {
+        if (r<qL||qR<l)
+            return 0;
         if (qL<=l&&r<=qR)
             return v->val;
-        int tp1=0, tp2=0;
-        if (qL<=l+(r-l)/2)
-            tp1=query(v->l,l,l+(r-l)/2,qL,qR);
-        if (l+(r-l)/2+1<=qR)
-            tp2=query(v->r,l+(r-l)/2+1,r,qL,qR);
-        return  tp1+tp2;
+        return query(v->l,l,l+(r-l)/2,qL,qR) + query(v->r,l+(r-l)/2+1,r,qL,qR);
     }
     int query(int l, int r)
     {
