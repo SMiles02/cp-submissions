@@ -1,4 +1,22 @@
 {
+  "CF117270488": {
+    "contest_id": 1528,
+    "language": "C++17 (GCC 9-64)",
+    "path": "codeforces/1528/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "It's a bird! No, it's a plane! No, it's AaParsa!",
+    "problem_url": "https://codeforces.com/contest/1528/problem/D",
+    "submission_id": "CF117270488",
+    "submission_url": "https://codeforces.com/contest/1528/submission/117270488",
+    "tags": [
+      "constructive algorithms",
+      "graphs",
+      "shortest paths",
+      "*2500"
+    ],
+    "timestamp": "May/25/2021 00:31"
+  },
   "CF117327585": {
     "contest_id": 1528,
     "language": "C++17 (GCC 9-64)",
