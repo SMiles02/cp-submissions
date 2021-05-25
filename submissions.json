@@ -1,4 +1,22 @@
 {
+  "CF117331072": {
+    "contest_id": 1529,
+    "language": "C++17 (GCC 9-64)",
+    "path": "codeforces/1529/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Eshag Loves Big Arrays",
+    "problem_url": "https://codeforces.com/contest/1529/problem/A",
+    "submission_id": "CF117331072",
+    "submission_url": "https://codeforces.com/contest/1529/submission/117331072",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "May/25/2021 16:19"
+  },
   "CF117331197": {
     "contest_id": 1529,
     "language": "C++17 (GCC 9-64)",
