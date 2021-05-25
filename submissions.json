@@ -1,4 +1,21 @@
 {
+  "CF117331521": {
+    "contest_id": 1529,
+    "language": "C++17 (GCC 9-64)",
+    "path": "codeforces/1529/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "It's a bird! No, it's a plane! No, it's AaParsa!",
+    "problem_url": "https://codeforces.com/contest/1529/problem/F",
+    "submission_id": "CF117331521",
+    "submission_url": "https://codeforces.com/contest/1529/submission/117331521",
+    "tags": [
+      "graphs",
+      "shortest paths",
+      "*2500"
+    ],
+    "timestamp": "May/25/2021 16:24"
+  },
   "CF117594079": {
     "contest_id": 1526,
     "language": "C++17 (GCC 9-64)",
