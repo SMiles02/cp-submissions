@@ -1,4 +1,23 @@
 {
+  "CF117327585": {
+    "contest_id": 1528,
+    "language": "C++17 (GCC 9-64)",
+    "path": "codeforces/1528/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Trees of Tranquillity",
+    "problem_url": "https://codeforces.com/contest/1528/problem/C",
+    "submission_id": "CF117327585",
+    "submission_url": "https://codeforces.com/contest/1528/submission/117327585",
+    "tags": [
+      "data structures",
+      "dfs and similar",
+      "greedy",
+      "trees",
+      "*2300"
+    ],
+    "timestamp": "May/25/2021 15:39"
+  },
   "CF117330904": {
     "contest_id": 1529,
     "language": "C++17 (GCC 9-64)",
