@@ -1,4 +1,6 @@
 #include <bits/stdc++.h>
+#define ll long long
+#define sz(x) (int)(x).size()
 using namespace std;
 
 int main()
@@ -6,25 +8,20 @@ int main()
     ios_base::sync_with_stdio(0); cin.tie(0);
     int n,k;
     cin>>n;
-    long long s=0;
-    priority_queue<int,vector<int>,greater<int>> pq;
-    pq.push(0);
+    vector<ll> dp(2001, -1e18);
+    dp[0]=0;
     while (n--)
     {
         cin>>k;
-        if (s+k>=0)
-        {
-            s+=k;
-            pq.push(k);
-        }
-        else if (k>pq.top())
-        {
-            s-=pq.top();
-            pq.pop();
-            s+=k;
-            pq.push(k);
-        }
+        for (int i=2000;i>0;--i)
+            if (dp[i-1]>=0&&dp[i-1]+k>=0)
+                dp[i]=max(dp[i],dp[i-1]+k);
     }
-    cout<<pq.size()-1;
+    for (int i=2000;i>=0;--i)
+        if (dp[i]>=0)
+        {
+            cout<<i;
+            return 0;
+        }
     return 0;
 }
