@@ -1,10 +1,11 @@
 #include <bits/stdc++.h>
+#define ll long long
 #define sz(x) (int)(x).size()
 using namespace std;
 
 const int N = 1e5+7;
 int n, bit[N], A, B, C, D;
-long long ans;
+ll ans;
 string s, t="ANOT";
 vector<int> v[4];
 
@@ -31,37 +32,46 @@ int query(int i)
 void test(int a, int b, int c, int d)
 {
     int tmp=0;
-    long long cur=0;
+    ll cur=0;
     for (int i=1;i<=n;++i)
         bit[i]=0;
+    //cout<<a<<":\n";
     for (int j : v[a])
     {
         ++tmp;
+        //cout<<j+query(j)<<" to "<<tmp<<"\n";
         cur+=j+query(j)-tmp;
         update(1,1);
         update(j,-1);
     }
+    //cout<<b<<":\n";
     for (int j : v[b])
     {
         ++tmp;
+        //cout<<j+query(j)<<" to "<<tmp<<"\n";
         cur+=j+query(j)-tmp;
         update(1,1);
         update(j,-1);
     }
+    //cout<<c<<":\n";
     for (int j : v[c])
     {
         ++tmp;
+        //cout<<j+query(j)<<" to "<<tmp<<"\n";
         cur+=j+query(j)-tmp;
         update(1,1);
         update(j,-1);
     }
+    //cout<<d<<":\n";
     for (int j : v[d])
     {
         ++tmp;
+        //cout<<j+query(j)<<" to "<<tmp<<"\n";
         cur+=j+query(j)-tmp;
         update(1,1);
         update(j,-1);
     }
+    //cout<<t[a]<<" "<<t[b]<<" "<<t[c]<<" "<<t[d]<<": "<<cur<<"\n";
     if (cur>=ans)
     {
         A=a;
@@ -108,6 +118,7 @@ void solve()
     while (h--)
         cout<<t[D];
     cout<<"\n";
+    //cout<<ans<<"\n";
 }
 
 int main()
