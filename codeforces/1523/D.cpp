@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 #define ll long long
+#define sz(x) (int)(x).size()
 using namespace std;
 mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
 
