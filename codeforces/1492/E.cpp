@@ -5,7 +5,7 @@ using namespace std;
 int n,m;
 vector<vector<int>> v;
 
-bool solve(int k)
+int solve(int k)
 {
     for (int i=1;i<n;++i)
     {
