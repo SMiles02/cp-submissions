@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 #define ll long long
+#define sz(x) (int)(x).size()
 using namespace std;
 
 const int N = 1e5+7, K = 24;
@@ -14,6 +15,13 @@ void solve(int i, int l, int r, int optL, int optR, int x, int y, ll z)
     int m=l+(r-l)/2, k=-1,X=x,Y=y, tmp;
     ll best=INF, cur=z;
     tmp=min(optR,m);
+    // if (i==3)
+    //     cout<<m<<": "<<optL<<" "<<optR<<"\n";
+    // if (m==6)
+    // {
+    //     cout<<X<<" "<<Y<<"!\n";
+    //     cout<<ct[1]<<" "<<ct[2]<<" "<<ct[3]<<" "<<cur<<"\n";
+    // }
     while (tmp+1<X)
         cur+=ct[a[--X]]++;
     while (X<=tmp)
@@ -22,10 +30,21 @@ void solve(int i, int l, int r, int optL, int optR, int x, int y, ll z)
         cur-=--ct[a[Y--]];
     while (Y<m)
         cur+=ct[a[++Y]]++;
+    // if (m==6)
+    // {
+    //     cout<<X<<" "<<Y<<"!\n";
+    //     cout<<ct[1]<<" "<<ct[2]<<" "<<ct[3]<<" "<<cur<<"\n";
+    // }
+    // if (i==3&&m==13)
+    //     cout<<m<<": "<<optL<<" "<<optR<<"\n";
     for (int j=tmp;j>=optL;--j)
     {
         cur+=ct[a[j]]++;
         --X;
+        // if (i==3&&m==13)
+        // {
+        //     cout<<j<<": "<<dp[i-1][j-1]<<" "<<cur<<" "<<dp[i-1][j-1]+cur<<"\n";
+        // }
         if (dp[i-1][j-1]+cur<=best)
         {
             best=dp[i-1][j-1]+cur;
@@ -33,6 +52,13 @@ void solve(int i, int l, int r, int optL, int optR, int x, int y, ll z)
         }
     }
     dp[i][m]=best;
+    // if (i==3)
+    // {
+    //     cout<<m<<": "<<best<<"\n";
+    //     cout<<X<<" "<<Y<<":\n";
+    //     cout<<cur<<"\n";
+    // }
+    // // return;
     solve(i,l,m-1,optL,k,X,Y,cur);
     solve(i,m+1,r,k,optR,X,Y,cur);
     while (x<X)
@@ -57,7 +83,12 @@ int main()
     }
     ++ct[a[1+(n-1)/2]];
     for (int i=1;i<=k;++i)
+    {
         solve(i,1,n,1,n,1+(n-1)/2,1+(n-1)/2,0);
+        // for (int j=1;j<=n;++j)
+        //     cout<<dp[i][j]<<" ";
+        // cout<<"\n";
+    }
     cout<<dp[k][n];
     return 0;
 }
