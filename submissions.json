@@ -1,4 +1,21 @@
 {
+  "CF118508657": {
+    "contest_id": 868,
+    "language": "C++17 (GCC 9-64)",
+    "path": "codeforces/868/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Yet Another Minimization Problem",
+    "problem_url": "https://codeforces.com/contest/868/problem/F",
+    "submission_id": "CF118508657",
+    "submission_url": "https://codeforces.com/contest/868/submission/118508657",
+    "tags": [
+      "divide and conquer",
+      "dp",
+      "*2500"
+    ],
+    "timestamp": "Jun/05/2021 15:17"
+  },
   "CF119918131": {
     "contest_id": 1537,
     "language": "C++17 (GCC 9-64)",
