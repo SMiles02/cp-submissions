@@ -1,4 +1,21 @@
 {
+  "CF120029080": {
+    "contest_id": 522,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces/522/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Closest Equals",
+    "problem_url": "https://codeforces.com/contest/522/problem/D",
+    "submission_id": "CF120029080",
+    "submission_url": "https://codeforces.com/contest/522/submission/120029080",
+    "tags": [
+      "*special problem",
+      "data structures",
+      "*2000"
+    ],
+    "timestamp": "Jun/19/2021 23:24"
+  },
   "CF120060315": {
     "contest_id": 1539,
     "language": "C++17 (GCC 9-64)",
