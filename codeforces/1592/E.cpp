@@ -1,42 +1,54 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-const int N = 2e6, INF = 1e9;
-int a[N], p[N], v[2][N];
+const int N = 2e6;
+int a[N], p[N];
+vector<int> v[2][N];
   
 int main()
 {
     ios_base::sync_with_stdio(0); cin.tie(0);
-    int n,ans=0,x=(1<<25)-1,l;
+    int n,ans=0,s,x=(1<<25)-1,t,l,r,m;
     cin>>n;
     for (int i=1;i<=n;++i)
         cin>>a[i];
-    for (int i=0;i<N;++i)
-    {
-        v[0][i]=INF;
-        v[1][i]=INF;
-    }
     for (int k=1;k<1e6;k*=2)
     {
         x^=k;
-        l=-1;
-        v[0][0]=0;
+        s=0;
+        for (int i=0;i<N;++i)
+        {
+            v[0][i].clear();
+            v[1][i].clear();
+        }
+        v[0][0].push_back(0);
         for (int i=1;i<=n;++i)
         {
             p[i]=p[i-1]^a[i]&x;
+            v[i&1][p[i]].push_back(i);
             if (a[i]&k)
-                ans=max(ans,i-v[i&1][p[i]]);
-            else
             {
-                for (int j=l+1;j<i;++j)
-                    v[j&1][p[j]]=INF;
-                l=i-1;
+                if (s==0)
+                    s=i;
+                t=(int)v[i&1][p[i]].size();
+                if (t>1&&v[i&1][p[i]][t-2]>=s-1)
+                {
+                    l=0;
+                    r=t-2;
+                    while (l<r)
+                    {
+                        m=l+(r-l)/2;
+                        if (v[i&1][p[i]][m]>=s-1)
+                            r=m;
+                        else
+                            l=m+1;
+                    }
+                    ans=max(ans,i-v[i&1][p[i]][l]);
+                }
             }
-            if (v[i&1][p[i]]==INF)
-                v[i&1][p[i]]=i;
+            else
+                s=0;
         }
-        for (int j=l+1;j<=n;++j)
-            v[j&1][p[j]]=INF;
     }
     cout<<ans;
     return 0;
