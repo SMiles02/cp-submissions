@@ -1,4 +1,26 @@
 {
+  "CF130893621": {
+    "contest_id": 1592,
+    "language": "C++17 (GCC 9-64)",
+    "path": "codeforces/1592/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Hemose in ICPC ?",
+    "problem_url": "https://codeforces.com/contest/1592/problem/D",
+    "submission_id": "CF130893621",
+    "submission_url": "https://codeforces.com/contest/1592/submission/130893621",
+    "tags": [
+      "binary search",
+      "dfs and similar",
+      "implementation",
+      "interactive",
+      "math",
+      "number theory",
+      "trees",
+      "*2300"
+    ],
+    "timestamp": "Oct/05/2021 15:20"
+  },
   "CF130896076": {
     "contest_id": 1592,
     "language": "C++17 (GCC 9-64)",
