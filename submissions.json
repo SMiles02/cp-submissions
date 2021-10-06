@@ -1,4 +1,23 @@
 {
+  "CF130933235": {
+    "contest_id": 1592,
+    "language": "C++17 (GCC 9-64)",
+    "path": "codeforces/1592/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Bored Bakry",
+    "problem_url": "https://codeforces.com/contest/1592/problem/E",
+    "submission_id": "CF130933235",
+    "submission_url": "https://codeforces.com/contest/1592/submission/130933235",
+    "tags": [
+      "bitmasks",
+      "greedy",
+      "math",
+      "two pointers",
+      "*2400"
+    ],
+    "timestamp": "Oct/06/2021 02:44"
+  },
   "CF131077425": {
     "contest_id": 1571,
     "language": "Kotlin 1.4",
