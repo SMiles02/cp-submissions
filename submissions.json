@@ -1,4 +1,21 @@
 {
+  "CF131078726": {
+    "contest_id": 1571,
+    "language": "Kotlin 1.4",
+    "path": "codeforces/1571/B..kt",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Epic Novel",
+    "problem_url": "https://codeforces.com/contest/1571/problem/B",
+    "submission_id": "CF131078726",
+    "submission_url": "https://codeforces.com/contest/1571/submission/131078726",
+    "tags": [
+      "*special problem",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Oct/07/2021 16:49"
+  },
   "CF131174159": {
     "contest_id": 1594,
     "language": "C++17 (GCC 9-64)",
