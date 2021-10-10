@@ -1,5 +1,14 @@
+//#pragma GCC optimize("Ofast,unroll-loops")
+//#pragma GCC target("avx,avx2,sse,sse2")
 #include <bits/stdc++.h>
+#define ll long long
+#define sz(x) (int)(x).size()
 using namespace std;
+
+ll f(ll x)
+{
+    return (x*(x-1))/2;
+}
 
 void solve()
 {
@@ -13,7 +22,7 @@ void solve()
         ++c[a[i][0]];
         ++d[a[i][1]];
     }
-    long long ans=(1LL*n*(n-1)*(n-2))/6;
+    ll ans=(1LL*n*(n-1)*(n-2))/6;
     for (int i=0;i<n;++i)
         ans-=1LL*(c[a[i][0]]-1)*(d[a[i][1]]-1);
     cout<<ans<<"\n";
