@@ -43,7 +43,6 @@ bitset<N> b;
 
 void solve()
 {
-    b.reset();
     int n,ans=1;
     cin>>n;
     int a[n];
