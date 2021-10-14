@@ -1,4 +1,20 @@
 {
+  "CF131935102": {
+    "contest_id": 1593,
+    "language": "C++17 (GCC 9-64)",
+    "path": "codeforces/1593/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Elections",
+    "problem_url": "https://codeforces.com/contest/1593/problem/A",
+    "submission_id": "CF131935102",
+    "submission_url": "https://codeforces.com/contest/1593/submission/131935102",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Oct/14/2021 14:28"
+  },
   "CF131935259": {
     "contest_id": 1593,
     "language": "C++17 (GCC 9-64)",
