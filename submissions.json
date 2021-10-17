@@ -1,4 +1,23 @@
 {
+  "CF132261480": {
+    "contest_id": 1586,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1586/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Omkar and the Meaning of Life",
+    "problem_url": "https://codeforces.com/contest/1586/problem/D",
+    "submission_id": "CF132261480",
+    "submission_url": "https://codeforces.com/contest/1586/submission/132261480",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "interactive",
+      "math",
+      "*1800"
+    ],
+    "timestamp": "Oct/17/2021 15:19"
+  },
   "CF132856416": {
     "contest_id": 1582,
     "language": "C++20 (GCC 11-64)",
