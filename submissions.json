@@ -1,4 +1,22 @@
 {
+  "CF132910652": {
+    "contest_id": 1582,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1582/F1.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F1",
+    "problem_name": "Korney Korneevich and XOR (easy version)",
+    "problem_url": "https://codeforces.com/contest/1582/problem/F1",
+    "submission_id": "CF132910652",
+    "submission_url": "https://codeforces.com/contest/1582/submission/132910652",
+    "tags": [
+      "bitmasks",
+      "dp",
+      "greedy",
+      "*1800"
+    ],
+    "timestamp": "Oct/24/2021 13:56"
+  },
   "CF132916730": {
     "contest_id": 1582,
     "language": "C++20 (GCC 11-64)",
