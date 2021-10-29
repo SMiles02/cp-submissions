@@ -5,7 +5,7 @@ void solve()
 {
     string s;
     cin>>s;
-    s[0]=s.back();
+    s[s.size()-1]=s[0];
     cout<<s<<"\n";
 }
   
