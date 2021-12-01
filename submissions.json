@@ -1,4 +1,21 @@
 {
+  "CF137630966": {
+    "contest_id": 1613,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1613/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Long Comparison",
+    "problem_url": "https://codeforces.com/contest/1613/problem/A",
+    "submission_id": "CF137630966",
+    "submission_url": "https://codeforces.com/contest/1613/submission/137630966",
+    "tags": [
+      "implementation",
+      "math",
+      "*900"
+    ],
+    "timestamp": "Dec/01/2021 15:40"
+  },
   "CF137637545": {
     "contest_id": 1613,
     "language": "C++20 (GCC 11-64)",
