@@ -2,14 +2,17 @@
 using namespace std;
 
 void solve() {
-    int n, m, ans = 15;
+    int n, m, ans = 15, cur;
     cin >> n;
     for (int i = 0; i < 15; ++i) {
+        cur = 0;
         m = (n + i) % 32768;
-        if (m == 0)
-            ans = min(ans, i);
-        else
-            ans = min(ans, i + 15 - __builtin_ctz(m));
+        while (m != 0 && i + cur < 15) {
+            m *= 2;
+            m %= 32768;
+            ++cur;
+        }
+        ans = min(ans, i + cur);
     }
     cout << ans << " ";
 }
