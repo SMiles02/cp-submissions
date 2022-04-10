@@ -1,3 +1,5 @@
+// #pragma GCC optimize("Ofast,unroll-loops")
+// #pragma GCC target("avx,avx2,sse,sse2")
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -11,7 +13,12 @@ int main() {
         ++f[y];
     }
     while (k--) {
-        vector<int> g(1024);
+        // for (int j = 0; j < 1024; ++j) {
+        //     for (int x = 0; x < f[j]; ++x)
+        //         cout << j << " ";
+        // }
+        // cout << "\n"; 
+        vector<int> g(1024, 0);
         dn = 0;
         for (int i = 0; i < 1024; ++i) {
             if (dn & 1) {
@@ -24,7 +31,12 @@ int main() {
             }
             dn += f[i];
         }
-        swap(f, g); 
+        swap(f, g);
+        // for (int j = 0; j < 1024; ++j) {
+        //     for (int x = 0; x < f[j]; ++x)
+        //         cout << j << " ";
+        // }
+        // cout << "\n"; 
     }
     for (int i = 1023; i >= 0; --i)
         if (f[i]) {
