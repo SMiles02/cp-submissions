@@ -1,4 +1,23 @@
 {
+  "CF153337076": {
+    "contest_id": 768,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/768/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Jon Snow and his Favourite Number",
+    "problem_url": "https://codeforces.com/contest/768/problem/C",
+    "submission_id": "CF153337076",
+    "submission_url": "https://codeforces.com/contest/768/submission/153337076",
+    "tags": [
+      "brute force",
+      "dp",
+      "implementation",
+      "sortings",
+      "*1800"
+    ],
+    "timestamp": "Apr/11/2022 00:49"
+  },
   "CF153489497": {
     "contest_id": 1661,
     "language": "C++20 (GCC 11-64)",
