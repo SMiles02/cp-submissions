@@ -1,4 +1,21 @@
 {
+  "CF153602258": {
+    "contest_id": 1027,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1027/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Mouse Hunt",
+    "problem_url": "https://codeforces.com/contest/1027/problem/D",
+    "submission_id": "CF153602258",
+    "submission_url": "https://codeforces.com/contest/1027/submission/153602258",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "*1700"
+    ],
+    "timestamp": "Apr/14/2022 04:53"
+  },
   "CF153892433": {
     "contest_id": 1659,
     "language": "C++20 (GCC 11-64)",
