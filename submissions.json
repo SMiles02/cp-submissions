@@ -1,4 +1,23 @@
 {
+  "CF153897191": {
+    "contest_id": 1659,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1659/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Bit Flipping",
+    "problem_url": "https://codeforces.com/contest/1659/problem/B",
+    "submission_id": "CF153897191",
+    "submission_url": "https://codeforces.com/contest/1659/submission/153897191",
+    "tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "greedy",
+      "strings",
+      "*1300"
+    ],
+    "timestamp": "Apr/17/2022 16:50"
+  },
   "CF153916983": {
     "contest_id": 1659,
     "language": "C++20 (GCC 11-64)",
