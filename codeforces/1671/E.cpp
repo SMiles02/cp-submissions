@@ -27,6 +27,10 @@ int binpow(int a, int b) {
     return res;
 }
 
+int dv(int a, int b) { return mul(a,binpow(b,MOD-2)); }
+
+int subtract(int a, int b) { return add(a,MOD-b); }
+
 int main() {
     ios_base::sync_with_stdio(0); cin.tie(0);
     for (int i = 0; i < H; ++i) {
