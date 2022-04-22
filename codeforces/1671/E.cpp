@@ -1,6 +1,3 @@
-// If I ever read this again, please find out why https://codeforces.com/contest/1671/submission/154575806 didn't work but this did.
-// This is a naive version of the previously mentioned submission, checking strings directly without hashing them.
-
 #include <bits/stdc++.h>
 using namespace std;
 
