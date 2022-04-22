@@ -36,6 +36,7 @@ int main() {
             t[i] += t[i * 2];
             t[i] += t[i * 2 + 1];
         }
+        // cout << i << " " << t[i] << " " << dp[i] << "\n";
     }
     cout << dp[1];
     return 0;
