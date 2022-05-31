@@ -1,21 +1,28 @@
 #include <bits/stdc++.h>
 #define ll long long
+#define sz(x) (int)(x).size()
 using namespace std;
 
 namespace internal {
 
+// @param n `0 <= n`
+// @return minimum non-negative `x` s.t. `n <= 2**x`
 int ceil_pow2(int n) {
     int x = 0;
     while ((1U << x) < (unsigned int)(n)) x++;
     return x;
 }
 
+// @param n `1 <= n`
+// @return minimum non-negative `x` s.t. `(n & (1 << x)) != 0`
 constexpr int bsf_constexpr(unsigned int n) {
     int x = 0;
     while (!(n & (1 << x))) x++;
     return x;
 }
 
+// @param n `1 <= n`
+// @return minimum non-negative `x` s.t. `(n & (1 << x)) != 0`
 int bsf(unsigned int n) {
 #ifdef _MSC_VER
     unsigned long index;
@@ -26,7 +33,7 @@ int bsf(unsigned int n) {
 #endif
 }
 
-}
+}  // namespace internal
 
 template <class S, S (*op)(S, S), S (*e)()> struct segtree {
   public:
@@ -133,14 +140,35 @@ template <class S, S (*op)(S, S), S (*e)()> struct segtree {
 };
 
 const int N = 2e5 + 1;
-const ll INF = 1e18;
+ll INF = 1e18;
 int a[N];
 ll p[N];
 bool ok;
+
+// basic operation
 ll opMax(ll a, ll b) { return max(a, b); }
 ll opMin(ll a, ll b) { return min(a, b); }
+
+// op(anything, e()) = anything
 ll eMax() { return -INF; }
 ll eMin() { return INF; }
+
+// remember: range l, r means [l, r)
+
+// Constructor:
+// (1) segtree<S, op, e> seg(int n)
+// (2) segtree<S, op, e> seg(vector<S> v)
+
+// Functions:
+// seg.set(int p, S x) => a[p] := x
+// seg.get(int p) => a[p]
+// seg.prod(int l, int r) => op(a[l], ..., a[r - 1])
+// seg.all_prod() => op(a[0], ..., a[n - 1])
+// seg.min_left<cnd>(int r) => minimum l such that g(op(a[l], ..., a[r - 1])) = true
+// => Constraints: g(e()) = true
+// seg.max_right<cnd>(int r) => maximum r such that g(op(a[l], ..., a[r - 1])) = true
+// => Constraints: g(e()) = true
+
 segtree<ll, opMax, eMax> pMax(N);
 segtree<ll, opMin, eMin> pMin(N);
 segtree<ll, opMax, eMax> segMax(N);
@@ -150,6 +178,7 @@ void solve(int l, int r) {
     if (l > r)
         return;
     int mx = segMax.prod(l, r + 1), safe = l, i;
+    // cout << l << " " << r << " " << mx << "\n";
     for (set<int>::iterator it = s[mx].lower_bound(l); it != s[mx].end() && *it <= r; ++it) {
         i = *it;
         if (pMax.prod(i, r + 1) - pMin.prod(l - 1, i) > mx) {
