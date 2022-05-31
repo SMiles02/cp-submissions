@@ -1,7 +1,10 @@
 #include <bits/stdc++.h>
+#define ll long long
+#define sz(x) (int)(x).size()
 using namespace std;
 
-struct DSU {
+struct DSU
+{
     vector<int> pt,rk;
     DSU(int n) : pt(n+1), rk(n+1, 1) {
         for (int i = 1; i <= n; ++i)
