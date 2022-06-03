@@ -1,7 +1,9 @@
 #include <bits/stdc++.h>
+#define ll long long
+#define sz(x) (int)(x).size()
 using namespace std;
 
-long long f(int x) {
+ll f(int x) {
     return (1LL * x * (x - 1)) / 2;
 }
 
@@ -9,7 +11,7 @@ void solve() {
     int n, k;
     cin >> n >> k;
     int a[n + 1];
-    long long p[n + 1], ans = 0;
+    ll p[n + 1], ans = 0;
     p[0] = 0;
     for (int i = 1; i <= n; ++i) {
         cin >> a[i];
