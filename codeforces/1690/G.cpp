@@ -1,4 +1,6 @@
 #include <bits/stdc++.h>
+#define ll long long
+#define sz(x) (int)(x).size()
 using namespace std;
 
 namespace internal {
@@ -208,21 +210,36 @@ struct lazy_segtree {
 };
 
 const int INF = 1e9 + 7;
+ 
+// values
 using S = array<int, 2>;
+
+// lazy values
 using F = bool;
+
+// basic operation 
 S l_op(S l, S r) { return {min(l[0], r[0]), l[1] + r[1]}; }
+
+// op(anything, e()) = anything
 S l_e() { return {INF, 0}; }
+
+// how a lazy update affects a value
 S l_mapping(F l, S r) { return {r[0], r[1] * l}; }
+ 
+// how lazy update l affects existing lazy r
 F l_composition(F l, F r) { return l & r; }
+
+// base lazy
 F l_id() { return true; }
 
 int d;
+
 bool f(S x) {
     return x[0] >= d;
 }
 
 void solve() {
-    int n, m, k;
+    int n, m, k, x;
     cin >> n >> m;
     int a[n + 1];
     lazy_segtree<S, l_op, l_e, F, l_mapping, l_composition, l_id> seg(n + 1);
