@@ -1,4 +1,21 @@
 {
+  "CF159741651": {
+    "contest_id": 1690,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1690/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Black and White Stripe",
+    "problem_url": "https://codeforces.com/contest/1690/problem/D",
+    "submission_id": "CF159741651",
+    "submission_url": "https://codeforces.com/contest/1690/submission/159741651",
+    "tags": [
+      "implementation",
+      "two pointers",
+      "*1000"
+    ],
+    "timestamp": "Jun/07/2022 16:48"
+  },
   "CF159785712": {
     "contest_id": 1690,
     "language": "C++20 (GCC 11-64)",
