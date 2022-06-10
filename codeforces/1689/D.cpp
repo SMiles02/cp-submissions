@@ -1,4 +1,6 @@
 #include <bits/stdc++.h>
+#define ll long long
+#define sz(x) (int)(x).size()
 using namespace std;
 
 const int N = 1001, INF = -1e9;
@@ -27,29 +29,42 @@ void solve() {
                 v[i][j] = max(v[i][j], x - j);
         }
     }
+    // for (int j = 0; j < 9; ++j)
+    //     cout << v[2][j] << " ";
+    // cout << "\n";
     for (int i = 0; i < n; ++i) {
-        for (int j = 0; j < m; ++j)
+        for (int j = 0; j < m; ++j) {
             ans1[i][j] = v[i][j];
-        if (i > 0)
+        }
+        if (i > 0) {
             for (int j = 0; j < m; ++j)
                 ans1[i][j] = max(ans1[i][j], ans1[i - 1][j] + 1);
+        }
+        // for (int j = 0; j < m; ++j)
+        //     cout << ans1[i][j] << " ";
+        // cout << "\n";
     }
     for (int i = n - 1; i >= 0; --i) {
-        for (int j = 0; j < m; ++j)
+        for (int j = 0; j < m; ++j) {
             ans2[i][j] = v[i][j];
-        if (i < n - 1)
+        }
+        if (i < n - 1) {
             for (int j = 0; j < m; ++j)
                 ans2[i][j] = max(ans2[i][j], ans2[i + 1][j] + 1);
+        }
     }
-    for (int i = 0; i < n; ++i)
+    for (int i = 0; i < n; ++i) {
         for (int j = 0; j < m; ++j) {
             ans[i][j] = max(ans1[i][j], ans2[i][j]);
+            // cout << ans[i][j] << " ";
             if (ans[i][j] < mx) {
                 mx = ans[i][j];
                 x = i + 1;
                 y = j + 1;
             }
         }
+        // cout << "\n";
+    }
     cout << x << " " << y << "\n";
 }
 
