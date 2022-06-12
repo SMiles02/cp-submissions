@@ -1,4 +1,22 @@
 {
+  "CF160349468": {
+    "contest_id": 1697,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1697/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Guess The String",
+    "problem_url": "https://codeforces.com/contest/1697/problem/D",
+    "submission_id": "CF160349468",
+    "submission_url": "https://codeforces.com/contest/1697/submission/160349468",
+    "tags": [
+      "binary search",
+      "constructive algorithms",
+      "interactive",
+      "*1900"
+    ],
+    "timestamp": "Jun/12/2022 18:17"
+  },
   "CF160526016": {
     "contest_id": 1692,
     "language": "C++20 (GCC 11-64)",
