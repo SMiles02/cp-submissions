@@ -1,4 +1,21 @@
 {
+  "CF160534639": {
+    "contest_id": 1692,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1692/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "All Distinct",
+    "problem_url": "https://codeforces.com/contest/1692/problem/B",
+    "submission_id": "CF160534639",
+    "submission_url": "https://codeforces.com/contest/1692/submission/160534639",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Jun/14/2022 16:40"
+  },
   "CF160543418": {
     "contest_id": 1692,
     "language": "C++20 (GCC 11-64)",
