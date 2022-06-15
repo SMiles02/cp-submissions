@@ -1,4 +1,20 @@
 {
+  "CF160767723": {
+    "contest_id": 1692,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1692/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Marathon",
+    "problem_url": "https://codeforces.com/contest/1692/problem/A",
+    "submission_id": "CF160767723",
+    "submission_url": "https://codeforces.com/contest/1692/submission/160767723",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Jun/15/2022 23:04"
+  },
   "CF160767730": {
     "contest_id": 1692,
     "language": "C++20 (GCC 11-64)",
