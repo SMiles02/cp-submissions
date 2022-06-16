@@ -1,4 +1,23 @@
 {
+  "CF160857976": {
+    "contest_id": 1694,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1694/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Fake Plastic Trees",
+    "problem_url": "https://codeforces.com/contest/1694/problem/D",
+    "submission_id": "CF160857976",
+    "submission_url": "https://codeforces.com/contest/1694/submission/160857976",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "greedy",
+      "trees",
+      "*1700"
+    ],
+    "timestamp": "Jun/16/2022 17:29"
+  },
   "CF161046952": {
     "contest_id": 1695,
     "language": "C++20 (GCC 11-64)",
