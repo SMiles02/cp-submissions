@@ -1,4 +1,22 @@
 {
+  "CF161179132": {
+    "contest_id": 1700,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1700/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Palindromic Numbers ",
+    "problem_url": "https://codeforces.com/contest/1700/problem/B",
+    "submission_id": "CF161179132",
+    "submission_url": "https://codeforces.com/contest/1700/submission/161179132",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Jun/19/2022 11:26"
+  },
   "CF161203540": {
     "contest_id": 1700,
     "language": "C++20 (GCC 11-64)",
