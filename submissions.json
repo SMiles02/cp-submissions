@@ -1,4 +1,22 @@
 {
+  "CF161538071": {
+    "contest_id": 1629,
+    "language": "Rust 2021",
+    "path": "codeforces/1629/A..rs",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Download More RAM",
+    "problem_url": "https://codeforces.com/contest/1629/problem/A",
+    "submission_id": "CF161538071",
+    "submission_url": "https://codeforces.com/contest/1629/submission/161538071",
+    "tags": [
+      "brute force",
+      "greedy",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Jun/23/2022 10:58"
+  },
   "CF161539799": {
     "contest_id": 1629,
     "language": "Rust 2021",
