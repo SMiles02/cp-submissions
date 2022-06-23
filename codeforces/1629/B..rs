@@ -1,7 +1,7 @@
 fn main() {
     let (read_input, write_output) = (std::io::stdin(), std::io::stdout());
     let mut sc = IO::new(read_input.lock(), write_output.lock());
-    let mut print_out = vec![];
+ 
     let t: u32 = sc.read();
     for _ in 0..t {
         let l: u32 = sc.read();
@@ -9,20 +9,19 @@ fn main() {
         let k: u32 = sc.read();
         if (((r - l) & 1) == 1) {
             if (k >= (r - l + 1) / 2) {
-                print_out.push("YES");
+                println!("YES");
             }
             else {
-                print_out.push("NO");
+                println!("NO");
             }
         }
         else if (k >= (r - l) / 2 + (l & 1) || (r - l == 0 && l > 1)) {
-            print_out.push("YES");
+            println!("YES");
         }
         else {
-            print_out.push("NO");
+            println!("NO");
         }
     }
-    println!("{}", print_out.join("\n"));
 }
 
 pub struct IO<R, W: std::io::Write>(R, std::io::BufWriter<W>);
