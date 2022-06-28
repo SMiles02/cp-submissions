@@ -1,4 +1,21 @@
 {
+  "CF162162299": {
+    "contest_id": 1698,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1698/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "3SUM Closure",
+    "problem_url": "https://codeforces.com/contest/1698/problem/C",
+    "submission_id": "CF162162299",
+    "submission_url": "https://codeforces.com/contest/1698/submission/162162299",
+    "tags": [
+      "brute force",
+      "data structures",
+      "*1300"
+    ],
+    "timestamp": "Jun/28/2022 19:55"
+  },
   "CF162684743": {
     "contest_id": 1698,
     "language": "PyPy 3-64",
