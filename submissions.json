@@ -1,4 +1,22 @@
 {
+  "CF162806762": {
+    "contest_id": 1699,
+    "language": "C++17 (GCC 9-64)",
+    "path": "codeforces/1699/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Almost Triple Deletions",
+    "problem_url": "https://codeforces.com/contest/1699/problem/D",
+    "submission_id": "CF162806762",
+    "submission_url": "https://codeforces.com/contest/1699/submission/162806762",
+    "tags": [
+      "data structures",
+      "dp",
+      "greedy",
+      "*2300"
+    ],
+    "timestamp": "Jul/04/2022 18:31"
+  },
   "CF162817590": {
     "contest_id": 1699,
     "language": "C++17 (GCC 9-64)",
