@@ -22,7 +22,10 @@ void solve() {
                 can_delete[i][j] = 0;
        }
     }
-    for (int i = 1; i <= n; ++i) {
+    dp[1] = 1;
+    if (can_delete[2][n])
+        ans = 1;
+    for (int i = 2; i <= n; ++i) {
         dp[i] = -1e9;
         if (can_delete[1][i - 1])
             dp[i] = 1;
