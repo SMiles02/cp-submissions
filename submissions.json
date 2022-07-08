@@ -1,4 +1,20 @@
 {
+  "CF163225846": {
+    "contest_id": 1701,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1701/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Permutation",
+    "problem_url": "https://codeforces.com/contest/1701/problem/B",
+    "submission_id": "CF163225846",
+    "submission_url": "https://codeforces.com/contest/1701/submission/163225846",
+    "tags": [
+      "greedy",
+      "*800"
+    ],
+    "timestamp": "Jul/08/2022 16:42"
+  },
   "CF163262330": {
     "contest_id": 1701,
     "language": "C++20 (GCC 11-64)",
