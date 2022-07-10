@@ -20,7 +20,7 @@ void dfs(int c, int p, int x) {
 }
 
 bool is_ancestor(int x, int y) {
-    return tin[x] <= tin[y] && tout[y] <= tout[x];
+    return (tin[x] <= tin[y] && tout[y] <= tout[x]);
 }
 
 bool solve_query() {
