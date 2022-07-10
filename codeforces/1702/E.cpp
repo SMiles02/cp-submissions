@@ -9,21 +9,25 @@ bool is_bp;
 void dfs(int c, int x) {
     col[c] = x;
     for (int i : e[c]) {
-        if (!col[i])
+        if (col[i]) {
+            if (col[c] == col[i])
+                is_bp = false;
+        }
+        else
             dfs(i, 3 - x);
-        else if (col[c] == col[i])
-            is_bp = false;
     }
 }
 
 void solve() {
-    int n, x, y;
+    int n;
     cin >> n;
+    int a[n][2];
+    vector<int> v(n + 1);
     vector<vector<int>> f(n + 1);
     for (int i = 0; i < n; ++i) {
-        cin >> x >> y;
-        f[x].push_back(i + 1);
-        f[y].push_back(i + 1);
+        cin >> a[i][0] >> a[i][1];
+        f[a[i][0]].push_back(i + 1);
+        f[a[i][1]].push_back(i + 1);
     }
     for (int i = 1; i <= n; ++i)
         if (f[i].size() > 2) {
