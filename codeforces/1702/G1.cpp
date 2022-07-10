@@ -40,13 +40,11 @@ bool solve_query() {
             pc = a[i][1];
             break;
         }
-    if (pc == -1) // a perfect chain
+    if (pc == -1)
         return true;
-    if (!is_ancestor(a[0][1], pc)) { // two separate disjoint chains
+    if (!is_ancestor(a[0][1], pc)) {
         int ep1 = a[0][1], ep2 = pc;
-        for (int i = 1; i < k; ++i) {
-            if (a[i][1] == ep1 || a[i][1] == ep2)
-                continue;
+        for (int i = 2; i < k; ++i) {
             if (is_ancestor(ep1, a[i][1]))
                 ep1 = a[i][1];
             else if (is_ancestor(ep2, a[i][1]))
@@ -60,12 +58,10 @@ bool solve_query() {
     for (int i = L - 1; i >= 0; --i)
         if (tin[a[0][1]] < tin[up[i][cur]])
             cur = up[i][cur];
-    if (is_ancestor(cur, pc)) // ensuring the split happens at the start
+    if (is_ancestor(cur, pc))
         return false;
-    int ep1 = pc, ep2 = a[1][1];
+    int ep1 = a[1][1], ep2 = pc;
     for (int i = 2; i < k; ++i) {
-        if (a[i][1] == ep1 || a[i][1] == ep2)
-            continue;
         if (is_ancestor(ep1, a[i][1]))
             ep1 = a[i][1];
         else if (is_ancestor(ep2, a[i][1]))
