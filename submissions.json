@@ -1,4 +1,22 @@
 {
+  "CF163560921": {
+    "contest_id": 1702,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1702/G2.cpp",
+    "platform": "Codeforces",
+    "problem_index": "G2",
+    "problem_name": "Passable Paths (hard version)",
+    "problem_url": "https://codeforces.com/contest/1702/problem/G2",
+    "submission_id": "CF163560921",
+    "submission_url": "https://codeforces.com/contest/1702/submission/163560921",
+    "tags": [
+      "data structures",
+      "dfs and similar",
+      "trees",
+      "*2000"
+    ],
+    "timestamp": "Jul/10/2022 18:18"
+  },
   "CF163561143": {
     "contest_id": 1702,
     "language": "C++20 (GCC 11-64)",
