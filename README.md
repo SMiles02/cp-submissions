@@ -268,7 +268,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 21 | [E - Mirror Grid](https://codeforces.com/contest/1703/problem/E) | [C++20 (GCC 11-64)](./codeforces/1703/E.cpp) | `implementation` `*1200` | Jul/12/2022 20:00 | 
 20 | [F - Yet Another Problem About Pairs Satisfying an Inequality](https://codeforces.com/contest/1703/problem/F) | [C++20 (GCC 11-64)](./codeforces/1703/F.cpp) | `binary search` `data structures` `dp` `greedy` `sortings` `*1300` | Jul/12/2022 20:00 | 
 19 | [G - Good Key, Bad Key](https://codeforces.com/contest/1703/problem/G) | [C++20 (GCC 11-64)](./codeforces/1703/G.cpp) | `bitmasks` `brute force` `dp` `greedy` `math` `*1600` | Jul/12/2022 20:00 | 
-18 | [B - ICPC Balloons](https://codeforces.com/contest/1703/problem/B) | [C++20 (GCC 11-64)](./codeforces/1703/B.cpp) | `data structures` `implementation` `*800` | Jul/12/2022 16:38 | 
+18 | [B - ICPC Balloons](https://codeforces.com/contest/1703/problem/B) | [C++20 (GCC 11-64)](./codeforces/1703/B.cpp) | `data structures` `implementation` `*800` | Jul/12/2022 20:00 | 
 17 | [A - YES or YES?](https://codeforces.com/contest/1703/problem/A) | [C++20 (GCC 11-64)](./codeforces/1703/A.cpp) | `brute force` `implementation` `strings` `*800` | Jul/12/2022 16:36 | 
 16 | [G2 - Passable Paths (hard version)](https://codeforces.com/contest/1702/problem/G2) | [C++20 (GCC 11-64)](./codeforces/1702/G2.cpp) | `data structures` `dfs and similar` `trees` `*2000` | Jul/10/2022 19:23 | 
 15 | [G1 - Passable Paths (easy version)](https://codeforces.com/contest/1702/problem/G1) | [C++20 (GCC 11-64)](./codeforces/1702/G1.cpp) | `dfs and similar` `trees` `*1900` | Jul/10/2022 19:22 | 
