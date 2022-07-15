@@ -1,4 +1,22 @@
 {
+  "CF164275240": {
+    "contest_id": 1705,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1705/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Mark the Dust Sweeper",
+    "problem_url": "https://codeforces.com/contest/1705/problem/B",
+    "submission_id": "CF164275240",
+    "submission_url": "https://codeforces.com/contest/1705/submission/164275240",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "Jul/15/2022 15:45"
+  },
   "CF173228027": {
     "contest_id": 1734,
     "language": "C++20 (GCC 11-64)",
