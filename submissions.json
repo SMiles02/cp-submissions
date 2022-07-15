@@ -758,6 +758,26 @@
     ],
     "timestamp": "Jul/15/2022 15:45"
   },
+  "CF164311896": {
+    "contest_id": 1705,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1705/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Mark and Lightbulbs",
+    "problem_url": "https://codeforces.com/contest/1705/problem/D",
+    "submission_id": "CF164311896",
+    "submission_url": "https://codeforces.com/contest/1705/submission/164311896",
+    "tags": [
+      "combinatorics",
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "sortings",
+      "*1800"
+    ],
+    "timestamp": "Jul/15/2022 16:41"
+  },
   "CF173228027": {
     "contest_id": 1734,
     "language": "C++20 (GCC 11-64)",
