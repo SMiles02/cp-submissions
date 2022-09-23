@@ -1,4 +1,21 @@
 {
+  "CF173228027": {
+    "contest_id": 1734,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1734/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Rectangular Congruence",
+    "problem_url": "https://codeforces.com/contest/1734/problem/E",
+    "submission_id": "CF173228027",
+    "submission_url": "https://codeforces.com/contest/1734/submission/173228027",
+    "tags": [
+      "constructive algorithms",
+      "number theory",
+      "*2100"
+    ],
+    "timestamp": "Sep/23/2022 16:54"
+  },
   "CF173440005": {
     "contest_id": 1730,
     "language": "C++20 (GCC 11-64)",
