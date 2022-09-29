@@ -1,4 +1,23 @@
 {
+  "CF173952687": {
+    "contest_id": 1739,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1739/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Card Game",
+    "problem_url": "https://codeforces.com/contest/1739/problem/C",
+    "submission_id": "CF173952687",
+    "submission_url": "https://codeforces.com/contest/1739/submission/173952687",
+    "tags": [
+      "combinatorics",
+      "constructive algorithms",
+      "dp",
+      "games",
+      "*1500"
+    ],
+    "timestamp": "Sep/29/2022 16:53"
+  },
   "CF174091928": {
     "contest_id": 1738,
     "language": "C++20 (GCC 11-64)",
