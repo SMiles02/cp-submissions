@@ -1,4 +1,24 @@
 {
+  "CF174442192": {
+    "contest_id": 1735,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1735/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Meta-set",
+    "problem_url": "https://codeforces.com/contest/1735/problem/D",
+    "submission_id": "CF174442192",
+    "submission_url": "https://codeforces.com/contest/1735/submission/174442192",
+    "tags": [
+      "brute force",
+      "combinatorics",
+      "data structures",
+      "hashing",
+      "math",
+      "*1700"
+    ],
+    "timestamp": "Oct/02/2022 21:15"
+  },
   "CF175927614": {
     "contest_id": 1742,
     "language": "C++20 (GCC 11-64)",
