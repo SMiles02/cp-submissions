@@ -11,6 +11,7 @@ map<array<int, 2>, int> mp;
 void add_edge(int x, int y) {
     e[x].insert(y);
     e[y].insert(x);
+    // cout << x << " " << y << "\n";
 }
 
 void add_edge(int x, int y, int z) {
@@ -68,9 +69,13 @@ void print_sol(int l, int r, int x, int y) {
 }
 
 bool solve_pnts(int l, int r, int x, int y) {
+    // cout << l << " " << r << " " << x << " " << y << "\n";
     for (int i = 0; i < p + q; ++i)
         e[i].clear();
     for (int i = 0; i < p; ++i) {
+        // if (i == 4) {
+        //     cout << "! " << x - d1[i] << " " << in_range(l, x - d1[i], r) << " " << m[abs(x - d1[i] - y)] << "\n";
+        // }
         if (in_range(l, x - v[i][0], r) && m[abs(x - v[i][0] - y)])
             add_edge(i, m[abs(x - v[i][0] - y)]);
         if (in_range(l, x + v[i][0], r) && m[abs(x + v[i][0] - y)])
@@ -142,8 +147,14 @@ void solve() {
     p = v.size();
     q = w.size();
     m.clear();
-    for (int i = 0; i < q; ++i)
+    // for (int i = 0; i < p; ++i)
+    //     cerr << i << " " << v[i][0] << " " << v[i][1] << "\n";
+    for (int i = 0; i < q; ++i) {
         m[w[i][0]] = p + i;
+        // cerr << p + i << " " << w[i][0] << " " << w[i][1] << "\n";
+    }
+    // solve_pnts(0, 8, 4, 5);
+    // return;
     for (int i = 0; i < n; ++i)
         if (solve_pnt(0, d1[n - 1] + d1[i], d1[i]))
             return;
