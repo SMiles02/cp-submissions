@@ -1,4 +1,21 @@
 {
+  "CF174380948": {
+    "contest_id": 1735,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1735/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Tea with Tangerines",
+    "problem_url": "https://codeforces.com/contest/1735/problem/B",
+    "submission_id": "CF174380948",
+    "submission_url": "https://codeforces.com/contest/1735/submission/174380948",
+    "tags": [
+      "greedy",
+      "math",
+      "*900"
+    ],
+    "timestamp": "Oct/02/2022 16:44"
+  },
   "CF174389757": {
     "contest_id": 1735,
     "language": "C++20 (GCC 11-64)",
