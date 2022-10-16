@@ -1,4 +1,24 @@
 {
+  "CF176470675": {
+    "contest_id": 1746,
+    "language": "C++17 (GCC 9-64)",
+    "path": "codeforces/1746/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Paths on the Tree",
+    "problem_url": "https://codeforces.com/contest/1746/problem/D",
+    "submission_id": "CF176470675",
+    "submission_url": "https://codeforces.com/contest/1746/submission/176470675",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "greedy",
+      "sortings",
+      "trees",
+      "*1900"
+    ],
+    "timestamp": "Oct/16/2022 12:17"
+  },
   "CF176504627": {
     "contest_id": 1744,
     "language": "C++17 (GCC 9-64)",
