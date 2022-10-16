@@ -1,4 +1,22 @@
 {
+  "CF176521240": {
+    "contest_id": 1744,
+    "language": "C++17 (GCC 9-64)",
+    "path": "codeforces/1744/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Traffic Light",
+    "problem_url": "https://codeforces.com/contest/1744/problem/C",
+    "submission_id": "CF176521240",
+    "submission_url": "https://codeforces.com/contest/1744/submission/176521240",
+    "tags": [
+      "binary search",
+      "implementation",
+      "two pointers",
+      "*1000"
+    ],
+    "timestamp": "Oct/16/2022 16:57"
+  },
   "CF176526935": {
     "contest_id": 1744,
     "language": "C++17 (GCC 9-64)",
