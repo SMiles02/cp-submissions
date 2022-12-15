@@ -8219,6 +8219,24 @@
     ],
     "timestamp": "Oct/21/2022 01:02"
   },
+  "CF185327767": {
+    "contest_id": 1762,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1762/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "GCD Queries ",
+    "problem_url": "https://codeforces.com/contest/1762/problem/D",
+    "submission_id": "CF185327767",
+    "submission_url": "https://codeforces.com/contest/1762/submission/185327767",
+    "tags": [
+      "constructive algorithms",
+      "interactive",
+      "number theory",
+      "*2100"
+    ],
+    "timestamp": "Dec/15/2022 16:14"
+  },
   "CF192284571": {
     "contest_id": 1785,
     "language": "C++20 (GCC 11-64)",
