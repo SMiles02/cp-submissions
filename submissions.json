@@ -1,4 +1,21 @@
 {
+  "CF192284571": {
+    "contest_id": 1785,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1785/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Monsters (easy version)",
+    "problem_url": "https://codeforces.com/contest/1785/problem/A",
+    "submission_id": "CF192284571",
+    "submission_url": "https://codeforces.com/contest/1785/submission/192284571",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*1000"
+    ],
+    "timestamp": "Feb/05/2023 13:11"
+  },
   "CF192320923": {
     "contest_id": 1785,
     "language": "C++20 (GCC 11-64)",
