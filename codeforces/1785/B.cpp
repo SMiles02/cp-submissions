@@ -38,7 +38,7 @@ void solve() {
             }
     for (int x = 0; x < 3; ++x)
         for (int y = 0; y < 3; ++y)
-            while (!cnt[x][y].empty()) {
+            while (!cnt[x][y].empty() && !cnt[y][3 - x - y].empty()) {
                 ans.push_back({cnt[x][y].back(), x, cnt[y][3 - x - y].back(), y});
                 ans.push_back({cnt[y][3 - x - y].back(), x, cnt[3 - x - y][x].back(), 3 - x - y});
                 cnt[x][y].pop_back();

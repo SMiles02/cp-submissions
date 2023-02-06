@@ -1,4 +1,23 @@
 {
+  "CF192407054": {
+    "contest_id": 1785,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1785/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Letter Exchange",
+    "problem_url": "https://codeforces.com/contest/1785/problem/B",
+    "submission_id": "CF192407054",
+    "submission_url": "https://codeforces.com/contest/1785/submission/192407054",
+    "tags": [
+      "constructive algorithms",
+      "graphs",
+      "greedy",
+      "implementation",
+      "*1900"
+    ],
+    "timestamp": "Feb/06/2023 01:16"
+  },
   "CF192407151": {
     "contest_id": 1785,
     "language": "C++20 (GCC 11-64)",
