@@ -1,4 +1,21 @@
 {
+  "CF195167323": {
+    "contest_id": 1799,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1799/D2.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D2",
+    "problem_name": "Hot Start Up (hard version)",
+    "problem_url": "https://codeforces.com/contest/1799/problem/D2",
+    "submission_id": "CF195167323",
+    "submission_url": "https://codeforces.com/contest/1799/submission/195167323",
+    "tags": [
+      "data structures",
+      "dp",
+      "*2100"
+    ],
+    "timestamp": "Feb/27/2023 17:00"
+  },
   "CF195180571": {
     "contest_id": 1799,
     "language": "C++20 (GCC 11-64)",
