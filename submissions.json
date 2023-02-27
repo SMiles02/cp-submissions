@@ -1,4 +1,20 @@
 {
+  "CF195157986": {
+    "contest_id": 1799,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1799/D1.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D1",
+    "problem_name": "Hot Start Up (easy version)",
+    "problem_url": "https://codeforces.com/contest/1799/problem/D1",
+    "submission_id": "CF195157986",
+    "submission_url": "https://codeforces.com/contest/1799/submission/195157986",
+    "tags": [
+      "dp",
+      "*1900"
+    ],
+    "timestamp": "Feb/27/2023 16:29"
+  },
   "CF195167323": {
     "contest_id": 1799,
     "language": "C++20 (GCC 11-64)",
