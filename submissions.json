@@ -1,4 +1,21 @@
 {
+  "CF195215923": {
+    "contest_id": 1799,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1799/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Double Lexicographically Minimum",
+    "problem_url": "https://codeforces.com/contest/1799/problem/C",
+    "submission_id": "CF195215923",
+    "submission_url": "https://codeforces.com/contest/1799/submission/195215923",
+    "tags": [
+      "greedy",
+      "strings",
+      "*1700"
+    ],
+    "timestamp": "Feb/28/2023 00:18"
+  },
   "CF195215925": {
     "contest_id": 1799,
     "language": "C++20 (GCC 11-64)",
