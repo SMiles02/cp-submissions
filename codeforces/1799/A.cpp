@@ -9,7 +9,7 @@ void solve() {
     cur = n;
     for (int i = 1; i <= m; ++i) {
         cin >> k;
-        if (!dn[k] && cur > 0)
+        if (!dn[k])
             ans[cur--] = i;
         dn[k] = true;
     }
