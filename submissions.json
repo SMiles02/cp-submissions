@@ -1,4 +1,24 @@
 {
+  "CF196069354": {
+    "contest_id": 1794,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1794/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Counting Factorizations",
+    "problem_url": "https://codeforces.com/contest/1794/problem/D",
+    "submission_id": "CF196069354",
+    "submission_url": "https://codeforces.com/contest/1794/submission/196069354",
+    "tags": [
+      "combinatorics",
+      "divide and conquer",
+      "dp",
+      "math",
+      "number theory",
+      "*1900"
+    ],
+    "timestamp": "Mar/04/2023 23:10"
+  },
   "CF196199614": {
     "contest_id": 1794,
     "language": "C++20 (GCC 11-64)",
