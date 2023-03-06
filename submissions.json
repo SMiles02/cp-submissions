@@ -1,4 +1,22 @@
 {
+  "CF196199908": {
+    "contest_id": 1794,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1794/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Not Dividing",
+    "problem_url": "https://codeforces.com/contest/1794/problem/B",
+    "submission_id": "CF196199908",
+    "submission_url": "https://codeforces.com/contest/1794/submission/196199908",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "*900"
+    ],
+    "timestamp": "Mar/06/2023 02:31"
+  },
   "CF196200040": {
     "contest_id": 1794,
     "language": "C++20 (GCC 11-64)",
