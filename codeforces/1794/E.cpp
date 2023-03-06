@@ -55,6 +55,7 @@ int main() {
         bases[0][i] = 1;
     for (int i = 0; i < B; ++i)
         bases[1][i] = uniform_int_distribution<int>(N, N * 10)(rng);;
+    bases[1][0] = 7;
     for (int i = 2; i < N; ++i)
         bases[i] = mul(bases[i - 1], bases[1]);
     int n, k, x, y;
