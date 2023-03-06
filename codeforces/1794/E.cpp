@@ -2,6 +2,10 @@
 using namespace std;
 mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
 
+int get_rand(int l, int r) {
+    return uniform_int_distribution<int>(l, r)(rng);
+}
+
 const int N = 2e5 + 1, B = 5, MOD = 1e9 + 7;
 array<int, B> bases[N], dp[N], total_hash;
 set<array<int, B>> ok;
@@ -39,14 +43,19 @@ void dfs(int c, int p) {
             dfs(i, c);
             dp[c] = add(dp[c], mul(dp[i], bases[1]));
         }
+    // cout << c << ": " << dp[c][0] << "\n";
 }
 
 void solve(int c, int p, array<int, B> hashes) {
     if (ok.count(hashes))
         ans.push_back(c);
     for (int i : e[c])
-        if (i != p)
-            solve(i, c, add(dp[i], mul(sub(hashes, mul(dp[i], bases[1])), bases[1])));
+        if (i != p) {
+            array<int, B> tmp = sub(hashes, mul(dp[i], bases[1]));
+            // tmp = hashes minus the contribution of subtree i
+            tmp = mul(tmp, bases[1]);
+            solve(i, c, add(dp[i], tmp));
+        }
 }
 
 int main() {
@@ -54,7 +63,7 @@ int main() {
     for (int i = 0; i < B; ++i)
         bases[0][i] = 1;
     for (int i = 0; i < B; ++i)
-        bases[1][i] = uniform_int_distribution<int>(N, N * 10)(rng);;
+        bases[1][i] = get_rand(N, N * 10);
     bases[1][0] = 7;
     for (int i = 2; i < N; ++i)
         bases[i] = mul(bases[i - 1], bases[1]);
