@@ -1,4 +1,21 @@
 {
+  "CF196609926": {
+    "contest_id": 1801,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1801/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "The Very Beautiful Blanket",
+    "problem_url": "https://codeforces.com/contest/1801/problem/A",
+    "submission_id": "CF196609926",
+    "submission_url": "https://codeforces.com/contest/1801/submission/196609926",
+    "tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "*1600"
+    ],
+    "timestamp": "Mar/09/2023 11:00"
+  },
   "CF196627387": {
     "contest_id": 1801,
     "language": "C++20 (GCC 11-64)",

@@ -1,7 +1,9 @@
 #include <bits/stdc++.h>
 #define ll long long
+#define sz(x) (int)(x).size()
 using namespace std;
 mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
+// uniform_int_distribution<int>(1000,10000)(rng)
 
 const int N = 201, MX = 1e9;
 ll a[N][N];
