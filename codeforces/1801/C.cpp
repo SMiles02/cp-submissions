@@ -139,8 +139,29 @@ template <class S, S (*op)(S, S), S (*e)()> struct segtree {
     void update(int k) { d[k] = op(d[2 * k], d[2 * k + 1]); }
 };
 
+// basic operation
 int op(int a, int b) { return max(a, b); }
+
+// op(anything, e()) = anything
 int e() { return 0; }
+
+// currently query max
+// remember: range l, r means [l, r)
+
+// Constructor:
+// (1) segtree<S, op, e> seg(int n)
+// (2) segtree<S, op, e> seg(vector<S> v)
+
+// Functions:
+// seg.set(int p, S x) => a[p] := x
+// seg.get(int p) => a[p]
+// seg.prod(int l, int r) => op(a[l], ..., a[r - 1])
+// seg.all_prod() => op(a[0], ..., a[n - 1])
+// seg.min_left<cnd>(int r) => minimum l such that g(op(a[l], ..., a[r - 1])) = true
+// => Constraints: g(e()) = true
+// seg.max_right<cnd>(int r) => maximum r such that g(op(a[l], ..., a[r - 1])) = true
+// => Constraints: g(e()) = true
+
 const int N = 2e5 + 1;
 segtree<int, op, e> seg(N);
 

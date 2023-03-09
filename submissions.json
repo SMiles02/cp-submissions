@@ -1,4 +1,24 @@
 {
+  "CF196627387": {
+    "contest_id": 1801,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1801/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Music Festival",
+    "problem_url": "https://codeforces.com/contest/1801/problem/C",
+    "submission_id": "CF196627387",
+    "submission_url": "https://codeforces.com/contest/1801/submission/196627387",
+    "tags": [
+      "binary search",
+      "data structures",
+      "dp",
+      "greedy",
+      "sortings",
+      "*1900"
+    ],
+    "timestamp": "Mar/09/2023 11:56"
+  },
   "CF196658604": {
     "contest_id": 1801,
     "language": "C++20 (GCC 11-64)",
