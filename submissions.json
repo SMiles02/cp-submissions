@@ -1,4 +1,26 @@
 {
+  "CF196658604": {
+    "contest_id": 1801,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1801/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "The way home",
+    "problem_url": "https://codeforces.com/contest/1801/problem/D",
+    "submission_id": "CF196658604",
+    "submission_url": "https://codeforces.com/contest/1801/submission/196658604",
+    "tags": [
+      "binary search",
+      "data structures",
+      "dp",
+      "graphs",
+      "greedy",
+      "shortest paths",
+      "sortings",
+      "*2100"
+    ],
+    "timestamp": "Mar/09/2023 13:34"
+  },
   "CF196664182": {
     "contest_id": 1801,
     "language": "C++20 (GCC 11-64)",
