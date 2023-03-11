@@ -1,5 +1,3 @@
-// forgive this awful code, I wanted to try something
-
 #include <bits/stdc++.h>
 #define ll long long
 using namespace std;
@@ -155,14 +153,17 @@ int main() {
     map<ll, int> m;
     for (int i = 1; i <= n; ++i) {
         cin >> a[i];
-        s.insert(p[i] = p[i - 1] + a[i]);
+        p[i] = p[i - 1] + a[i];
+        s.insert(p[i]);
     }
     for (auto i : s)
         m[i] = cur++;
     segtree<int, op, e> seg(n + 1);
     seg.set(m[0], 0);
-    for (int i = 1; i <= n; ++i)
-        seg.set(m[p[i]], max(seg.get(m[p[i]]), (dp[i] = max(seg.prod(0, m[p[i]] + 1) + i, dp[i - 1])) - i));
+    for (int i = 1; i <= n; ++i) {
+        dp[i] = max(seg.prod(0, m[p[i]] + 1) + i, dp[i - 1]);
+        seg.set(m[p[i]], max(seg.get(m[p[i]]), dp[i] - i));
+    }
     cout << dp[n];
     return 0;
 }
