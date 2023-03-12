@@ -1,4 +1,23 @@
 {
+  "CF197139358": {
+    "contest_id": 1804,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1804/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Accommodation",
+    "problem_url": "https://codeforces.com/contest/1804/problem/D",
+    "submission_id": "CF197139358",
+    "submission_url": "https://codeforces.com/contest/1804/submission/197139358",
+    "tags": [
+      "brute force",
+      "dp",
+      "greedy",
+      "implementation",
+      "*2000"
+    ],
+    "timestamp": "Mar/12/2023 18:50"
+  },
   "CF197906862": {
     "contest_id": 1806,
     "language": "C++20 (GCC 11-64)",
