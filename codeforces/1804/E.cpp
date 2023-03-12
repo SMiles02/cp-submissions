@@ -6,14 +6,18 @@ int n, m, ans[N], cmp[1 << N];
 bitset<N> dp[1 << N], e[N];
 
 void print_ans(int cycle_members) {
+    // cerr << cycle_members << "\n";
     for (int i = 0; i < n; ++i)
         if (!(cycle_members & (1 << i)))
             for (int j = 0; j < n; ++j)
                 if ((cycle_members & (1 << j)) && e[i][j])
                     ans[i] = j;
     cout << "Yes\n";
-    for (int i = 0; i < n; ++i)
+    for (int i = 0; i < n; ++i) {
+        assert(ans[i] != -1);
         cout << ans[i] + 1 << " ";
+    }
+    return;
 }
 
 int main() {
@@ -34,13 +38,17 @@ int main() {
             for (int k = 0; k < n; ++k)
                 if ((1 << k) == i)
                     j = k;
+            assert(j != -1);
             cmp[i] = i;
             for (int k = 0; k < n; ++k)
                 if (e[j][k])
                     cmp[i] |= 1 << k;
         }
-        else
-            cmp[i] = cmp[i & -i] | cmp[i ^ (i & -i)]; 
+        else {
+            int j = i & -i;
+            cmp[i] = cmp[j] | cmp[i ^ j];
+        }
+        // cout << i << ": " << cmp[i] << "\n"; 
     }
     for (int x = 0; x < n; ++x) {
         for (int i = 0; i < (1 << n); ++i)
