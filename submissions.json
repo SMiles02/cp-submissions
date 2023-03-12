@@ -1,4 +1,24 @@
 {
+  "CF197137673": {
+    "contest_id": 1804,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1804/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Routing",
+    "problem_url": "https://codeforces.com/contest/1804/problem/E",
+    "submission_id": "CF197137673",
+    "submission_url": "https://codeforces.com/contest/1804/submission/197137673",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "dfs and similar",
+      "dp",
+      "graphs",
+      "*2400"
+    ],
+    "timestamp": "Mar/12/2023 18:40"
+  },
   "CF197139358": {
     "contest_id": 1804,
     "language": "C++20 (GCC 11-64)",
