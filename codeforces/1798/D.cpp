@@ -6,16 +6,16 @@ void solve() {
     cin >> n;
     long long s = 0;
     vector<int> pos, neg;
-    bool all_zero = true;
+    set<int> t;
     for (int i = 0; i < n; ++i) {
         cin >> k;
         if (k >= 0)
             pos.push_back(k);
         else
             neg.push_back(k);
-        all_zero &= k == 0;
+        t.insert(k);
     }
-    if (all_zero) {
+    if (t.size() == 1) {
         cout << "No\n";
         return;
     }
