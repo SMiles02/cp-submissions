@@ -35,7 +35,10 @@ struct DSU {
         x = find_set(x);
         while (!pq[x].empty()) {
             int y = pq[x].top()[1], c = pq[x].top()[0];
-            pq[x].pop();
+            if (find_set(x) == find_set(y)) {
+                pq[x].pop();
+                continue;
+            }
             if (sz[find_set(y)] > 0)
                 unite(x, y);
             else if (sz[x] >= c) {
@@ -43,10 +46,8 @@ struct DSU {
                 unite(x, y);
                 q.push(y);
             }
-            else {
-                pq[x].push({c, y});
+            else
                 break;
-            }
             x = find_set(x);
         }
     }
