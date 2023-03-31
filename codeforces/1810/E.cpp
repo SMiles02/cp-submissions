@@ -1,9 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-const int N = 2e5 + 1;
-int a[N];
-vector<int> e[N];
 queue<int> q;
 
 struct DSU {
@@ -51,6 +48,10 @@ struct DSU {
         }
     }
 };
+
+const int N = 2e5 + 1;
+int a[N];
+vector<int> e[N];
 
 void solve() {
     int n, m;
