@@ -6,8 +6,7 @@ queue<int> q;
 struct DSU {
     vector<int> pt, sz;
     vector<set<array<int, 2>>> s;
-    vector<priority_queue<array<int, 2>, vector<array<int, 2>>, greater<array<int, 2>>>> pq;
-    DSU(int n) : pt(n + 1), sz(n + 1), pq(n + 1) {
+    DSU(int n) : pt(n + 1), sz(n + 1), s(n + 1) {
         for (int i = 1; i <= n; ++i)
             pt[i] = i;
     }
@@ -22,9 +21,9 @@ struct DSU {
                 swap(i, j);
             pt[j] = i;
             sz[i] += sz[j];
-            while (!pq[j].empty()) {
-                pq[i].push(pq[j].top());
-                pq[j].pop();
+            while (!s[j].empty()) {
+                s[i].insert(*(s[j].begin()));
+                s[j].erase(s[j].begin());
             }
         }
     }
@@ -33,10 +32,11 @@ struct DSU {
     }
     void check(int x) {
         x = find_set(x);
-        while (!pq[x].empty()) {
-            int y = pq[x].top()[1], c = pq[x].top()[0];
+        while (!s[x].empty()) {
+            int y = (*s[x].begin())[1], c = (*s[x].begin())[0];
+            // cerr << y << " " << c << " " << sz[x] << "\n";
             if (find_set(x) == find_set(y)) {
-                pq[x].pop();
+                s[x].erase(s[x].begin());
                 continue;
             }
             if (sz[find_set(y)] > 0)
@@ -78,6 +78,7 @@ void solve() {
     while (!q.empty()) {
         int x = q.front();
         q.pop();
+        // cerr << x << "\n";
         for (auto y : e[x])
             if (dsu.find_set(x) != dsu.find_set(y)) {
                 if (dsu.sz[dsu.find_set(y)] > 0)
@@ -88,7 +89,7 @@ void solve() {
                     q.push(y);
                 }
                 else
-                    dsu.pq[dsu.find_set(x)].push({a[y], y});
+                    dsu.s[dsu.find_set(x)].insert({a[y], y});
             }
         dsu.check(x);
     }
