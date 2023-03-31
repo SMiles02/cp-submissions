@@ -28,6 +28,9 @@ struct DSU {
             }
         }
     }
+    bool connected(int x, int y) {
+        return find_set(x) == find_set(y);
+    }
     void check(int x) {
         x = find_set(x);
         while (!pq[x].empty()) {
