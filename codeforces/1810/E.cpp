@@ -79,8 +79,17 @@ void solve() {
         int x = q.front();
         q.pop();
         for (auto y : e[x])
-            if (dsu.find_set(x) != dsu.find_set(y))
-                dsu.pq[dsu.find_set(x)].push({a[y], y});
+            if (dsu.find_set(x) != dsu.find_set(y)) {
+                if (dsu.sz[dsu.find_set(y)] > 0)
+                    dsu.unite(x, y);
+                else if (dsu.sz[dsu.find_set(x)] >= a[y]) {
+                    dsu.sz[y] = 1;
+                    dsu.unite(x, y);
+                    q.push(y);
+                }
+                else
+                    dsu.pq[dsu.find_set(x)].push({a[y], y});
+            }
         dsu.check(x);
     }
     if (dsu.sz[dsu.find_set(1)] == n)
