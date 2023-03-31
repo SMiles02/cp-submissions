@@ -29,7 +29,7 @@ ll how_many_days(ll a, ll b, ll h) {
 void solve() {
     int q, t, a, b, n;
     cin >> q;
-    ll l = 1, r = 1e18;
+    ll l = 1, r = 2e18;
     while (q--) {
         cin >> t;
         if (t == 1) {
