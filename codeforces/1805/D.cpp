@@ -3,7 +3,7 @@ using namespace std;
 
 const int N = 1e5 + 1;
 vector<int> e[N];
-int n, d[2][N];
+int n, d[3][N];
 
 void dfs(int c, int p, int dt, int x) {
     d[x][c] = dt;
@@ -30,16 +30,16 @@ int main() {
         e[y].push_back(x);
     }
     dfs(1, 0, 0, 0);
-    dfs(x = find_max(0), 0, 0, 0);
-    dfs(y = find_max(0), 0, 0, 1);
+    dfs(x = find_max(0), 0, 0, 1);
+    dfs(y = find_max(1), 0, 0, 2);
     vector<int> v(n + 2);
     for (int i = 1; i <= n; ++i)
         if (i != x && i != y)
-            ++v[max(d[0][i], d[1][i])];
+            ++v[max(d[1][i], d[2][i])];
     for (int i = n; i > 0; --i)
         v[i] += v[i + 1];
     for (int i = 1; i <= n; ++i) {
-        if (d[0][y] < i)
+        if (d[1][y] < i)
             cout << n << " ";
         else
             cout << n - v[i] - 1 << " ";
