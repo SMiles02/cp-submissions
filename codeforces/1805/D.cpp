@@ -1,4 +1,6 @@
 #include <bits/stdc++.h>
+#define ll long long
+#define sz(x) (int)(x).size()
 using namespace std;
 
 const int N = 1e5 + 1;
@@ -32,17 +34,21 @@ int main() {
     dfs(1, 0, 0, 0);
     dfs(x = find_max(0), 0, 0, 1);
     dfs(y = find_max(1), 0, 0, 2);
-    vector<int> v(n + 2);
+    vector<int> v(n + 2), ans(n + 1);
     for (int i = 1; i <= n; ++i)
-        if (i != x && i != y)
+        if (i != x && i != y) {
+            // cerr << max(d[1][i], d[2][i]) << " ";
             ++v[max(d[1][i], d[2][i])];
-    for (int i = n; i > 0; --i)
+        }
+    // cout << x << " " << y << endl;
+    for (int i = n; i > 0; --i) {
         v[i] += v[i + 1];
-    for (int i = 1; i <= n; ++i) {
         if (d[1][y] < i)
-            cout << n << " ";
+            ans[i] = n;
         else
-            cout << n - v[i] - 1 << " ";
+            ans[i] = n - v[i] - 1;
     }
+    for (int i = 1; i <= n; ++i)
+        cout << ans[i] << " ";
     return 0;
 }
