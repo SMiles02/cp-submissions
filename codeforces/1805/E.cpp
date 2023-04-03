@@ -157,12 +157,12 @@ int main() {
     ios_base::sync_with_stdio(0); cin.tie(0);
     int x, y, cur = 0;
     cin >> n;
-    vector<array<int, 2>> ed(n - 1);
-    for (int i = 0; i < n - 1; ++i) {
+    vector<array<int, 2>> ed;
+    for (int i = 1; i < n; ++i) {
         cin >> x >> y;
         e[x].push_back(y);
         e[y].push_back(x);
-        ed[i] = {x, y};
+        ed.push_back({x, y});
     }
     for (int i = 1; i <= n; ++i)
         cin >> a[i];
