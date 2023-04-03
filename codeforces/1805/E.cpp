@@ -140,7 +140,7 @@ template <class S, S (*op)(S, S), S (*e)()> struct segtree {
 int op(int a, int b) { return max(a, b); }
 int reg_val() { return -1; }
 
-const int N = 1e5 + 1;
+const int N = 1e5 + 2;
 int n, a[N], b[N * 2], tin[N], tout[N], t = 1, ans[N];
 vector<int> e[N];
 
