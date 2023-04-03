@@ -9398,6 +9398,27 @@
     ],
     "timestamp": "Mar/19/2023 16:02"
   },
+  "CF200614438": {
+    "contest_id": 1805,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1805/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "There Should Be a Lot of Maximums",
+    "problem_url": "https://codeforces.com/contest/1805/problem/E",
+    "submission_id": "CF200614438",
+    "submission_url": "https://codeforces.com/contest/1805/submission/200614438",
+    "tags": [
+      "brute force",
+      "data structures",
+      "dfs and similar",
+      "dp",
+      "trees",
+      "two pointers",
+      "*2300"
+    ],
+    "timestamp": "Apr/03/2023 22:41"
+  },
   "CF200694816": {
     "contest_id": 1811,
     "language": "C++20 (GCC 11-64)",
