@@ -8,8 +8,14 @@ void solve() {
     for (int& i : b)
         cin >> i;
     a[0] = b[0];
-    for (int i = 1; i < n - 1; ++i)
-        a[i + (b[i] > b[i - 1])] = b[i];
+    for (int i = 1; i < n - 1; ++i) {
+        if (b[i] > b[i - 1])
+            a[i + 1] = b[i];
+        else {
+            a[i] = b[i];
+            a[i + 1] = 0;
+        }
+    }
     for (int i : a)
         cout << i << " ";
     cout << "\n";
