@@ -5,6 +5,9 @@ using namespace std;
 struct S {
     int cnt;
     ll sm;
+    bool operator==(const S& rhs) const {
+        return cnt == rhs.cnt && sm == rhs.sm;
+    }
     bool operator!=(const S& rhs) const {
         return !(cnt == rhs.cnt && sm == rhs.sm);
     }
