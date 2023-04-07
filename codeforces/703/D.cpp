@@ -4,7 +4,7 @@ using namespace std;
 struct BIT {
     int n;
     vector<int> bit;
-    BIT(int n) : n(n), bit(n + 1,0) {}
+    BIT(int n) : n(n), bit(n + 1) {}
     void update(int x, int d) { for (int i = x; i <= n; i += i & -i) bit[i] ^= d; }
     int query(int x) {
         int rtn = 0;
@@ -16,34 +16,29 @@ struct BIT {
 
 int main() {
     ios_base::sync_with_stdio(0); cin.tie(0);
-    int n, q, l, r, id;
+    int n, q;
     cin >> n;
-    int a[n + 1];
+    vector<int> a(n + 1);
     map<int, int> last;
     BIT bit(n);
     for (int i = 1; i <= n; ++i)
         cin >> a[i];
     cin >> q;
-    int ans[q], dn = 0;
-    array<int, 3> queries[q];
+    vector<int> ans(q);
+    vector<vector<array<int, 3>>> queries(n + 1);
     for (int i = 0; i < q; ++i) {
+        int l, r;
         cin >> l >> r;
-        queries[i] = {r, l, i};
+        queries[r].push_back({l, i});
     }
-    sort(queries, queries + q);
-    for (int i = 0; i < q; ++i) {
-        l = queries[i][1];
-        r = queries[i][0];
-        id = queries[i][2];
-        while (dn < r) {
-            ++dn;
-            if (last[a[dn]])
-                bit.update(last[a[dn]], a[dn]);
-            last[a[dn]] = dn;
-        }
-        ans[id] = bit.query(l, r);
+    for (int i = 1; i <= n; ++i) {
+        if (last[a[i]])
+            bit.update(last[a[i]], a[i]);
+        last[a[i]] = i;
+        for (auto j : queries[i])
+            ans[j[1]] = bit.query(j[0], i);
     }
-    for (int i = 0; i < q; ++i)
-        cout << ans[i] << "\n";
+    for (auto i : ans)
+        cout << i << "\n";
     return 0;
 }
