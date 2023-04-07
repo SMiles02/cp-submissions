@@ -4,7 +4,7 @@ using namespace std;
 struct BIT {
     int n;
     vector<int> bit;
-    BIT(int n) : n(n), bit(n + 1) {}
+    BIT(int n) : n(n), bit(n + 1,0) {}
     void update(int x, int d) { for (int i = x; i <= n; i += i & -i) bit[i] ^= d; }
     int query(int x) {
         int rtn = 0;
