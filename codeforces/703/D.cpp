@@ -38,7 +38,7 @@ int main() {
         for (auto j : queries[i])
             ans[j[1]] = bit.query(j[0], i);
     }
-    for (auto i : ans)
-        cout << i << "\n";
+    for (int i = 0; i < q; ++i)
+        cout << ans[i] << "\n";
     return 0;
 }
