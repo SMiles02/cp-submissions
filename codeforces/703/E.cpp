@@ -28,6 +28,10 @@ vector<vector<int>> factorisations;
 void gen_factors(int i) {
     if (i == primes.size()) {
         factorisations.push_back(v);
+        // cout << factorisations.size() - 1 << ": ";
+        // for (auto j : v)
+        //     cout << j << " ";
+        // cout << "\n";
         return;
     }
     v[i] = 0;
@@ -95,8 +99,14 @@ int main() {
     for (int i = 1; i <= n; ++i) {
         cin >> a[i];
         int cur = get_factorisation_order(__gcd(a[i], k));
-        for (int j = 0; j < factorisations.size(); ++j)
+        // cerr << __gcd(a[i], k) << " " << cur << "\n";
+        for (int j = 0; j < factorisations.size(); ++j) {
+            // cout << complement_factor(j, cur) << " ";
             dp[i][j] = min(dp[i - 1][j], dp[i - 1][complement_factor(j, cur)] + S{1, a[i]});
+        }
+        // cout << "\n";
+        // for (int j = 0; j < factorisations.size(); ++j)
+        //     cout << i << " " << j << ": " << dp[i][j].cnt << " " << dp[i][j].sm << endl;
     }
     if (dp[n][factorisations.size() - 1].cnt > n) {
         cout << -1;
