@@ -11,8 +11,10 @@ int pos1, pos2;
 int make_query(int x, int y) {
     cout << "? " << x << " " << y << endl;
     int ret;
-    if (local)
+    if (local) {
         ret = dist(x, y, pos1, pos2);
+        // cout << ret << endl;
+    }
     else
         cin >> ret;
     return ret;
@@ -20,6 +22,8 @@ int make_query(int x, int y) {
 
 void print_ans(int x, int y) {
     cout << "! " << x << " " << y << endl;
+    if (local && (pos1 != x || pos2 != y))
+        cerr << "Oops" << endl;
 }
 
 void solve() {
