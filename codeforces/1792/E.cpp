@@ -44,6 +44,8 @@ void solve() {
                 y /= i;
             }
         }
+    if (x > y)
+        swap(x, y);
     if (x == y && x > 1) {
         primes.push_back({x, 2});
         x = y = 1;
