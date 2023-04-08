@@ -41,7 +41,9 @@ int main() {
         else {
             if (heavy[y].empty())
                 continue;
-            int x = p[y], z = (*(heavy[y].begin()))[1];
+            int x, z;
+            x = p[y];
+            z = (*(heavy[y].begin()))[1];
             heavy[x].erase({-sub[y], y});
             heavy[y].erase({-sub[z], z});
             sub[y] -= sub[z];
