@@ -1,9 +1,11 @@
 #include <bits/stdc++.h>
+#define ll long long
+#define sz(x) (int)(x).size()
 using namespace std;
 
 const int N = 1e5 + 1;
 int a[N], sub[N], p[N];
-long long sm[N];
+ll sm[N];
 vector<int> e[N];
 set<array<int, 2>> heavy[N];
 
