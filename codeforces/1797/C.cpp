@@ -46,7 +46,10 @@ void solve() {
                 if (dist(i, j, 1, 1) == a && dist(i, j, n, m) == b && 1 <= i && i <= n && 1 <= j && j <= m)
                     v.push_back({i, j});
         c = make_query(v[0][0], v[0][1]);
-        print_ans(v[c != 0][0], v[c != 0][1]);
+        if (c == 0)
+            print_ans(v[0][0], v[0][1]);
+        else
+            print_ans(v[1][0], v[1][1]);
     }
 }
 
