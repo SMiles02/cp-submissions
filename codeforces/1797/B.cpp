@@ -15,6 +15,7 @@ void solve() {
             ans += a[i][j] != a[n - i - 1][n - j - 1];
             a[i][j] = a[n - i - 1][n - j - 1];
         }
+    // cout << ans << "\n";
     if (ans <= k && ((k - ans) % 2 == 0 || n % 2 == 1))
         cout << "YES\n";
     else
