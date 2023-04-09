@@ -1,6 +1,19 @@
 #include <bits/stdc++.h>
 #define ll long long
+#define sz(x) (int)(x).size()
 using namespace std;
+// mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
+// uniform_int_distribution<int>(1000,10000)(rng)
+
+string to_upper(string a) {
+    for (int i=0;i<(int)a.size();++i) if (a[i]>='a' && a[i]<='z') a[i]-='a'-'A';
+    return a;
+}
+
+string to_lower(string a) {
+    for (int i=0;i<(int)a.size();++i) if (a[i]>='A' && a[i]<='Z') a[i]+='a'-'A';
+    return a;
+}
 
 void solve() {
     int n;
@@ -9,8 +22,10 @@ void solve() {
     for (int i = 0; i < n; ++i)
         cin >> v[i];
     if (n % 2 == 0) {
-        for (int i = 0; i + 2 < n; i += 2)
+        for (int i = 0; i + 2 < n; i += 2) {
+            ll x = v[i] - v[i + 1];
             v[i + 2] += min(v[i] - v[i + 1], (ll)1e17);
+        }
         if (v[n - 2] > v[n - 1]) {
             cout << "NO\n";
             return;
