@@ -2,6 +2,7 @@
 using namespace std;
 
 const int N = 1e3 + 1, INF = 1e6;
+bool local = false;
 int n, p[N];
 vector<int> e[N], v;
 
@@ -18,7 +19,25 @@ void query(int i) {
 int query(int i, int j) {
     cout << "? " << i << " " << j << endl;
     int ans;
-    cin >> ans;
+    if (local) {
+        vector<int> d(n + 1, INF);
+        d[p[i]] = 0;
+        queue<int> q;
+        q.push(p[i]);
+        while (!q.empty()) {
+            int x = q.front();
+            q.pop();
+            for (auto k : e[x])
+                if (d[k] == INF) {
+                    d[k] = d[x] + 1;
+                    q.push(k);
+                }
+        }
+        ans = d[p[j]];
+        cout << ans << endl;
+    }
+    else
+        cin >> ans;
     return ans;
 }
 
@@ -40,6 +59,9 @@ void dfs(int c, int p = 0) {
 void solve() {
     int mx = 0, id;
     cin >> n;
+    if (local)
+        for (int i = 1; i <= n; ++i)
+            cin >> p[i];
     for (int i = 1; i <= n; ++i)
         e[i].clear();
     add_edges(1, n);
@@ -58,9 +80,13 @@ void solve() {
         int cur = 0;
         if (i != id)
             cur = query(id, i);
+        cerr << cur << ": " << v[cur] << endl;
         ans1[i] = v[cur];
         ans2[i] = v[n - cur - 1];
     }
+    // for (auto i : v)
+    //     cout << i << " ";
+    // cout << endl;
     cout << "!";
     for (int i = 1; i <= n; ++i)
         cout << " " << ans1[i];
