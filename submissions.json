@@ -1,4 +1,23 @@
 {
+  "CF201719406": {
+    "contest_id": 1284,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1284/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "New Year and Conference",
+    "problem_url": "https://codeforces.com/contest/1284/problem/D",
+    "submission_id": "CF201719406",
+    "submission_url": "https://codeforces.com/contest/1284/submission/201719406",
+    "tags": [
+      "binary search",
+      "data structures",
+      "hashing",
+      "sortings",
+      "*2100"
+    ],
+    "timestamp": "Apr/10/2023 23:24"
+  },
   "CF201719539": {
     "contest_id": 1284,
     "language": "C++20 (GCC 11-64)",

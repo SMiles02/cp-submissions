@@ -11,17 +11,8 @@ const int MOD = 1e9 + 7, B = 5;
 array<int, B> add(array<int, B> a, array<int, B> b) {
     for (int i = 0; i < B; ++i) {
         a[i] += b[i];
-        if (a[i] >= MOD)
+        while (a[i] >= MOD)
             a[i] -= MOD;
-    }
-    return a;
-}
-
-array<int, B> sub(array<int, B> a, array<int, B> b) {
-    for (int i = 0; i < B; ++i) {
-        a[i] -= b[i];
-        if (a[i] < 0)
-            a[i] += MOD;
     }
     return a;
 }
@@ -30,6 +21,21 @@ array<int, B> mul(array<int, B> a, array<int, B> b) {
     for (int i = 0; i < B; ++i)
         a[i] = (1LL * a[i] * b[i]) % MOD;
     return a;
+}
+
+array<int, B> sub(array<int, B> a, array<int, B> b) {
+    for (int i = 0; i < B; ++i) {
+        a[i] += MOD - b[i];
+        while (a[i] >= MOD)
+            a[i] -= MOD;
+    }
+    return a;
+}
+
+void print(array<int, B> a) {
+    for (auto i : a)
+        cout << i << " ";
+    cout << "\n";
 }
 
 array<int, B> solve(set<int>& t, map<int, array<int, B>>& plus, map<int, array<int, B>>& minus) {
