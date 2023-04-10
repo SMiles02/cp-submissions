@@ -1,4 +1,22 @@
 {
+  "CF201708036": {
+    "contest_id": 1811,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1811/G1.cpp",
+    "platform": "Codeforces",
+    "problem_index": "G1",
+    "problem_name": "Vlad and the Nice Paths (easy version)",
+    "problem_url": "https://codeforces.com/contest/1811/problem/G1",
+    "submission_id": "CF201708036",
+    "submission_url": "https://codeforces.com/contest/1811/submission/201708036",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "math",
+      "*2100"
+    ],
+    "timestamp": "Apr/10/2023 21:05"
+  },
   "CF201708063": {
     "contest_id": 1811,
     "language": "C++20 (GCC 11-64)",
