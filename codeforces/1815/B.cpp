@@ -1,8 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-const int N = 1e3 + 1;
-int n;
+const int N = 1e3 + 1, INF = 1e6;
+int n, p[N];
 vector<int> e[N], v;
 
 void read_pointless() {
