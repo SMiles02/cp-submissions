@@ -9680,6 +9680,23 @@
     ],
     "timestamp": "Apr/20/2023 16:37"
   },
+  "CF210111781": {
+    "contest_id": 1836,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1836/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Destroyer",
+    "problem_url": "https://codeforces.com/contest/1836/problem/A",
+    "submission_id": "CF210111781",
+    "submission_url": "https://codeforces.com/contest/1836/submission/210111781",
+    "tags": [
+      "implementation",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Jun/18/2023 16:39"
+  },
   "CF210124270": {
     "contest_id": 1836,
     "language": "C++20 (GCC 11-64)",
