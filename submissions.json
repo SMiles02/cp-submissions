@@ -9680,6 +9680,22 @@
     ],
     "timestamp": "Apr/20/2023 16:37"
   },
+  "CF210887156": {
+    "contest_id": 1842,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1842/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Tenzing and Balls",
+    "problem_url": "https://codeforces.com/contest/1842/problem/C",
+    "submission_id": "CF210887156",
+    "submission_url": "https://codeforces.com/contest/1842/submission/210887156",
+    "tags": [
+      "dp",
+      "*1500"
+    ],
+    "timestamp": "Jun/24/2023 16:20"
+  },
   "CF210902356": {
     "contest_id": 1842,
     "language": "C++20 (GCC 11-64)",
