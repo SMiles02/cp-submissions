@@ -9680,6 +9680,24 @@
     ],
     "timestamp": "Apr/20/2023 16:37"
   },
+  "CF211452048": {
+    "contest_id": 1845,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1845/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Come Together",
+    "problem_url": "https://codeforces.com/contest/1845/problem/B",
+    "submission_id": "CF211452048",
+    "submission_url": "https://codeforces.com/contest/1845/submission/211452048",
+    "tags": [
+      "geometry",
+      "implementation",
+      "math",
+      "*900"
+    ],
+    "timestamp": "Jun/29/2023 16:48"
+  },
   "CF211489776": {
     "contest_id": 1845,
     "language": "C++20 (GCC 11-64)",
