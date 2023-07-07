@@ -9680,6 +9680,24 @@
     ],
     "timestamp": "Apr/20/2023 16:37"
   },
+  "CF212720454": {
+    "contest_id": 1846,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1846/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Rudolph and Mimic",
+    "problem_url": "https://codeforces.com/contest/1846/problem/F",
+    "submission_id": "CF212720454",
+    "submission_url": "https://codeforces.com/contest/1846/submission/212720454",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "interactive",
+      "*1800"
+    ],
+    "timestamp": "Jul/07/2023 20:45"
+  },
   "CF213299163": {
     "contest_id": 1844,
     "language": "C++20 (GCC 11-64)",
