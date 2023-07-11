@@ -9680,6 +9680,23 @@
     ],
     "timestamp": "Apr/20/2023 16:37"
   },
+  "CF213352341": {
+    "contest_id": 1844,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1844/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Permutations & Primes",
+    "problem_url": "https://codeforces.com/contest/1844/problem/B",
+    "submission_id": "CF213352341",
+    "submission_url": "https://codeforces.com/contest/1844/submission/213352341",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Jul/11/2023 17:33"
+  },
   "CF213375146": {
     "contest_id": 1844,
     "language": "C++20 (GCC 11-64)",
