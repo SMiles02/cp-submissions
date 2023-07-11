@@ -10,6 +10,7 @@ struct disjoint_set_union {
         return i == p[i] ? i : p[i] = find_set(p[i]);
     }
     void unite(int i, int j) {
+        // cout << i << " " << j << "\n";
         i = find_set(i);
         j = find_set(j);
         if (i != j) {
@@ -33,9 +34,11 @@ void solve() {
         int a, b, c, d;
         cin >> a >> b >> c >> d;
         joins[i] = {min(a, c), min(b, d), (b + 1) == d};
+        // cout << joins[i][0] << " " << joins[i][1] << " " << joins[i][2] << " !\n";
         for (int j = 0; j < i; ++j) {
             if (joins[i][0] == joins[j][0]) {
                 int x = joins[i][1], y = joins[j][1];
+                // cout << x << " " << y << " !!\n";
                 if (joins[i][2] == joins[j][2]) {
                     rows.unite(x, y);
                     rows.unite(x + max(n, m), y + max(n, m));
@@ -43,6 +46,19 @@ void solve() {
                 else {
                     rows.unite(x, y + max(n, m));
                     rows.unite(x + max(n, m), y);
+                }
+            }
+            if (joins[i][1] == joins[j][1]) {
+                int x = joins[i][0], y = joins[j][0];
+                if (joins[i][2] == joins[j][2]) {
+                    // cout << "1:\n";
+                    cols.unite(x, y);
+                    cols.unite(x + max(n, m), y + max(n, m));
+                }
+                else {
+                    // cout << "2:\n";
+                    cols.unite(x, y + max(n, m));
+                    cols.unite(x + max(n, m), y);
                 }
             }
         }
