@@ -27,7 +27,7 @@ struct disjoint_set_union {
 void solve() {
     int n, m, k;
     cin >> n >> m >> k;
-    disjoint_set_union rows(m * 2);
+    disjoint_set_union rows(max(n, m) * 2), cols(max(n, m) * 2);
     vector<array<int, 3>> joins(k);
     for (int i = 0; i < k; ++i) {
         int a, b, c, d;
@@ -38,17 +38,17 @@ void solve() {
                 int x = joins[i][1], y = joins[j][1];
                 if (joins[i][2] == joins[j][2]) {
                     rows.unite(x, y);
-                    rows.unite(x + m, y + m);
+                    rows.unite(x + max(n, m), y + max(n, m));
                 }
                 else {
-                    rows.unite(x, y + m);
-                    rows.unite(x + m, y);
+                    rows.unite(x, y + max(n, m));
+                    rows.unite(x + max(n, m), y);
                 }
             }
         }
     }
-    for (int i = 1; i <= m; ++i) {
-        if (rows.connected(i, i + m)) {
+    for (int i = 1; i <= max(n, m); ++i) {
+        if (rows.connected(i, i + max(n, m)) || cols.connected(i, i + max(n, m))) {
             cout << "NO\n";
             return;
         }
