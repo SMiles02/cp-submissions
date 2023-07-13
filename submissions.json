@@ -1,4 +1,24 @@
 {
+  "CF213681330": {
+    "contest_id": 1844,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1844/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Row Major",
+    "problem_url": "https://codeforces.com/contest/1844/problem/D",
+    "submission_id": "CF213681330",
+    "submission_url": "https://codeforces.com/contest/1844/submission/213681330",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "number theory",
+      "strings",
+      "*1400"
+    ],
+    "timestamp": "Jul/13/2023 19:21"
+  },
   "CF214410591": {
     "contest_id": 1768,
     "language": "C++20 (GCC 11-64)",
