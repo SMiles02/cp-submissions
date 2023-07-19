@@ -1,4 +1,24 @@
 {
+  "CF214526299": {
+    "contest_id": 1763,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1763/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Valid Bitonic Permutations",
+    "problem_url": "https://codeforces.com/contest/1763/problem/D",
+    "submission_id": "CF214526299",
+    "submission_url": "https://codeforces.com/contest/1763/submission/214526299",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "implementation",
+      "math",
+      "number theory",
+      "*2200"
+    ],
+    "timestamp": "Jul/19/2023 20:19"
+  },
   "CF214541272": {
     "contest_id": 1153,
     "language": "C++20 (GCC 11-64)",
