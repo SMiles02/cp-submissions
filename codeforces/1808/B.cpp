@@ -30,7 +30,7 @@ void solve() {
     for (int i = 0; i < m; ++i) {
         sort(v[i].begin(), v[i].end());
         for (int j = 0; j < n; ++j) {
-            ans += 1LL * (j * 2 - n + 1) * v[i][j];
+            ans += 1LL * (j - (n - 1 - j)) * v[i][j];
         }
     }
     cout << ans << "\n";
