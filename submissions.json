@@ -1,4 +1,22 @@
 {
+  "CF214547882": {
+    "contest_id": 797,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/797/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Minimal string",
+    "problem_url": "https://codeforces.com/contest/797/problem/C",
+    "submission_id": "CF214547882",
+    "submission_url": "https://codeforces.com/contest/797/submission/214547882",
+    "tags": [
+      "data structures",
+      "greedy",
+      "strings",
+      "*1700"
+    ],
+    "timestamp": "Jul/20/2023 02:19"
+  },
   "CF214640614": {
     "contest_id": 1034,
     "language": "C++20 (GCC 11-64)",
