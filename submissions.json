@@ -1,4 +1,21 @@
 {
+  "CF214883794": {
+    "contest_id": 1850,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1850/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Ten Words of Wisdom",
+    "problem_url": "https://codeforces.com/contest/1850/problem/B",
+    "submission_id": "CF214883794",
+    "submission_url": "https://codeforces.com/contest/1850/submission/214883794",
+    "tags": [
+      "implementation",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Jul/21/2023 17:45"
+  },
   "CF214884803": {
     "contest_id": 1850,
     "language": "C++20 (GCC 11-64)",
