@@ -10167,6 +10167,27 @@
     ],
     "timestamp": "Jul/21/2023 17:59"
   },
+  "CF214905752": {
+    "contest_id": 1850,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1850/G.cpp",
+    "platform": "Codeforces",
+    "problem_index": "G",
+    "problem_name": "The Morning Star",
+    "problem_url": "https://codeforces.com/contest/1850/problem/G",
+    "submission_id": "CF214905752",
+    "submission_url": "https://codeforces.com/contest/1850/submission/214905752",
+    "tags": [
+      "combinatorics",
+      "data structures",
+      "geometry",
+      "implementation",
+      "math",
+      "sortings",
+      "*1500"
+    ],
+    "timestamp": "Jul/21/2023 18:09"
+  },
   "CF214912367": {
     "contest_id": 1850,
     "language": "C++20 (GCC 11-64)",

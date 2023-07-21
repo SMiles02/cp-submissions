@@ -28,7 +28,7 @@ void solve() {
         ++m[2][x + y];
         ++m[3][x - y];
     }
-    for (auto& mp : m) {
+    for (auto mp : m) {
         for (auto& [x, cnt] : mp) {
             ans += 1LL * cnt * (cnt - 1);
         }
