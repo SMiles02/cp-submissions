@@ -272,7 +272,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 749 | [A - Escalator Conversations](https://codeforces.com/contest/1851/problem/A) | [C++20 (GCC 11-64)](./codeforces/1851/A.cpp) | `brute force` `constructive algorithms` `math` `*800` | Jul/25/2023 16:43 | 
 748 | [B - Imbalanced Arrays](https://codeforces.com/contest/1852/problem/B) | [C++20 (GCC 11-64)](./codeforces/1852/B.cpp) | `constructive algorithms` `graphs` `greedy` `math` `sortings` `two pointers` `*1800` | Jul/24/2023 13:33 | 
 747 | [A - Ntarsis' Set](https://codeforces.com/contest/1852/problem/A) | [C++20 (GCC 11-64)](./codeforces/1852/A.cpp) | `binary search` `math` `number theory` `*1800` | Jul/23/2023 16:48 | 
-746 | [E - Cardboard for Pictures](https://codeforces.com/contest/1850/problem/E) | [C++20 (GCC 11-64)](./codeforces/1850/E.cpp) | `binary search` `geometry` `implementation` `math` `*1100` | Jul/21/2023 17:59 | 
+746 | [E - Cardboard for Pictures](https://codeforces.com/contest/1850/problem/E) | [C++20 (GCC 11-64)](./codeforces/1850/E.cpp) | `binary search` `geometry` `implementation` `math` `*1100` | Jul/21/2023 19:19 | 
 745 | [D - Balanced Round](https://codeforces.com/contest/1850/problem/D) | [C++20 (GCC 11-64)](./codeforces/1850/D.cpp) | `brute force` `greedy` `implementation` `sortings` `*900` | Jul/21/2023 17:50 | 
 744 | [C - Word on the Paper](https://codeforces.com/contest/1850/problem/C) | [C++20 (GCC 11-64)](./codeforces/1850/C.cpp) | `implementation` `strings` `*800` | Jul/21/2023 17:46 | 
 743 | [B - Ten Words of Wisdom](https://codeforces.com/contest/1850/problem/B) | [C++20 (GCC 11-64)](./codeforces/1850/B.cpp) | `implementation` `sortings` `*800` | Jul/21/2023 17:45 | 
