@@ -10167,6 +10167,26 @@
     ],
     "timestamp": "Jul/21/2023 17:59"
   },
+  "CF214912367": {
+    "contest_id": 1850,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1850/H.cpp",
+    "platform": "Codeforces",
+    "problem_index": "H",
+    "problem_name": "The Third Letter",
+    "problem_url": "https://codeforces.com/contest/1850/problem/H",
+    "submission_id": "CF214912367",
+    "submission_url": "https://codeforces.com/contest/1850/submission/214912367",
+    "tags": [
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "greedy",
+      "implementation",
+      "*1700"
+    ],
+    "timestamp": "Jul/21/2023 18:16"
+  },
   "CF214938173": {
     "contest_id": 1850,
     "language": "C++20 (GCC 11-64)",
