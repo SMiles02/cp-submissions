@@ -27,13 +27,16 @@ void solve() {
             }
             break;
         }
+        bool removed = false;
         while (x < a.size() && ok) {
             if (a.back()[0] - dn != 0) {
                 ok = false;
             }
-            ans[a.back()[1]] = -cur--;
+            ans[a.back()[1]] = -cur;
             a.pop_back();
+            removed = true;
         }
+        cur -= removed;
         ans[i] = cur--;
         a.pop_front();
         ++dn;
