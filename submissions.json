@@ -10167,6 +10167,27 @@
     ],
     "timestamp": "Jul/21/2023 17:59"
   },
+  "CF215345870": {
+    "contest_id": 1852,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1852/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Imbalanced Arrays",
+    "problem_url": "https://codeforces.com/contest/1852/problem/B",
+    "submission_id": "CF215345870",
+    "submission_url": "https://codeforces.com/contest/1852/submission/215345870",
+    "tags": [
+      "constructive algorithms",
+      "graphs",
+      "greedy",
+      "math",
+      "sortings",
+      "two pointers",
+      "*1800"
+    ],
+    "timestamp": "Jul/24/2023 13:33"
+  },
   "CF215512890": {
     "contest_id": 1851,
     "language": "C++20 (GCC 11-64)",
