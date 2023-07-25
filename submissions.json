@@ -10167,6 +10167,29 @@
     ],
     "timestamp": "Jul/21/2023 17:59"
   },
+  "CF215608136": {
+    "contest_id": 1851,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1851/G.cpp",
+    "platform": "Codeforces",
+    "problem_index": "G",
+    "problem_name": "Vlad and the Mountains",
+    "problem_url": "https://codeforces.com/contest/1851/problem/G",
+    "submission_id": "CF215608136",
+    "submission_url": "https://codeforces.com/contest/1851/submission/215608136",
+    "tags": [
+      "binary search",
+      "data structures",
+      "dsu",
+      "graphs",
+      "implementation",
+      "sortings",
+      "trees",
+      "two pointers",
+      "*2000"
+    ],
+    "timestamp": "Jul/25/2023 18:33"
+  },
   "CF215629024": {
     "contest_id": 1851,
     "language": "C++20 (GCC 11-64)",
