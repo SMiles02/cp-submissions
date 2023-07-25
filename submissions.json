@@ -10167,6 +10167,24 @@
     ],
     "timestamp": "Jul/21/2023 17:59"
   },
+  "CF215512890": {
+    "contest_id": 1851,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1851/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Escalator Conversations",
+    "problem_url": "https://codeforces.com/contest/1851/problem/A",
+    "submission_id": "CF215512890",
+    "submission_url": "https://codeforces.com/contest/1851/submission/215512890",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Jul/25/2023 16:43"
+  },
   "CF215518166": {
     "contest_id": 1851,
     "language": "C++20 (GCC 11-64)",
