@@ -10167,6 +10167,26 @@
     ],
     "timestamp": "Jul/21/2023 17:59"
   },
+  "CF215917638": {
+    "contest_id": 1849,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1849/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Binary String Copying",
+    "problem_url": "https://codeforces.com/contest/1849/problem/C",
+    "submission_id": "CF215917638",
+    "submission_url": "https://codeforces.com/contest/1849/submission/215917638",
+    "tags": [
+      "binary search",
+      "brute force",
+      "data structures",
+      "hashing",
+      "strings",
+      "*1600"
+    ],
+    "timestamp": "Jul/27/2023 17:04"
+  },
   "CF215962303": {
     "contest_id": 1849,
     "language": "C++20 (GCC 11-64)",
