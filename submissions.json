@@ -10167,6 +10167,24 @@
     ],
     "timestamp": "Jul/21/2023 17:59"
   },
+  "CF217357486": {
+    "contest_id": 1856,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1856/E1.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E1",
+    "problem_name": "PermuTree (easy version)",
+    "problem_url": "https://codeforces.com/contest/1856/problem/E1",
+    "submission_id": "CF217357486",
+    "submission_url": "https://codeforces.com/contest/1856/submission/217357486",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "trees",
+      "*1800"
+    ],
+    "timestamp": "Aug/05/2023 19:29"
+  },
   "CF217357605": {
     "contest_id": 1856,
     "language": "C++20 (GCC 11-64)",

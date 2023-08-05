@@ -12,7 +12,11 @@ void dfs(int c) {
     dp[c][0] = 1;
     for (int i : e[c]) {
         dfs(i);
-        dp[c] |= dp[c] << sub[i];
+        for (int j = sub[c]; j >= 0; --j) {
+            if (dp[c][j]) {
+                dp[c][j + sub[i]] = 1;
+            }
+        }
         sub[c] += sub[i];
     }
     ll cur = 0;
