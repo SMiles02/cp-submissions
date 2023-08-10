@@ -10167,6 +10167,24 @@
     ],
     "timestamp": "Jul/21/2023 17:59"
   },
+  "CF218178133": {
+    "contest_id": 1857,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1857/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Maximum Rounding",
+    "problem_url": "https://codeforces.com/contest/1857/problem/B",
+    "submission_id": "CF218178133",
+    "submission_url": "https://codeforces.com/contest/1857/submission/218178133",
+    "tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Aug/10/2023 16:37"
+  },
   "CF218179220": {
     "contest_id": 1857,
     "language": "C++20 (GCC 11-64)",
