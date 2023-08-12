@@ -10167,6 +10167,25 @@
     ],
     "timestamp": "Jul/21/2023 17:59"
   },
+  "CF218550696": {
+    "contest_id": 1859,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1859/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Olya and Game with Arrays",
+    "problem_url": "https://codeforces.com/contest/1859/problem/B",
+    "submission_id": "CF218550696",
+    "submission_url": "https://codeforces.com/contest/1859/submission/218550696",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "sortings",
+      "*1000"
+    ],
+    "timestamp": "Aug/12/2023 17:39"
+  },
   "CF220294154": {
     "contest_id": 1862,
     "language": "C++20 (GCC 11-64)",
