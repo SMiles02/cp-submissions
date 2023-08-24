@@ -10167,6 +10167,24 @@
     ],
     "timestamp": "Jul/21/2023 17:59"
   },
+  "CF220323922": {
+    "contest_id": 1648,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1648/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Tyler and Strings",
+    "problem_url": "https://codeforces.com/contest/1648/problem/C",
+    "submission_id": "CF220323922",
+    "submission_url": "https://codeforces.com/contest/1648/submission/220323922",
+    "tags": [
+      "combinatorics",
+      "data structures",
+      "implementation",
+      "*1900"
+    ],
+    "timestamp": "Aug/25/2023 01:42"
+  },
   "CF220524633": {
     "contest_id": 1864,
     "language": "C++20 (GCC 11-64)",
