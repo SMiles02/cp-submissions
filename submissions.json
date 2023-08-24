@@ -10167,6 +10167,25 @@
     ],
     "timestamp": "Jul/21/2023 17:59"
   },
+  "CF220294154": {
+    "contest_id": 1862,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1862/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Magic Will Save the World",
+    "problem_url": "https://codeforces.com/contest/1862/problem/F",
+    "submission_id": "CF220294154",
+    "submission_url": "https://codeforces.com/contest/1862/submission/220294154",
+    "tags": [
+      "binary search",
+      "bitmasks",
+      "brute force",
+      "dp",
+      "*1800"
+    ],
+    "timestamp": "Aug/24/2023 19:15"
+  },
   "CF220321126": {
     "contest_id": 1648,
     "language": "C++20 (GCC 11-64)",
