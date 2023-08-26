@@ -1,4 +1,6 @@
 #include <bits/stdc++.h>
+#define ll long long
+#define sz(x) (int)(x).size()
 using namespace std;
 
 const int N = 3003;
@@ -23,13 +25,14 @@ void solve() {
         for (int j = 0; j < n; ++j) {
             cur ^= v[i][j][0] ^ v[i][j][1];
             if ((s[i][j] - '0') ^ cur) {
+                // cout << i << " " << j << "\n";
                 v[i][j][0] = v[i][j][0] ^ 1;
                 v[i][j + 1][1] = v[i][j + 1][1] ^ 1;
                 cur ^= 1;
                 ++ans;
             }
             v[i + 1][max(j - 1, 0)][0] = v[i + 1][max(j - 1, 0)][0] ^ v[i][j][0];
-            v[i + 1][j + 1][1] = v[i + 1][j + 1][1] ^ v[i][j][1];
+            v[i + 1][min(j + 1, n)][1] = v[i + 1][min(j + 1, n)][1] ^ v[i][j][1];
         }
     }
     cout << ans << "\n";
