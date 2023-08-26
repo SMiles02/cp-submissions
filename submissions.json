@@ -10167,6 +10167,25 @@
     ],
     "timestamp": "Jul/21/2023 17:59"
   },
+  "CF220524633": {
+    "contest_id": 1864,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1864/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Increasing and Decreasing",
+    "problem_url": "https://codeforces.com/contest/1864/problem/A",
+    "submission_id": "CF220524633",
+    "submission_url": "https://codeforces.com/contest/1864/submission/220524633",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Aug/26/2023 16:40"
+  },
   "CF220529060": {
     "contest_id": 1864,
     "language": "C++20 (GCC 11-64)",
