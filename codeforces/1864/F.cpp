@@ -3,18 +3,24 @@ using namespace std;
 
 namespace internal {
 
+// @param n `0 <= n`
+// @return minimum non-negative `x` s.t. `n <= 2**x`
 int ceil_pow2(int n) {
     int x = 0;
     while ((1U << x) < (unsigned int)(n)) x++;
     return x;
 }
 
+// @param n `1 <= n`
+// @return minimum non-negative `x` s.t. `(n & (1 << x)) != 0`
 constexpr int bsf_constexpr(unsigned int n) {
     int x = 0;
     while (!(n & (1 << x))) x++;
     return x;
 }
 
+// @param n `1 <= n`
+// @return minimum non-negative `x` s.t. `(n & (1 << x)) != 0`
 int bsf(unsigned int n) {
 #ifdef _MSC_VER
     unsigned long index;
@@ -25,7 +31,7 @@ int bsf(unsigned int n) {
 #endif
 }
 
-}
+}  // namespace internal
 
 template <class S, S (*op)(S, S), S (*e)()> struct segment_tree {
   public:
@@ -131,8 +137,11 @@ template <class S, S (*op)(S, S), S (*e)()> struct segment_tree {
     void update(int k) { d[k] = op(d[2 * k], d[2 * k + 1]); }
 };
 
-int op(int a, int b) { return max(a, b); }
-int e() { return 0; }
+const int INF = 1e9;
+int op1(int a, int b) { return max(a, b); }
+int e1() { return 0; }
+int op2(int a, int b) { return min(a, b); }
+int e2() { return INF; }
 
 struct BIT {
     int n, rtn;
@@ -153,8 +162,8 @@ int main() {
     cin >> n >> t;
     vector<int> a(n + 1), cnt(n + 1), ans(t);
     vector<vector<int>> v(n + 1);
-    vector<vector<array<int, 2>>> queries(n + 1);
-    segment_tree<int, op, e> seg(n + 1);
+    vector<vector<array<int, 2>>> queries(n + 1), updates(n + 1);
+    segment_tree<int, op1, e1> seg1(n + 1);
     BIT bit(n + 1);
     for (int i = 1; i <= n; ++i) {
         cin >> a[i];
@@ -166,15 +175,20 @@ int main() {
         queries[r].push_back({l, i});
     }
     for (int i = 1; i <= n; ++i) {
-        cnt[i] += cnt[i - 1];
         for (int j = 0; j < v[i].size(); ++j) {
             if (j > 0) {
-                bit.update(i, -1);
-                if (v[i][j - 1] + 1 != v[i][j] && seg.prod(v[i][j - 1] + 1, v[i][j]) != 0) {
-                    bit.update(seg.prod(v[i][j - 1] + 1, v[i][j]), 1);
+                updates[i].push_back({i, -1});
+                if (v[i][j - 1] + 1 != v[i][j] && seg1.prod(v[i][j - 1] + 1, v[i][j]) != 0) {
+                    updates[i].push_back({seg1.prod(v[i][j - 1] + 1, v[i][j]), 1});
                 }
             }
-            seg.set(v[i][j], i);
+            seg1.set(v[i][j], i);
+        }
+    }
+    for (int i = 1; i <= n; ++i) {
+        cnt[i] += cnt[i - 1];
+        for (auto [id, d] : updates[i]) {
+            bit.update(id, d);
         }
         for (auto [l, id] : queries[i]) {
             ans[id] = cnt[i] - cnt[l - 1] + bit.query(l, i);
