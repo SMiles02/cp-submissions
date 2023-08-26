@@ -58,7 +58,7 @@ void solve() {
     for (auto [x, y] : m) {
         query(0, 29, x, y, 0);
     }
-    cout << dv(ans, mul(n, n)) << "\n";
+    cout << dv(ans, (1LL * n * n) % MOD) << "\n";
 }
 
 int main() {

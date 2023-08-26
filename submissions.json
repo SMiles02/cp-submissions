@@ -10167,6 +10167,29 @@
     ],
     "timestamp": "Jul/21/2023 17:59"
   },
+  "CF220606421": {
+    "contest_id": 1864,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1864/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Guess Game",
+    "problem_url": "https://codeforces.com/contest/1864/problem/E",
+    "submission_id": "CF220606421",
+    "submission_url": "https://codeforces.com/contest/1864/submission/220606421",
+    "tags": [
+      "bitmasks",
+      "data structures",
+      "games",
+      "math",
+      "probabilities",
+      "sortings",
+      "strings",
+      "trees",
+      "*2100"
+    ],
+    "timestamp": "Aug/26/2023 21:45"
+  },
   "CF220610626": {
     "contest_id": 1864,
     "language": "C++20 (GCC 11-64)",
