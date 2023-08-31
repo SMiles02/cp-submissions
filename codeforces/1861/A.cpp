@@ -1,13 +1,36 @@
 #include <bits/stdc++.h>
+#define ll long long
+#define sz(x) (int)(x).size()
 using namespace std;
+// mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
+// uniform_int_distribution<int>(1000,10000)(rng)
+
+string to_upper(string a) {
+    for (int i=0;i<(int)a.size();++i) if (a[i]>='a' && a[i]<='z') a[i]-='a'-'A';
+    return a;
+}
+
+string to_lower(string a) {
+    for (int i=0;i<(int)a.size();++i) if (a[i]>='A' && a[i]<='Z') a[i]+='a'-'A';
+    return a;
+}
+
+bool is_prime(int x) {
+    for (int i = 2; i * i <= x; ++i) {
+        if (x % i == 0) {
+            return false;
+        }
+    }
+    cout << x << "\n";
+    return true;
+}
 
 void solve() {
     string s;
     cin >> s;
-    for (auto i : s) {
-        for (auto j : s) {
-            if ((i - '0') * (j - '0') == 21) {
-                cout << i << j << "\n";
+    for (int i = 0; i < s.size(); ++i) {
+        for (int j = i + 1; j < s.size(); ++j) {
+            if (is_prime((s[i] - '0') * 10 + (s[j] - '0'))) {
                 return;
             }
         }
