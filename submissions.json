@@ -1,4 +1,22 @@
 {
+  "CF222287481": {
+    "contest_id": 1872,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1872/G.cpp",
+    "platform": "Codeforces",
+    "problem_index": "G",
+    "problem_name": "Replace With Product",
+    "problem_url": "https://codeforces.com/contest/1872/problem/G",
+    "submission_id": "CF222287481",
+    "submission_url": "https://codeforces.com/contest/1872/submission/222287481",
+    "tags": [
+      "brute force",
+      "greedy",
+      "math",
+      "*2000"
+    ],
+    "timestamp": "Sep/07/2023 17:36"
+  },
   "CF222740608": {
     "contest_id": 1868,
     "language": "C++20 (GCC 11-64)",
