@@ -1,4 +1,24 @@
 {
+  "CF222263441": {
+    "contest_id": 1872,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1872/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Selling a Menagerie",
+    "problem_url": "https://codeforces.com/contest/1872/problem/F",
+    "submission_id": "CF222263441",
+    "submission_url": "https://codeforces.com/contest/1872/submission/222263441",
+    "tags": [
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "implementation",
+      "math",
+      "*1800"
+    ],
+    "timestamp": "Sep/07/2023 17:13"
+  },
   "CF222287481": {
     "contest_id": 1872,
     "language": "C++20 (GCC 11-64)",
