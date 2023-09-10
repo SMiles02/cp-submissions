@@ -1,4 +1,21 @@
 {
+  "CF222740608": {
+    "contest_id": 1868,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1868/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Fill in the Matrix",
+    "problem_url": "https://codeforces.com/contest/1868/problem/A",
+    "submission_id": "CF222740608",
+    "submission_url": "https://codeforces.com/contest/1868/submission/222740608",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Sep/10/2023 16:28"
+  },
   "CF222756950": {
     "contest_id": 1868,
     "language": "C++20 (GCC 11-64)",
