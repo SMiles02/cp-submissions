@@ -1,4 +1,24 @@
 {
+  "CF222840071": {
+    "contest_id": 1868,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1868/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Travel Plan",
+    "problem_url": "https://codeforces.com/contest/1868/problem/C",
+    "submission_id": "CF222840071",
+    "submission_url": "https://codeforces.com/contest/1868/submission/222840071",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "implementation",
+      "math",
+      "trees",
+      "*2400"
+    ],
+    "timestamp": "Sep/11/2023 02:46"
+  },
   "CF222841252": {
     "contest_id": 1868,
     "language": "C++20 (GCC 11-64)",
