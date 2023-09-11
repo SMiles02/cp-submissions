@@ -1,4 +1,24 @@
 {
+  "CF222930533": {
+    "contest_id": 1867,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1867/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Salyg1n and the MEX Game",
+    "problem_url": "https://codeforces.com/contest/1867/problem/C",
+    "submission_id": "CF222930533",
+    "submission_url": "https://codeforces.com/contest/1867/submission/222930533",
+    "tags": [
+      "constructive algorithms",
+      "data structures",
+      "games",
+      "greedy",
+      "interactive",
+      "*1300"
+    ],
+    "timestamp": "Sep/11/2023 16:59"
+  },
   "CF222945122": {
     "contest_id": 1867,
     "language": "C++20 (GCC 11-64)",
