@@ -2,7 +2,7 @@
 using namespace std;
 
 const int MOD = 998244353, N = 130, M = 1e5 + 2, K = 64;
-int cnt[N];
+int f[N], cnt[N];
 
 int add(int a, int b) {
     assert(a >= 0);
@@ -83,6 +83,7 @@ void solve() {
         int tot_sum = 1, ways = 1;
         for (int j = 1; j <= m; ++j) {
             cur[j] = mul(cur[j], j);
+            // cout << "moo 4" << endl;
             tot_sum = add(tot_sum, mul(j, sub(cur[j], ways)));
             ways = cur[j];
         }
