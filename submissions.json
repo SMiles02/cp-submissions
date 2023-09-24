@@ -1,4 +1,24 @@
 {
+  "CF224812793": {
+    "contest_id": 1601,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1601/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Optimal Insertion",
+    "problem_url": "https://codeforces.com/contest/1601/problem/C",
+    "submission_id": "CF224812793",
+    "submission_url": "https://codeforces.com/contest/1601/submission/224812793",
+    "tags": [
+      "data structures",
+      "divide and conquer",
+      "dp",
+      "greedy",
+      "sortings",
+      "*2300"
+    ],
+    "timestamp": "Sep/24/2023 02:03"
+  },
   "CF224880311": {
     "contest_id": 1879,
     "language": "C++20 (GCC 11-64)",
