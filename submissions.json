@@ -1,4 +1,24 @@
 {
+  "CF224916983": {
+    "contest_id": 1879,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1879/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Sum of XOR Functions",
+    "problem_url": "https://codeforces.com/contest/1879/problem/D",
+    "submission_id": "CF224916983",
+    "submission_url": "https://codeforces.com/contest/1879/submission/224916983",
+    "tags": [
+      "bitmasks",
+      "combinatorics",
+      "divide and conquer",
+      "dp",
+      "math",
+      "*1700"
+    ],
+    "timestamp": "Sep/24/2023 17:12"
+  },
   "CF225923877": {
     "contest_id": 1874,
     "language": "C++20 (GCC 11-64)",
