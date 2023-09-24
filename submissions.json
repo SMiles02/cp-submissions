@@ -1,4 +1,20 @@
 {
+  "CF224880311": {
+    "contest_id": 1879,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1879/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Rigged!",
+    "problem_url": "https://codeforces.com/contest/1879/problem/A",
+    "submission_id": "CF224880311",
+    "submission_url": "https://codeforces.com/contest/1879/submission/224880311",
+    "tags": [
+      "greedy",
+      "*800"
+    ],
+    "timestamp": "Sep/24/2023 16:37"
+  },
   "CF224886280": {
     "contest_id": 1879,
     "language": "C++20 (GCC 11-64)",
