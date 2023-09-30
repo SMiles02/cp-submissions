@@ -37,6 +37,11 @@ int main() {
         for (int j = 2; j <= i; ++j) {
             f[i][j] = (f[i - 2][j - 2] * (j - 2)) / i + (f[i - 2][j - 1] * (i - j)) / i;
         }
+        // cout << i << ": ";
+        // for (int j = 1; j <= i; ++j) {
+        //     cout << dp[i][j] << " ";
+        // }
+        // cout << "\n";
     }
     int t;
     cin >> t;
