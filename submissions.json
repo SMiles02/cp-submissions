@@ -1,4 +1,24 @@
 {
+  "CF226217779": {
+    "contest_id": 1874,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1874/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Jellyfish and EVA",
+    "problem_url": "https://codeforces.com/contest/1874/problem/C",
+    "submission_id": "CF226217779",
+    "submission_url": "https://codeforces.com/contest/1874/submission/226217779",
+    "tags": [
+      "dp",
+      "graphs",
+      "greedy",
+      "math",
+      "probabilities",
+      "*2300"
+    ],
+    "timestamp": "Oct/01/2023 22:40"
+  },
   "CF230207246": {
     "contest_id": 1889,
     "language": "C++20 (GCC 11-64)",
