@@ -1,4 +1,25 @@
 {
+  "CF231196013": {
+    "contest_id": 1895,
+    "language": "C++17 (GCC 9-64)",
+    "path": "codeforces/1895/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "XOR Construction",
+    "problem_url": "https://codeforces.com/contest/1895/problem/D",
+    "submission_id": "CF231196013",
+    "submission_url": "https://codeforces.com/contest/1895/submission/231196013",
+    "tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "data structures",
+      "math",
+      "string suffix structures",
+      "trees",
+      "*1900"
+    ],
+    "timestamp": "Nov/03/2023 17:16"
+  },
   "CF236791763": {
     "contest_id": 1910,
     "language": "Kotlin 1.7",
