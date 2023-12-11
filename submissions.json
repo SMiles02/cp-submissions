@@ -1,4 +1,21 @@
 {
+  "CF236791763": {
+    "contest_id": 1910,
+    "language": "Kotlin 1.7",
+    "path": "codeforces/1910/A..kt",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Username",
+    "problem_url": "https://codeforces.com/contest/1910/problem/A",
+    "submission_id": "CF236791763",
+    "submission_url": "https://codeforces.com/contest/1910/submission/236791763",
+    "tags": [
+      "*special problem",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Dec/11/2023 15:43"
+  },
   "CF238509116": {
     "contest_id": 1909,
     "language": "C++20 (GCC 11-64)",
