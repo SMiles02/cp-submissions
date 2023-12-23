@@ -1,4 +1,21 @@
 {
+  "CF238509116": {
+    "contest_id": 1909,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1909/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Distinct Buttons",
+    "problem_url": "https://codeforces.com/contest/1909/problem/A",
+    "submission_id": "CF238509116",
+    "submission_url": "https://codeforces.com/contest/1909/submission/238509116",
+    "tags": [
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Dec/23/2023 15:42"
+  },
   "CF238678731": {
     "contest_id": 1917,
     "language": "C++20 (GCC 11-64)",
