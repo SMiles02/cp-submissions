@@ -1,4 +1,24 @@
 {
+  "CF239690008": {
+    "contest_id": 1916,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1916/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Training Before the Olympiad",
+    "problem_url": "https://codeforces.com/contest/1916/problem/C",
+    "submission_id": "CF239690008",
+    "submission_url": "https://codeforces.com/contest/1916/submission/239690008",
+    "tags": [
+      "constructive algorithms",
+      "games",
+      "greedy",
+      "implementation",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Dec/30/2023 17:02"
+  },
   "CF239707603": {
     "contest_id": 1916,
     "language": "C++20 (GCC 11-64)",
