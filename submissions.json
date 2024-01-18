@@ -11356,6 +11356,26 @@
     ],
     "timestamp": "Jan/06/2024 15:36"
   },
+  "CF242327878": {
+    "contest_id": 1922,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1922/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Berserk Monsters",
+    "problem_url": "https://codeforces.com/contest/1922/problem/D",
+    "submission_id": "CF242327878",
+    "submission_url": "https://codeforces.com/contest/1922/submission/242327878",
+    "tags": [
+      "brute force",
+      "data structures",
+      "dsu",
+      "implementation",
+      "math",
+      "*1900"
+    ],
+    "timestamp": "Jan/18/2024 18:04"
+  },
   "CF242327885": {
     "contest_id": 1922,
     "language": "C++20 (GCC 11-64)",
