@@ -11356,6 +11356,23 @@
     ],
     "timestamp": "Jan/06/2024 15:36"
   },
+  "CF242364460": {
+    "contest_id": 1922,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1922/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Replace on Segment",
+    "problem_url": "https://codeforces.com/contest/1922/problem/F",
+    "submission_id": "CF242364460",
+    "submission_url": "https://codeforces.com/contest/1922/submission/242364460",
+    "tags": [
+      "dp",
+      "graph matchings",
+      "*2500"
+    ],
+    "timestamp": "Jan/19/2024 03:24"
+  },
   "CF242494969": {
     "contest_id": 1895,
     "language": "C++20 (GCC 11-64)",
