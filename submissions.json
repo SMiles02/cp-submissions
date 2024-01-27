@@ -11356,6 +11356,26 @@
     ],
     "timestamp": "Jan/06/2024 15:36"
   },
+  "CF243570732": {
+    "contest_id": 1924,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1924/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Did We Get Everything Covered?",
+    "problem_url": "https://codeforces.com/contest/1924/problem/A",
+    "submission_id": "CF243570732",
+    "submission_url": "https://codeforces.com/contest/1924/submission/243570732",
+    "tags": [
+      "constructive algorithms",
+      "dp",
+      "greedy",
+      "shortest paths",
+      "strings",
+      "*1500"
+    ],
+    "timestamp": "Jan/27/2024 15:57"
+  },
   "CF243619247": {
     "contest_id": 1924,
     "language": "C++20 (GCC 11-64)",
