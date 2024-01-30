@@ -11356,6 +11356,26 @@
     ],
     "timestamp": "Jan/06/2024 15:36"
   },
+  "CF244085512": {
+    "contest_id": 1918,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1918/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Minimize Inversions",
+    "problem_url": "https://codeforces.com/contest/1918/problem/B",
+    "submission_id": "CF244085512",
+    "submission_url": "https://codeforces.com/contest/1918/submission/244085512",
+    "tags": [
+      "constructive algorithms",
+      "data structures",
+      "greedy",
+      "implementation",
+      "sortings",
+      "*900"
+    ],
+    "timestamp": "Jan/30/2024 15:47"
+  },
   "CF244117920": {
     "contest_id": 1918,
     "language": "C++20 (GCC 11-64)",
