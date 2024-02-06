@@ -11356,6 +11356,29 @@
     ],
     "timestamp": "Jan/06/2024 15:36"
   },
+  "CF245176752": {
+    "contest_id": 1927,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1927/F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Microcycle",
+    "problem_url": "https://codeforces.com/contest/1927/problem/F",
+    "submission_id": "CF245176752",
+    "submission_url": "https://codeforces.com/contest/1927/submission/245176752",
+    "tags": [
+      "data structures",
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "greedy",
+      "implementation",
+      "sortings",
+      "trees",
+      "*1900"
+    ],
+    "timestamp": "Feb/06/2024 16:56"
+  },
   "CF246489309": {
     "contest_id": 1929,
     "language": "C++20 (GCC 11-64)",
