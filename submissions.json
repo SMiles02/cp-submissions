@@ -11356,6 +11356,25 @@
     ],
     "timestamp": "Jan/06/2024 15:36"
   },
+  "CF246489309": {
+    "contest_id": 1929,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1929/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Sasha and the Beautiful Array",
+    "problem_url": "https://codeforces.com/contest/1929/problem/A",
+    "submission_id": "CF246489309",
+    "submission_url": "https://codeforces.com/contest/1929/submission/246489309",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Feb/15/2024 15:35"
+  },
   "CF246501377": {
     "contest_id": 1929,
     "language": "C++20 (GCC 11-64)",
