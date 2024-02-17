@@ -11356,6 +11356,25 @@
     ],
     "timestamp": "Jan/06/2024 15:36"
   },
+  "CF246868279": {
+    "contest_id": 1930,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1930/D1.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D1",
+    "problem_name": "Sum over all Substrings (Easy Version)",
+    "problem_url": "https://codeforces.com/contest/1930/problem/D1",
+    "submission_id": "CF246868279",
+    "submission_url": "https://codeforces.com/contest/1930/submission/246868279",
+    "tags": [
+      "brute force",
+      "dp",
+      "greedy",
+      "strings",
+      "*1800"
+    ],
+    "timestamp": "Feb/17/2024 16:47"
+  },
   "CF246876886": {
     "contest_id": 1930,
     "language": "C++20 (GCC 11-64)",
