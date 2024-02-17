@@ -11356,6 +11356,24 @@
     ],
     "timestamp": "Jan/06/2024 15:36"
   },
+  "CF246847754": {
+    "contest_id": 1930,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1930/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Permutation Printing",
+    "problem_url": "https://codeforces.com/contest/1930/problem/B",
+    "submission_id": "CF246847754",
+    "submission_url": "https://codeforces.com/contest/1930/submission/246847754",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Feb/17/2024 16:02"
+  },
   "CF246866217": {
     "contest_id": 1930,
     "language": "C++20 (GCC 11-64)",
