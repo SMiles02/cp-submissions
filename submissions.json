@@ -11356,6 +11356,28 @@
     ],
     "timestamp": "Jan/06/2024 15:36"
   },
+  "CF246876886": {
+    "contest_id": 1930,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1930/D2.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D2",
+    "problem_name": "Sum over all Substrings (Hard Version)",
+    "problem_url": "https://codeforces.com/contest/1930/problem/D2",
+    "submission_id": "CF246876886",
+    "submission_url": "https://codeforces.com/contest/1930/submission/246876886",
+    "tags": [
+      "bitmasks",
+      "divide and conquer",
+      "dp",
+      "dsu",
+      "greedy",
+      "implementation",
+      "strings",
+      "*2100"
+    ],
+    "timestamp": "Feb/17/2024 17:14"
+  },
   "CF247895172": {
     "contest_id": 1923,
     "language": "C++20 (GCC 11-64)",
