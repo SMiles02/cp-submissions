@@ -11356,6 +11356,23 @@
     ],
     "timestamp": "Jan/06/2024 15:36"
   },
+  "CF247895172": {
+    "contest_id": 1923,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1923/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Moving Chips",
+    "problem_url": "https://codeforces.com/contest/1923/problem/A",
+    "submission_id": "CF247895172",
+    "submission_url": "https://codeforces.com/contest/1923/submission/247895172",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Feb/23/2024 15:39"
+  },
   "CF247900810": {
     "contest_id": 1923,
     "language": "C++20 (GCC 11-64)",
