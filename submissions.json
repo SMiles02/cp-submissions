@@ -11356,6 +11356,27 @@
     ],
     "timestamp": "Jan/06/2024 15:36"
   },
+  "CF247950988": {
+    "contest_id": 1923,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1923/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Count Paths",
+    "problem_url": "https://codeforces.com/contest/1923/problem/E",
+    "submission_id": "CF247950988",
+    "submission_url": "https://codeforces.com/contest/1923/submission/247950988",
+    "tags": [
+      "data structures",
+      "dfs and similar",
+      "dp",
+      "dsu",
+      "graphs",
+      "trees",
+      "*2000"
+    ],
+    "timestamp": "Feb/23/2024 16:49"
+  },
   "CF247969191": {
     "contest_id": 1923,
     "language": "C++20 (GCC 11-64)",
