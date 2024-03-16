@@ -10,23 +10,6 @@ int add(int a, int b) {
     return a;
 }
 
-int mul(int a, int b) { return (1LL * a * b) % MOD; }
-
-int binpow(int a, int b) {
-    int res = 1;
-    while (b > 0) {
-        if (b & 1) res = mul(res, a);
-        a = mul(a, a);
-        b >>= 1;
-    }
-    return res;
-}
-
-int dv(int a, int b) { return mul(a, binpow(b, MOD - 2)); }
-
-int sub(int a, int b) { return add(a, MOD - b); }
-
-
 void solve() {
     int n, k;
     cin >> n >> k >> MOD;
@@ -55,11 +38,8 @@ void solve() {
         for (int x = 0; x <= k + 1; ++x) {
             for (int y = 0; y <= k + 1; ++y) {
                 dp[0][x][y] = dp[1][x][y];
-                dp[1][x][y] = 0;
             }
         }
-        // cout << i << " !!!\n00: ";
-        // cout << dp[0][0][0] << "\n01: " << dp[0][1][0] << "\n10: " << dp[0][0][1] << "\n11: " << dp[0][1][1] << "\n";
     }
     int ans = 0;
     for (int i = 0; i <= k; ++i) {

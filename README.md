@@ -125,7 +125,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 814 | [B - Maximum Sum](https://codeforces.com/contest/1946/problem/B) | [C++17 (GCC 7-32)](./codeforces/1946/B.cpp) | `dp` `greedy` `math` `*1100` | Mar/22/2024 15:50 | 
 813 | [A - Median of an Array](https://codeforces.com/contest/1946/problem/A) | [C++17 (GCC 7-32)](./codeforces/1946/A.cpp) | `greedy` `implementation` `sortings` `*800` | Mar/22/2024 15:37 | 
 812 | [E - Tree Compass](https://codeforces.com/contest/1944/problem/E) | [C++17 (GCC 7-32)](./codeforces/1944/E.cpp) | `constructive algorithms` `dfs and similar` `greedy` `trees` `*2300` | Mar/16/2024 23:08 | 
-811 | [F1 - Counting Is Fun (Easy Version)](https://codeforces.com/contest/1944/problem/F1) | [C++17 (GCC 7-32)](./codeforces/1944/F1.cpp) | `combinatorics` `dp` `math` `*2400` | Mar/16/2024 17:49 | 
+811 | [F1 - Counting Is Fun (Easy Version)](https://codeforces.com/contest/1944/problem/F1) | [C++17 (GCC 7-32)](./codeforces/1944/F1.cpp) | `combinatorics` `dp` `math` `*2400` | Mar/16/2024 23:00 | 
 810 | [C - MEX Game 1](https://codeforces.com/contest/1944/problem/C) | [C++17 (GCC 7-32)](./codeforces/1944/C.cpp) | `constructive algorithms` `games` `greedy` `*1300` | Mar/16/2024 16:35 | 
 809 | [B - Equal XOR](https://codeforces.com/contest/1944/problem/B) | [C++17 (GCC 7-32)](./codeforces/1944/B.cpp) | `bitmasks` `constructive algorithms` `*1100` | Mar/16/2024 15:47 | 
 808 | [A - Destroying Bridges](https://codeforces.com/contest/1944/problem/A) | [C++17 (GCC 7-32)](./codeforces/1944/A.cpp) | `graphs` `greedy` `math` `*800` | Mar/16/2024 15:38 | 
