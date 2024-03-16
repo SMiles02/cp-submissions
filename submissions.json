@@ -1,4 +1,22 @@
 {
+  "CF251788577": {
+    "contest_id": 1944,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces/1944/F1.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F1",
+    "problem_name": "Counting Is Fun (Easy Version)",
+    "problem_url": "https://codeforces.com/contest/1944/problem/F1",
+    "submission_id": "CF251788577",
+    "submission_url": "https://codeforces.com/contest/1944/submission/251788577",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "math",
+      "*2400"
+    ],
+    "timestamp": "Mar/16/2024 17:49"
+  },
   "CF259278902": {
     "contest_id": 1237,
     "language": "C++20 (GCC 13-64)",
