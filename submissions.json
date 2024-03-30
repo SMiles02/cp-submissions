@@ -11557,6 +11557,23 @@
     ],
     "timestamp": "Mar/16/2024 17:49"
   },
+  "CF254126151": {
+    "contest_id": 1942,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces/1942/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Bessie and MEX",
+    "problem_url": "https://codeforces.com/contest/1942/problem/B",
+    "submission_id": "CF254126151",
+    "submission_url": "https://codeforces.com/contest/1942/submission/254126151",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Mar/30/2024 15:45"
+  },
   "CF254140932": {
     "contest_id": 1942,
     "language": "C++17 (GCC 7-32)",
