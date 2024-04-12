@@ -11557,6 +11557,25 @@
     ],
     "timestamp": "Mar/16/2024 17:49"
   },
+  "CF256292073": {
+    "contest_id": 1954,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces/1954/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Colored Balls",
+    "problem_url": "https://codeforces.com/contest/1954/problem/D",
+    "submission_id": "CF256292073",
+    "submission_url": "https://codeforces.com/contest/1954/submission/256292073",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "math",
+      "sortings",
+      "*1800"
+    ],
+    "timestamp": "Apr/12/2024 17:06"
+  },
   "CF256472473": {
     "contest_id": 1956,
     "language": "C++17 (GCC 7-32)",
