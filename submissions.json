@@ -11557,6 +11557,25 @@
     ],
     "timestamp": "Mar/16/2024 17:49"
   },
+  "CF258732873": {
+    "contest_id": 1969,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/1969/D..cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Shop Game",
+    "problem_url": "https://codeforces.com/contest/1969/problem/D",
+    "submission_id": "CF258732873",
+    "submission_url": "https://codeforces.com/contest/1969/submission/258732873",
+    "tags": [
+      "data structures",
+      "greedy",
+      "math",
+      "sortings",
+      "*1900"
+    ],
+    "timestamp": "Apr/29/2024 17:18"
+  },
   "CF258794197": {
     "contest_id": 1621,
     "language": "C++20 (GCC 13-64)",
