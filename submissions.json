@@ -11557,6 +11557,23 @@
     ],
     "timestamp": "Mar/16/2024 17:49"
   },
+  "CF258710789": {
+    "contest_id": 1969,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/1969/B..cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Shifts and Sorting",
+    "problem_url": "https://codeforces.com/contest/1969/problem/B",
+    "submission_id": "CF258710789",
+    "submission_url": "https://codeforces.com/contest/1969/submission/258710789",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*1000"
+    ],
+    "timestamp": "Apr/29/2024 16:44"
+  },
   "CF258718210": {
     "contest_id": 1969,
     "language": "C++20 (GCC 13-64)",
