@@ -11557,6 +11557,23 @@
     ],
     "timestamp": "Mar/16/2024 17:49"
   },
+  "CF258718210": {
+    "contest_id": 1969,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/1969/C..cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Minimizing the Sum",
+    "problem_url": "https://codeforces.com/contest/1969/problem/C",
+    "submission_id": "CF258718210",
+    "submission_url": "https://codeforces.com/contest/1969/submission/258718210",
+    "tags": [
+      "dp",
+      "implementation",
+      "*1700"
+    ],
+    "timestamp": "Apr/29/2024 16:53"
+  },
   "CF258732873": {
     "contest_id": 1969,
     "language": "C++20 (GCC 13-64)",
