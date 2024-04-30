@@ -11557,6 +11557,26 @@
     ],
     "timestamp": "Mar/16/2024 17:49"
   },
+  "CF258874407": {
+    "contest_id": 1967,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/1967/A..cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Permutation Counting",
+    "problem_url": "https://codeforces.com/contest/1967/problem/A",
+    "submission_id": "CF258874407",
+    "submission_url": "https://codeforces.com/contest/1967/submission/258874407",
+    "tags": [
+      "binary search",
+      "greedy",
+      "implementation",
+      "math",
+      "sortings",
+      "*1400"
+    ],
+    "timestamp": "Apr/30/2024 16:50"
+  },
   "CF258885770": {
     "contest_id": 1967,
     "language": "C++20 (GCC 13-64)",
