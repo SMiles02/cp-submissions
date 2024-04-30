@@ -11557,6 +11557,24 @@
     ],
     "timestamp": "Mar/16/2024 17:49"
   },
+  "CF258942588": {
+    "contest_id": 1967,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/1967/B2..cpp",
+    "platform": "Codeforces",
+    "problem_index": "B2",
+    "problem_name": "Reverse Card (Hard Version)",
+    "problem_url": "https://codeforces.com/contest/1967/problem/B2",
+    "submission_id": "CF258942588",
+    "submission_url": "https://codeforces.com/contest/1967/submission/258942588",
+    "tags": [
+      "brute force",
+      "math",
+      "number theory",
+      "*2200"
+    ],
+    "timestamp": "Apr/30/2024 23:38"
+  },
   "CF259018697": {
     "contest_id": 675,
     "language": "C++20 (GCC 13-64)",
