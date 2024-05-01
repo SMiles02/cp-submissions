@@ -11557,6 +11557,27 @@
     ],
     "timestamp": "Mar/16/2024 17:49"
   },
+  "CF259063070": {
+    "contest_id": 1827,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/1827/B1..cpp",
+    "platform": "Codeforces",
+    "problem_index": "B1",
+    "problem_name": "Range Sorting (Easy Version)",
+    "problem_url": "https://codeforces.com/contest/1827/problem/B1",
+    "submission_id": "CF259063070",
+    "submission_url": "https://codeforces.com/contest/1827/submission/259063070",
+    "tags": [
+      "binary search",
+      "dp",
+      "dsu",
+      "greedy",
+      "trees",
+      "two pointers",
+      "*2000"
+    ],
+    "timestamp": "May/02/2024 00:18"
+  },
   "CF259063265": {
     "contest_id": 1827,
     "language": "C++20 (GCC 13-64)",
