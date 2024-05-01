@@ -11557,6 +11557,25 @@
     ],
     "timestamp": "Mar/16/2024 17:49"
   },
+  "CF259063265": {
+    "contest_id": 1827,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/1827/B2..cpp",
+    "platform": "Codeforces",
+    "problem_index": "B2",
+    "problem_name": "Range Sorting (Hard Version)",
+    "problem_url": "https://codeforces.com/contest/1827/problem/B2",
+    "submission_id": "CF259063265",
+    "submission_url": "https://codeforces.com/contest/1827/submission/259063265",
+    "tags": [
+      "binary search",
+      "data structures",
+      "dp",
+      "greedy",
+      "*2400"
+    ],
+    "timestamp": "May/02/2024 00:22"
+  },
   "CF259134014": {
     "contest_id": 1968,
     "language": "C++20 (GCC 13-64)",
