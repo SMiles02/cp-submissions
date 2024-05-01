@@ -11557,6 +11557,24 @@
     ],
     "timestamp": "Mar/16/2024 17:49"
   },
+  "CF259053277": {
+    "contest_id": 675,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/675/E..cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Trains and Statistic",
+    "problem_url": "https://codeforces.com/contest/675/problem/E",
+    "submission_id": "CF259053277",
+    "submission_url": "https://codeforces.com/contest/675/submission/259053277",
+    "tags": [
+      "data structures",
+      "dp",
+      "greedy",
+      "*2300"
+    ],
+    "timestamp": "May/01/2024 21:54"
+  },
   "CF259063070": {
     "contest_id": 1827,
     "language": "C++20 (GCC 13-64)",
