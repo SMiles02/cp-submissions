@@ -11557,6 +11557,24 @@
     ],
     "timestamp": "Mar/16/2024 17:49"
   },
+  "CF259134014": {
+    "contest_id": 1968,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/1968/A..cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Maximize?",
+    "problem_url": "https://codeforces.com/contest/1968/problem/A",
+    "submission_id": "CF259134014",
+    "submission_url": "https://codeforces.com/contest/1968/submission/259134014",
+    "tags": [
+      "brute force",
+      "math",
+      "number theory",
+      "*800"
+    ],
+    "timestamp": "May/02/2024 16:46"
+  },
   "CF259139222": {
     "contest_id": 1968,
     "language": "C++20 (GCC 13-64)",
