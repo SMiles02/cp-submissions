@@ -11557,6 +11557,23 @@
     ],
     "timestamp": "Mar/16/2024 17:49"
   },
+  "CF259197227": {
+    "contest_id": 1968,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/1968/F..cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Equal XOR Segments",
+    "problem_url": "https://codeforces.com/contest/1968/problem/F",
+    "submission_id": "CF259197227",
+    "submission_url": "https://codeforces.com/contest/1968/submission/259197227",
+    "tags": [
+      "binary search",
+      "data structures",
+      "*1800"
+    ],
+    "timestamp": "May/02/2024 17:41"
+  },
   "CF259204208": {
     "contest_id": 1968,
     "language": "C++20 (GCC 13-64)",
