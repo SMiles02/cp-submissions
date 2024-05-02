@@ -11557,6 +11557,23 @@
     ],
     "timestamp": "Mar/16/2024 17:49"
   },
+  "CF259144604": {
+    "contest_id": 1968,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/1968/C..cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Assembly via Remainders",
+    "problem_url": "https://codeforces.com/contest/1968/problem/C",
+    "submission_id": "CF259144604",
+    "submission_url": "https://codeforces.com/contest/1968/submission/259144604",
+    "tags": [
+      "constructive algorithms",
+      "number theory",
+      "*1000"
+    ],
+    "timestamp": "May/02/2024 16:52"
+  },
   "CF259157863": {
     "contest_id": 1968,
     "language": "C++20 (GCC 13-64)",
