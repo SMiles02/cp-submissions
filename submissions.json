@@ -11557,6 +11557,27 @@
     ],
     "timestamp": "Mar/16/2024 17:49"
   },
+  "CF259204208": {
+    "contest_id": 1968,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/1968/G1..cpp",
+    "platform": "Codeforces",
+    "problem_index": "G1",
+    "problem_name": "Division + LCP (easy version)",
+    "problem_url": "https://codeforces.com/contest/1968/problem/G1",
+    "submission_id": "CF259204208",
+    "submission_url": "https://codeforces.com/contest/1968/submission/259204208",
+    "tags": [
+      "binary search",
+      "data structures",
+      "dp",
+      "hashing",
+      "string suffix structures",
+      "strings",
+      "*1900"
+    ],
+    "timestamp": "May/02/2024 17:50"
+  },
   "CF259246575": {
     "contest_id": 1968,
     "language": "C++20 (GCC 13-64)",
