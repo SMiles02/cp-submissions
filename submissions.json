@@ -11557,6 +11557,29 @@
     ],
     "timestamp": "Mar/16/2024 17:49"
   },
+  "CF259246575": {
+    "contest_id": 1968,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/1968/G2..cpp",
+    "platform": "Codeforces",
+    "problem_index": "G2",
+    "problem_name": "Division + LCP (hard version)",
+    "problem_url": "https://codeforces.com/contest/1968/problem/G2",
+    "submission_id": "CF259246575",
+    "submission_url": "https://codeforces.com/contest/1968/submission/259246575",
+    "tags": [
+      "binary search",
+      "brute force",
+      "data structures",
+      "dp",
+      "hashing",
+      "math",
+      "string suffix structures",
+      "strings",
+      "*2200"
+    ],
+    "timestamp": "May/02/2024 18:59"
+  },
   "CF259270535": {
     "contest_id": 1108,
     "language": "C++20 (GCC 13-64)",
