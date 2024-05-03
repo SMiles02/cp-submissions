@@ -1,4 +1,21 @@
 {
+  "CF259427969": {
+    "contest_id": 198,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/198/A..cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "About Bacteria",
+    "problem_url": "https://codeforces.com/contest/198/problem/A",
+    "submission_id": "CF259427969",
+    "submission_url": "https://codeforces.com/contest/198/submission/259427969",
+    "tags": [
+      "implementation",
+      "math",
+      "*1700"
+    ],
+    "timestamp": "May/04/2024 00:54"
+  },
   "CF259508713": {
     "contest_id": 1970,
     "language": "C++20 (GCC 13-64)",
