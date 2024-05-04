@@ -1,4 +1,24 @@
 {
+  "CF259508713": {
+    "contest_id": 1970,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/1970/G3..cpp",
+    "platform": "Codeforces",
+    "problem_index": "G3",
+    "problem_name": "Min-Fund Prison (Hard)",
+    "problem_url": "https://codeforces.com/contest/1970/problem/G3",
+    "submission_id": "CF259508713",
+    "submission_url": "https://codeforces.com/contest/1970/submission/259508713",
+    "tags": [
+      "bitmasks",
+      "dfs and similar",
+      "dp",
+      "graphs",
+      "trees",
+      "*2400"
+    ],
+    "timestamp": "May/04/2024 14:37"
+  },
   "CF259567474": {
     "contest_id": 321,
     "language": "C++20 (GCC 13-64)",
