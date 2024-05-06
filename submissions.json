@@ -1,4 +1,20 @@
 {
+  "CF259782330": {
+    "contest_id": 784,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/784/G..cpp",
+    "platform": "Codeforces",
+    "problem_index": "G",
+    "problem_name": "BF Calculator",
+    "problem_url": "https://codeforces.com/contest/784/problem/G",
+    "submission_id": "CF259782330",
+    "submission_url": "https://codeforces.com/contest/784/submission/259782330",
+    "tags": [
+      "*special problem",
+      "*2000"
+    ],
+    "timestamp": "May/06/2024 19:02"
+  },
   "CF260000161": {
     "contest_id": 1486,
     "language": "C++20 (GCC 13-64)",
