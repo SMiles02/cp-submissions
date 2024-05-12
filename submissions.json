@@ -1,4 +1,24 @@
 {
+  "CF260598999": {
+    "contest_id": 963,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/963/B..cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Destruction of a Tree",
+    "problem_url": "https://codeforces.com/contest/963/problem/B",
+    "submission_id": "CF260598999",
+    "submission_url": "https://codeforces.com/contest/963/submission/260598999",
+    "tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "dp",
+      "greedy",
+      "trees",
+      "*2000"
+    ],
+    "timestamp": "May/12/2024 04:23"
+  },
   "CF260815114": {
     "contest_id": 1958,
     "language": "Kotlin 1.7",
