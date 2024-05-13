@@ -1,4 +1,20 @@
 {
+  "CF260817394": {
+    "contest_id": 1958,
+    "language": "Kotlin 1.7",
+    "path": "codeforces/1958/C..kt",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Firewood",
+    "problem_url": "https://codeforces.com/contest/1958/problem/C",
+    "submission_id": "CF260817394",
+    "submission_url": "https://codeforces.com/contest/1958/submission/260817394",
+    "tags": [
+      "*special problem",
+      "*1500"
+    ],
+    "timestamp": "May/13/2024 16:54"
+  },
   "CF260821699": {
     "contest_id": 1958,
     "language": "Kotlin 1.7",
