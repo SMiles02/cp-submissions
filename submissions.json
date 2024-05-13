@@ -1,4 +1,20 @@
 {
+  "CF260821699": {
+    "contest_id": 1958,
+    "language": "Kotlin 1.7",
+    "path": "codeforces/1958/D..kt",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Staircase",
+    "problem_url": "https://codeforces.com/contest/1958/problem/D",
+    "submission_id": "CF260821699",
+    "submission_url": "https://codeforces.com/contest/1958/submission/260821699",
+    "tags": [
+      "*special problem",
+      "*1600"
+    ],
+    "timestamp": "May/13/2024 17:22"
+  },
   "CF260860650": {
     "contest_id": 1213,
     "language": "C++20 (GCC 13-64)",
