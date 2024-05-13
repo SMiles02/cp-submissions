@@ -1,4 +1,21 @@
 {
+  "CF260815114": {
+    "contest_id": 1958,
+    "language": "Kotlin 1.7",
+    "path": "codeforces/1958/A..kt",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "1-3-5",
+    "problem_url": "https://codeforces.com/contest/1958/problem/A",
+    "submission_id": "CF260815114",
+    "submission_url": "https://codeforces.com/contest/1958/submission/260815114",
+    "tags": [
+      "*special problem",
+      "dp",
+      "*1100"
+    ],
+    "timestamp": "May/13/2024 16:41"
+  },
   "CF260815735": {
     "contest_id": 1958,
     "language": "Kotlin 1.7",
