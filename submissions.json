@@ -1,4 +1,21 @@
 {
+  "CF260815735": {
+    "contest_id": 1958,
+    "language": "Kotlin 1.7",
+    "path": "codeforces/1958/B..kt",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Clock in the Pool",
+    "problem_url": "https://codeforces.com/contest/1958/problem/B",
+    "submission_id": "CF260815735",
+    "submission_url": "https://codeforces.com/contest/1958/submission/260815735",
+    "tags": [
+      "*special problem",
+      "math",
+      "*1400"
+    ],
+    "timestamp": "May/13/2024 16:44"
+  },
   "CF260817394": {
     "contest_id": 1958,
     "language": "Kotlin 1.7",
