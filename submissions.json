@@ -1,4 +1,22 @@
 {
+  "CF260865467": {
+    "contest_id": 498,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/498/C..cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Array and Operations",
+    "problem_url": "https://codeforces.com/contest/498/problem/C",
+    "submission_id": "CF260865467",
+    "submission_url": "https://codeforces.com/contest/498/submission/260865467",
+    "tags": [
+      "flows",
+      "graph matchings",
+      "number theory",
+      "*2100"
+    ],
+    "timestamp": "May/14/2024 03:18"
+  },
   "CF261074595": {
     "contest_id": 281,
     "language": "C++20 (GCC 13-64)",
