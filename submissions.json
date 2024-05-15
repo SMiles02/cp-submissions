@@ -1,4 +1,22 @@
 {
+  "CF261074595": {
+    "contest_id": 281,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/281/B..cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Nearest Fraction",
+    "problem_url": "https://codeforces.com/contest/281/problem/B",
+    "submission_id": "CF261074595",
+    "submission_url": "https://codeforces.com/contest/281/submission/261074595",
+    "tags": [
+      "brute force",
+      "implementation",
+      "two pointers",
+      "*1700"
+    ],
+    "timestamp": "May/15/2024 17:24"
+  },
   "CF261345158": {
     "contest_id": 1973,
     "language": "C++20 (GCC 13-64)",
