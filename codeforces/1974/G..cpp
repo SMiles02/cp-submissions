@@ -5,6 +5,7 @@ void solve() {
     int n, x, k, cur = 0;
     cin >> n >> x;
     priority_queue<int> pq;
+    pq.push(0);
     while (n--) {
         cin >> k;
         if (cur >= k) {
@@ -18,7 +19,7 @@ void solve() {
         }
         cur += x;
     }
-    cout << pq.size() << "\n";
+    cout << pq.size() - 1 << "\n";
 }
 
 int main() {
