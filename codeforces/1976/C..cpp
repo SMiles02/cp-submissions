@@ -16,7 +16,7 @@ string to_lower(string a) {
 }
 
 void solve() {
-    int n, m, x = 0, cnt = 0, last = 0;
+    int n, m, x = 0, y = 0, cnt = 0, last = 0;
     cin >> n >> m;
     ll tot = 0;
     vector<int> a(n + m + 1), b(n + m + 1);
@@ -27,27 +27,46 @@ void solve() {
     for (int i = 0; i < n + m + 1; ++i) {
         cin >> b[i];
         x += a[i] > b[i];
+        y += a[i] < b[i];
     }
-    if (x <= n) {
-        swap(a, b);
-        swap(n, m);
+    if (x > n) {
+        for (int i = 0; i < n + m + 1; ++i) {
+            if (a[i] > b[i] && cnt < n + 1) {
+                ++cnt;
+                last = i;
+                tot += a[i];
+            }
+            else {
+                tot += b[i];
+            }
+        }
+        for (int i = 0; i < n + m + 1; ++i) {
+            if (a[i] > b[i] && i <= last) {
+                ans[i] = tot - a[i];
+            }
+            else {
+                ans[i] = tot - b[i] + b[last] - a[last];
+            }
+        }
     }
-    for (int i = 0; i < n + m + 1; ++i) {
-        if (a[i] > b[i] && cnt < n + 1) {
-            ++cnt;
-            last = i;
-            tot += a[i];
+    else {
+        for (int i = 0; i < n + m + 1; ++i) {
+            if (b[i] > a[i] && cnt < m + 1) {
+                ++cnt;
+                last = i;
+                tot += b[i];
+            }
+            else {
+                tot += a[i];
+            }
         }
-        else {
-            tot += b[i];
-        }
-    }
-    for (int i = 0; i < n + m + 1; ++i) {
-        if (a[i] > b[i] && i <= last) {
-            ans[i] = tot - a[i];
-        }
-        else {
-            ans[i] = tot - b[i] + b[last] - a[last];
+        for (int i = 0; i < n + m + 1; ++i) {
+            if (b[i] > a[i] && i <= last) {
+                ans[i] = tot - b[i];
+            }
+            else {
+                ans[i] = tot - a[i] + a[last] - b[last];
+            }
         }
     }
     for (auto i : ans) {

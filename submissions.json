@@ -1,4 +1,24 @@
 {
+  "CF263294935": {
+    "contest_id": 1976,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/1976/C..cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Job Interview",
+    "problem_url": "https://codeforces.com/contest/1976/problem/C",
+    "submission_id": "CF263294935",
+    "submission_url": "https://codeforces.com/contest/1976/submission/263294935",
+    "tags": [
+      "binary search",
+      "dp",
+      "greedy",
+      "implementation",
+      "two pointers",
+      "*1600"
+    ],
+    "timestamp": "May/30/2024 16:58"
+  },
   "CF263299049": {
     "contest_id": 1976,
     "language": "C++20 (GCC 13-64)",
