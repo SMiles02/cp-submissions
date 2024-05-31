@@ -1,4 +1,25 @@
 {
+  "CF263464492": {
+    "contest_id": 1981,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/1981/C..cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Turtle and an Incomplete Sequence",
+    "problem_url": "https://codeforces.com/contest/1981/problem/C",
+    "submission_id": "CF263464492",
+    "submission_url": "https://codeforces.com/contest/1981/submission/263464492",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "math",
+      "*1800"
+    ],
+    "timestamp": "May/31/2024 12:41"
+  },
   "CF263492054": {
     "contest_id": 1981,
     "language": "C++20 (GCC 13-64)",
