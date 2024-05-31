@@ -1,58 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-struct euler_path {
-    int n;
-    vector<vector<bool>> edge;
-    euler_path(int n) : n(n), edge(n + 1, vector<bool>(n + 1)) {}
-    void add_edge(int x, int y) {
-        edge[x][y] = edge[y][x] = true;
-    }
-    void cycle(deque<int>& d) {
-        d.push_front(d.back());
-        d.pop_back();
-    }
-    deque<int> find_path(int src = 1) {
-        int not_done = 0;
-        deque<int> d = {-1, src};
-        vector<int> s(n + 1);
-        vector<vector<bool>> e = edge;
-        for (int i = 0; i <= n; ++i) {
-            bool has_edges = false;
-            for (int j = 0; j <= n; ++j) {
-                has_edges |= e[i][j];
-            }
-            not_done += has_edges;
-        }
-        while (not_done > 0) {
-            int x = d.back();
-            if (x == -1) {
-                cycle(d);
-            }
-            while (s[x] <= n && !e[x][s[x]]) {
-                ++s[x];
-                if (s[x] > n) {
-                    --not_done;
-                }
-            }
-            if (s[x] > n) {
-                cycle(d);
-            }
-            else {
-                e[x][s[x]] = e[s[x]][x] = false;
-                d.push_back(s[x]);
-            }
-        }
-        while (d[0] != -1) {
-            cycle(d);
-        }
-        d.pop_front();
-        return d;
-    }
-};
-
-const int S = 12600;
+const int S = 12600, N = 1504;
 bitset<S> sieve;
+bitset<N> e[N];
 vector<int> primes;
 
 int f(int n) {
@@ -80,18 +31,40 @@ void solve() {
         }
     }
     m = l;
-    euler_path graph(m);
     for (int i = 0; i < m; ++i) {
         for (int j = 0; j < m; ++j) {
-            if (m % 2 == 0 && i > 1 && ((i + 1 == j && i % 2 == 0) || (i - 1 == j && i % 2 == 1))) {
-                continue;
-            }
-            graph.add_edge(i, j);
+            e[i][j] = 1;
+        }
+        if (m % 2 == 0 && i % 2 == 1 && i > 1) {
+            e[i][i - 1] = e[i - 1][i] = 0;
         }
     }
-    deque<int> path = graph.find_path(0);
-    for (int i = 0; i < n; ++i) {
-        cout << primes[path[i]] << " ";
+    deque<int> d = {-1, 0};
+    vector<int> s(m);
+    while (done < m) {
+        int x = d.back();
+        if (x == -1) {
+            cycle(d);
+        }
+        while (s[x] < m && !e[x][s[x]]) {
+            ++s[x];
+            if (s[x] == m) {
+                ++done;
+            }
+        }
+        if (s[x] == m) {
+            cycle(d);
+        }
+        else {
+            e[x][s[x]] = e[s[x]][x] = 0;
+            d.push_back(s[x]);
+        }
+    }
+    while (d[0] != -1) {
+        cycle(d);
+    }
+    for (int i = 1; i <= n; ++i) {
+        cout << primes[d[i]] << " ";
     }
     cout << "\n";
 }
