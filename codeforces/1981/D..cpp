@@ -1,4 +1,6 @@
 #include <bits/stdc++.h>
+#define ll long long
+#define sz(x) (int)(x).size()
 using namespace std;
 
 const int S = 12600, N = 1504;
@@ -21,6 +23,10 @@ void cycle(deque<int>& d) {
 void solve() {
     int n, l = 1, r = primes.size(), m, done = 0;
     cin >> n;
+    if (n == 2) {
+        cout << "43770 43770\n";
+        return;
+    }
     while (l < r) {
         m = l + (r - l) / 2;
         if (f(m) < n) {
@@ -46,6 +52,7 @@ void solve() {
         if (x == -1) {
             cycle(d);
         }
+        // cerr << x << endl;
         while (s[x] < m && !e[x][s[x]]) {
             ++s[x];
             if (s[x] == m) {
@@ -58,6 +65,7 @@ void solve() {
         else {
             e[x][s[x]] = e[s[x]][x] = 0;
             d.push_back(s[x]);
+            // cerr << x << " " << s[x] << endl;
         }
     }
     while (d[0] != -1) {
