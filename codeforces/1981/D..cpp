@@ -2,72 +2,45 @@
 using namespace std;
 
 struct euler_path {
-    int n, edge_count;
-    vector<vector<array<int, 2>>> edges;
-    euler_path(int n) : n(n), edge_count(0), edges(n + 1) {}
+    int n;
+    vector<vector<bool>> edge;
+    euler_path(int n) : n(n), edge(n + 1, vector<bool>(n + 1)) {}
     void add_edge(int x, int y) {
-        // cerr << x << " " << y << " " << edge_count << " !\n";
-        edges[x].push_back({y, edge_count});
-        edges[y].push_back({x, edge_count++});
+        edge[x][y] = edge[y][x] = true;
     }
     void cycle(deque<int>& d) {
         d.push_front(d.back());
         d.pop_back();
     }
-    // int is_solvable() {
-    //     // assumes all edges are part of a single component
-    //     int odd_deg = 0;
-    //     vector<int> deg(n + 1);
-    //     for (int i = 0; i <= n; ++i) {
-    //         for (int j = 0; j <= n; ++j) {
-    //             if (i != j) {
-    //                 deg[i] += edge[i][j];
-    //             }
-    //         }
-    //         odd_deg += deg[i] & 1;
-    //     }
-    //     if (odd_deg != 0 && odd_deg != 2) {
-    //         return -1;
-    //     }
-    //     for (int i = 0; i <= n; ++i) {
-    //         if (deg[i] & 1) {
-    //             return i;
-    //         }
-    //     }
-    //     for (int i = 0; i <= n; ++i) {
-    //         if (deg[i] > 0) {
-    //             return i;
-    //         }
-    //     }
-    //     return 0;
-    // }
     deque<int> find_path(int src = 1) {
         int not_done = 0;
         deque<int> d = {-1, src};
         vector<int> s(n + 1);
-        vector<bool> done_edge(edge_count);
+        vector<vector<bool>> e = edge;
         for (int i = 0; i <= n; ++i) {
-            not_done += !edges[i].empty();
+            bool has_edges = false;
+            for (int j = 0; j <= n; ++j) {
+                has_edges |= e[i][j];
+            }
+            not_done += has_edges;
         }
         while (not_done > 0) {
             int x = d.back();
             if (x == -1) {
                 cycle(d);
             }
-            while (s[x] < edges[x].size() && done_edge[edges[x][s[x]][1]]) {
-                // cout << edges[x][s[x]][1] << " done\n";
-                if (++s[x] == edges[x].size()) {
+            while (s[x] <= n && !e[x][s[x]]) {
+                ++s[x];
+                if (s[x] > n) {
                     --not_done;
                 }
             }
-            if (s[x] == edges[x].size()) {
+            if (s[x] > n) {
                 cycle(d);
             }
             else {
-                // cout << edges[x][s[x]][1] << " undone\n";
-                // cout << x << " -> " << edges[x][s[x]][0] << "\n";
-                done_edge[edges[x][s[x]][1]] = true;
-                d.push_back(edges[x][s[x]][0]);
+                e[x][s[x]] = e[s[x]][x] = false;
+                d.push_back(s[x]);
             }
         }
         while (d[0] != -1) {
@@ -109,8 +82,8 @@ void solve() {
     m = l;
     euler_path graph(m);
     for (int i = 0; i < m; ++i) {
-        for (int j = i; j < m; ++j) {
-            if (m % 2 == 0 && i > 1 && i + 1 == j && i % 2 == 0) {
+        for (int j = 0; j < m; ++j) {
+            if (m % 2 == 0 && i > 1 && ((i + 1 == j && i % 2 == 0) || (i - 1 == j && i % 2 == 1))) {
                 continue;
             }
             graph.add_edge(i, j);
