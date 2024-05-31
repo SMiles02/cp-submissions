@@ -1,4 +1,21 @@
 {
+  "CF263453056": {
+    "contest_id": 1981,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/1981/B..cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Turtle and an Infinite Sequence",
+    "problem_url": "https://codeforces.com/contest/1981/problem/B",
+    "submission_id": "CF263453056",
+    "submission_url": "https://codeforces.com/contest/1981/submission/263453056",
+    "tags": [
+      "bitmasks",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "May/31/2024 12:16"
+  },
   "CF263464492": {
     "contest_id": 1981,
     "language": "C++20 (GCC 13-64)",
