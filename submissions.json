@@ -1,4 +1,23 @@
 {
+  "CF263549594": {
+    "contest_id": 1981,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/1981/D..cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Turtle and Multiplication",
+    "problem_url": "https://codeforces.com/contest/1981/problem/D",
+    "submission_id": "CF263549594",
+    "submission_url": "https://codeforces.com/contest/1981/submission/263549594",
+    "tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "graphs",
+      "number theory",
+      "*2400"
+    ],
+    "timestamp": "May/31/2024 22:45"
+  },
   "CF263549723": {
     "contest_id": 1981,
     "language": "C++20 (GCC 13-64)",

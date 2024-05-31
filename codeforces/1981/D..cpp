@@ -6,6 +6,7 @@ struct euler_path {
     vector<vector<array<int, 2>>> edges;
     euler_path(int n) : n(n), edge_count(0), edges(n + 1) {}
     void add_edge(int x, int y) {
+        // cerr << x << " " << y << " " << edge_count << " !\n";
         edges[x].push_back({y, edge_count});
         edges[y].push_back({x, edge_count++});
     }
@@ -13,6 +14,33 @@ struct euler_path {
         d.push_front(d.back());
         d.pop_back();
     }
+    // int is_solvable() {
+    //     // assumes all edges are part of a single component
+    //     int odd_deg = 0;
+    //     vector<int> deg(n + 1);
+    //     for (int i = 0; i <= n; ++i) {
+    //         for (int j = 0; j <= n; ++j) {
+    //             if (i != j) {
+    //                 deg[i] += edge[i][j];
+    //             }
+    //         }
+    //         odd_deg += deg[i] & 1;
+    //     }
+    //     if (odd_deg != 0 && odd_deg != 2) {
+    //         return -1;
+    //     }
+    //     for (int i = 0; i <= n; ++i) {
+    //         if (deg[i] & 1) {
+    //             return i;
+    //         }
+    //     }
+    //     for (int i = 0; i <= n; ++i) {
+    //         if (deg[i] > 0) {
+    //             return i;
+    //         }
+    //     }
+    //     return 0;
+    // }
     deque<int> find_path(int src = 1) {
         int not_done = 0;
         deque<int> d = {-1, src};
@@ -27,6 +55,7 @@ struct euler_path {
                 cycle(d);
             }
             while (s[x] < edges[x].size() && done_edge[edges[x][s[x]][1]]) {
+                // cout << edges[x][s[x]][1] << " done\n";
                 if (++s[x] == edges[x].size()) {
                     --not_done;
                 }
@@ -35,6 +64,8 @@ struct euler_path {
                 cycle(d);
             }
             else {
+                // cout << edges[x][s[x]][1] << " undone\n";
+                // cout << x << " -> " << edges[x][s[x]][0] << "\n";
                 done_edge[edges[x][s[x]][1]] = true;
                 d.push_back(edges[x][s[x]][0]);
             }
