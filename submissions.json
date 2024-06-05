@@ -1,4 +1,24 @@
 {
+  "CF264324352": {
+    "contest_id": 1775,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/1775/D..cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Friendly Spiders",
+    "problem_url": "https://codeforces.com/contest/1775/problem/D",
+    "submission_id": "CF264324352",
+    "submission_url": "https://codeforces.com/contest/1775/submission/264324352",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "math",
+      "number theory",
+      "shortest paths",
+      "*1800"
+    ],
+    "timestamp": "Jun/06/2024 01:44"
+  },
   "CF264328247": {
     "contest_id": 1775,
     "language": "C++20 (GCC 13-64)",
