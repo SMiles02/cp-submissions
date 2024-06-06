@@ -1,4 +1,23 @@
 {
+  "CF264406094": {
+    "contest_id": 1981,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/1981/E..cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Turtle and Intersected Segments",
+    "problem_url": "https://codeforces.com/contest/1981/problem/E",
+    "submission_id": "CF264406094",
+    "submission_url": "https://codeforces.com/contest/1981/submission/264406094",
+    "tags": [
+      "data structures",
+      "dsu",
+      "graphs",
+      "greedy",
+      "*2600"
+    ],
+    "timestamp": "Jun/06/2024 16:15"
+  },
   "CF264626572": {
     "contest_id": 1537,
     "language": "C++20 (GCC 13-64)",
