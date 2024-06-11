@@ -1,4 +1,25 @@
 {
+  "CF265192678": {
+    "contest_id": 1984,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/1984/D..cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "''a'' String Problem",
+    "problem_url": "https://codeforces.com/contest/1984/problem/D",
+    "submission_id": "CF265192678",
+    "submission_url": "https://codeforces.com/contest/1984/submission/265192678",
+    "tags": [
+      "brute force",
+      "hashing",
+      "implementation",
+      "math",
+      "string suffix structures",
+      "strings",
+      "*2000"
+    ],
+    "timestamp": "Jun/11/2024 13:57"
+  },
   "CF265206472": {
     "contest_id": 1984,
     "language": "C++20 (GCC 13-64)",
