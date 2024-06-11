@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#define ll long long
 using namespace std;
 
 void solve() {
@@ -15,7 +16,7 @@ void solve() {
         cout << n - 1 << "\n";
         return;
     }
-    long long ans = 1LL * (b[0][1] + 1) * (n - b.back()[1]);
+    ll ans = 1LL * (b[0][1] + 1) * (n - b.back()[1]);
     for (int i = 1; i < b.size(); ++i) {
         if (b.size() % i != 0) {
             continue;
@@ -35,10 +36,12 @@ void solve() {
         }
         if (ok) {
             for (int j = 0; j <= min(b[0][1], min_mid); ++j) {
+                // cout << i << " (" << j << ") : " << min(n - b.back()[1] - 1, min_mid - j) + 1 << "\n";
                 ans += min(n - b.back()[1] - 1, min_mid - j) + 1;
             }
         }
     }
+    // cout << b.size() << ": " << 1LL * (b[0][1] + 1) * (n - b.back()[1]) << "\n";
     cout << ans << "\n";
 }
 
