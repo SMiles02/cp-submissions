@@ -1,4 +1,26 @@
 {
+  "CF266387988": {
+    "contest_id": 1902,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/1902/F..cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Trees and XOR Queries Again",
+    "problem_url": "https://codeforces.com/contest/1902/problem/F",
+    "submission_id": "CF266387988",
+    "submission_url": "https://codeforces.com/contest/1902/submission/266387988",
+    "tags": [
+      "data structures",
+      "dfs and similar",
+      "divide and conquer",
+      "graphs",
+      "implementation",
+      "math",
+      "trees",
+      "*2400"
+    ],
+    "timestamp": "Jun/19/2024 04:39"
+  },
   "CF266509586": {
     "contest_id": 1902,
     "language": "C++20 (GCC 13-64)",
