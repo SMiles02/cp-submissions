@@ -11,7 +11,6 @@ struct xor_basis {
         }
         if (mask) {
             basis.push_back(mask);
-            ++sz;
         }
     }
     bool check_possible(int mask) {
@@ -24,6 +23,15 @@ struct xor_basis {
         for (int mask : basis_2.basis) {
             add_vector(mask);
         }
+    }
+    void print_contents() {
+        cout << "printing!\n";
+        for (int i = 0; i < n; ++i) {
+            if (basis[i] != 0) {
+                cout << i << ": " << basis[i] << "\n";
+            }
+        }
+        cout << "\ndone!\n";
     }
 };
 
