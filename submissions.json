@@ -1,4 +1,23 @@
 {
+  "CF266513049": {
+    "contest_id": 1902,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/1902/D..cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Robot Queries",
+    "problem_url": "https://codeforces.com/contest/1902/problem/D",
+    "submission_id": "CF266513049",
+    "submission_url": "https://codeforces.com/contest/1902/submission/266513049",
+    "tags": [
+      "binary search",
+      "data structures",
+      "dp",
+      "implementation",
+      "*1900"
+    ],
+    "timestamp": "Jun/20/2024 04:02"
+  },
   "CF269491932": {
     "contest_id": 1983,
     "language": "C++20 (GCC 13-64)",
