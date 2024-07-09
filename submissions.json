@@ -1,4 +1,22 @@
 {
+  "CF269491947": {
+    "contest_id": 1983,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/1983/E..cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "I Love Balls",
+    "problem_url": "https://codeforces.com/contest/1983/problem/E",
+    "submission_id": "CF269491947",
+    "submission_url": "https://codeforces.com/contest/1983/submission/269491947",
+    "tags": [
+      "combinatorics",
+      "math",
+      "number theory",
+      "probabilities"
+    ],
+    "timestamp": "Jul/09/2024 03:21"
+  },
   "CF269491952": {
     "contest_id": 1983,
     "language": "C++20 (GCC 13-64)",
