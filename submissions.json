@@ -1,4 +1,24 @@
 {
+  "CF269491945": {
+    "contest_id": 1983,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/1983/D..cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Swap Dilemma",
+    "problem_url": "https://codeforces.com/contest/1983/problem/D",
+    "submission_id": "CF269491945",
+    "submission_url": "https://codeforces.com/contest/1983/submission/269491945",
+    "tags": [
+      "constructive algorithms",
+      "data structures",
+      "divide and conquer",
+      "greedy",
+      "math",
+      "sortings"
+    ],
+    "timestamp": "Jul/09/2024 03:21"
+  },
   "CF269491947": {
     "contest_id": 1983,
     "language": "C++20 (GCC 13-64)",
