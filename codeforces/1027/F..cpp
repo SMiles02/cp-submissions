@@ -27,30 +27,17 @@ struct disjoint_set_union {
     }
 };
 
-vector<array<int, 2>> compress(vector<int> v) {
-    int cnt = 0;
-    vector<array<int, 2>> m;
+map<int, int> compress(vector<int> v) {
+    int cnt = 1;
+    map<int, int> m;
     sort(v.begin(), v.end());
-    for (int i = 0; i < v.size(); ++i) {
-        if (i == 0 || v[i] != v[i - 1]) {
-            m.push_back({v[i], cnt++});
+    m[v[0]] = 0;
+    for (int i = 1; i < v.size(); ++i) {
+        if (v[i] != v[i - 1]) {
+            m[v[i]] = cnt++;
         }
     }
     return m;
-}
-
-int get_compress(int x, vector<array<int, 2>>& v) {
-    int l = 0, r = v.size() - 1, m;
-    while (l < r) {
-        m = l + (r - l) / 2;
-        if (v[m][0] < x) {
-            l = m + 1;
-        }
-        else {
-            r = m;
-        }
-    }
-    return v[l][1];
 }
 
 int main() {
@@ -64,11 +51,11 @@ int main() {
         v.push_back(a[i][0]);
         v.push_back(a[i][1]);
     }
-    vector<array<int, 2>> m = compress(v);
+    map<int, int> m = compress(v);
     disjoint_set_union dsu(n * 2);
     for (int i = 0; i < n; ++i) {
         for (int j = 0; j < 2; ++j) {
-            a[i][j] = get_compress(a[i][j], m);
+            a[i][j] = m[a[i][j]];
         }
         dsu.unite(a[i][0], a[i][1]);
     }
@@ -93,8 +80,8 @@ int main() {
         }
     }
     for (auto i : m) {
-        if (ans == i[1]) {
-            cout << i[0] << "\n";
+        if (ans == i.second) {
+            cout << i.first << "\n";
         }
     }
     return 0;
