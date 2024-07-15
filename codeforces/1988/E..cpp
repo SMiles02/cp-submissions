@@ -159,15 +159,15 @@ void solve() {
         main_num = a[i];
         x = seg.min_left<ge>(i + 1);
         y = seg.max_right<ge>(i) - 1;
-        tmp = 1LL * (i - x + 1) * (y - i + 1) * a[i];
-        ans += tmp;
-        add[i] -= tmp;
-        tmp = (1LL * (i - x) * (y - i + 1) - 1LL * (i - x + 1) * (y - i + 1)) * a[i];
-        b[x] += tmp;
-        b[i] -= tmp;
-        tmp = (1LL * (i - x + 1) * (y - i) - 1LL * (i - x + 1) * (y - i + 1)) * a[i];
-        b[i + 1] += tmp;
-        b[y + 1] -= tmp;
+        tmp = 1LL * (i - x + 1) * (y - i + 1);
+        ans += tmp * a[i];
+        add[i] -= tmp * a[i];
+        tmp = 1LL * (i - x) * (y - i + 1) - 1LL * (i - x + 1) * (y - i + 1);
+        b[x] += tmp * a[i];
+        b[i] -= tmp * a[i];
+        tmp = 1LL * (i - x + 1) * (y - i) - 1LL * (i - x + 1) * (y - i + 1);
+        b[i + 1] += tmp * a[i];
+        b[y + 1] -= tmp * a[i];
         if (x > 1 && a[x - 2] > a[i]) {
             l = seg.min_left<ge>(x - 1);
             add[x - 1] += 1LL * (x - 1 - l) * (y - i + 1) * a[i];

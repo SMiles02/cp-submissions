@@ -17965,6 +17965,24 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF270746580": {
+    "contest_id": 1988,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/1988/E..cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Range Minimum Sum",
+    "problem_url": "https://codeforces.com/contest/1988/problem/E",
+    "submission_id": "CF270746580",
+    "submission_url": "https://codeforces.com/contest/1988/submission/270746580",
+    "tags": [
+      "binary search",
+      "brute force",
+      "data structures",
+      "implementation"
+    ],
+    "timestamp": "Jul/15/2024 18:31"
+  },
   "CF270747020": {
     "contest_id": 1988,
     "language": "C++20 (GCC 13-64)",
