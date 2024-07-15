@@ -1,4 +1,6 @@
 #include <bits/stdc++.h>
+#define ll long long
+#define sz(x) (int)(x).size()
 using namespace std;
 
 const int N = 3e5 + 1, K = 21;

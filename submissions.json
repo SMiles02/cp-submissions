@@ -17965,6 +17965,24 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF270686223": {
+    "contest_id": 1988,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/1988/D..cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "The Omnipotent Monster Killer",
+    "problem_url": "https://codeforces.com/contest/1988/problem/D",
+    "submission_id": "CF270686223",
+    "submission_url": "https://codeforces.com/contest/1988/submission/270686223",
+    "tags": [
+      "brute force",
+      "dfs and similar",
+      "dp",
+      "trees"
+    ],
+    "timestamp": "Jul/15/2024 16:16"
+  },
   "CF270735613": {
     "contest_id": 1988,
     "language": "C++20 (GCC 13-64)",
