@@ -13,8 +13,9 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-1080 | [E - Unique Array](https://codeforces.com/contest/1969/problem/E) | [C++20 (GCC 13-64)](./codeforces/1969/E..cpp) | `binary search` `data structures` `divide and conquer` `dp` `greedy` `*2400` | Jul/16/2024 20:53 | 
-1079 | [F - Session in BSU](https://codeforces.com/contest/1027/problem/F) | [C++20 (GCC 13-64)](./codeforces/1027/F..cpp) | `binary search` `dfs and similar` `dsu` `graph matchings` `graphs` `*2400` | Jul/16/2024 00:46 | 
+1081 | [E - Unique Array](https://codeforces.com/contest/1969/problem/E) | [C++20 (GCC 13-64)](./codeforces/1969/E..cpp) | `binary search` `data structures` `divide and conquer` `dp` `greedy` `*2400` | Jul/16/2024 20:53 | 
+1080 | [F - Session in BSU](https://codeforces.com/contest/1027/problem/F) | [C++20 (GCC 13-64)](./codeforces/1027/F..cpp) | `binary search` `dfs and similar` `dsu` `graph matchings` `graphs` `*2400` | Jul/16/2024 00:46 | 
+1079 | [A - Split the Multiset](https://codeforces.com/contest/1988/problem/A) | [C++20 (GCC 13-64)](./codeforces/1988/A..cpp) | `brute force` `greedy` `math` | Jul/16/2024 00:35 | 
 1078 | [A - Array Divisibility](https://codeforces.com/contest/1983/problem/A) | [C++20 (GCC 13-64)](./codeforces/1983/A..cpp) | `constructive algorithms` `math` | Jul/09/2024 03:21 | 
 1077 | [B - Corner Twist](https://codeforces.com/contest/1983/problem/B) | [C++20 (GCC 13-64)](./codeforces/1983/B..cpp) | `constructive algorithms` `greedy` `implementation` `math` | Jul/09/2024 03:21 | 
 1076 | [C - Have Your Cake and Eat It Too](https://codeforces.com/contest/1983/problem/C) | [C++20 (GCC 13-64)](./codeforces/1983/C..cpp) | `binary search` `bitmasks` `brute force` `constructive algorithms` `dp` `greedy` `implementation` | Jul/09/2024 03:21 | 
