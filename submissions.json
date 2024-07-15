@@ -17965,6 +17965,26 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF270548183": {
+    "contest_id": 1027,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/1027/F..cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Session in BSU",
+    "problem_url": "https://codeforces.com/contest/1027/problem/F",
+    "submission_id": "CF270548183",
+    "submission_url": "https://codeforces.com/contest/1027/submission/270548183",
+    "tags": [
+      "binary search",
+      "dfs and similar",
+      "dsu",
+      "graph matchings",
+      "graphs",
+      "*2400"
+    ],
+    "timestamp": "Jul/15/2024 01:03"
+  },
   "CF270548245": {
     "contest_id": 1027,
     "language": "C++20 (GCC 13-64)",

@@ -92,6 +92,10 @@ int main() {
             ans = max(ans, alln[i][alln[i].size() - 2]);
         }
     }
-    cout << m[ans][0];
+    for (auto i : m) {
+        if (ans == i[1]) {
+            cout << i[0] << "\n";
+        }
+    }
     return 0;
 }
