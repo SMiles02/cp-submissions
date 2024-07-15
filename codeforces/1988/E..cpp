@@ -1,4 +1,6 @@
 #include <bits/stdc++.h>
+#define ll long long
+#define sz(x) (int)(x).size()
 using namespace std;
 
 namespace internal {
@@ -137,9 +139,31 @@ template <class S, S (*op)(S, S), S (*e)()> struct segment_tree {
     void update(int k) { d[k] = op(d[2 * k], d[2 * k + 1]); }
 };
 
+// basic operation
 int op(int a, int b) { return min(a, b); }
+
+// op(anything, e()) = anything
 int e() { return 1e9; }
+
+// currently query max
+// remember: range l, r means [l, r)
+
+// Constructor:
+// (1) segment_tree<S, op, e> seg(int n)
+// (2) segment_tree<S, op, e> seg(vector<S> v)
+
+// Functions:
+// seg.set(int p, S x) => a[p] := x
+// seg.get(int p) => a[p]
+// seg.prod(int l, int r) => op(a[l], ..., a[r - 1])
+// seg.all_prod() => op(a[0], ..., a[n - 1])
+// seg.min_left<cnd>(int r) => minimum l such that g(op(a[l], ..., a[r - 1])) = true
+// => Constraints: g(e()) = true
+// seg.max_right<cnd>(int r) => maximum r such that g(op(a[l], ..., a[r - 1])) = true
+// => Constraints: g(e()) = true
+
 int main_num;
+
 bool ge(int t) {
     return t >= main_num;
 }
@@ -162,12 +186,20 @@ void solve() {
         tmp = 1LL * (i - x + 1) * (y - i + 1);
         ans += tmp * a[i];
         sub[i] += tmp * a[i];
-        tmp = 1LL * (i - x) * (y - i + 1) - 1LL * (i - x + 1) * (y - i + 1);
-        b[x] += tmp * a[i];
-        b[i] -= tmp * a[i];
-        tmp = 1LL * (i - x + 1) * (y - i) - 1LL * (i - x + 1) * (y - i + 1);
-        b[i + 1] += tmp * a[i];
-        b[y + 1] -= tmp * a[i];
+        if (x != i) {
+            // cerr << i << " !\n";
+            tmp = 1LL * (i - x) * (y - i + 1) - 1LL * (i - x + 1) * (y - i + 1);
+            // cerr << tmp << "\n";
+            b[x] += tmp * a[i];
+            b[i] -= tmp * a[i];
+        }
+        if (y != i) {
+            // cerr << i << " !!\n";
+            tmp = 1LL * (i - x + 1) * (y - i) - 1LL * (i - x + 1) * (y - i + 1);
+            // cerr << tmp << "\n";
+            b[i + 1] += tmp * a[i];
+            b[y + 1] -= tmp * a[i];
+        }
         if (x > 1 && a[x - 2] > a[i]) {
             l = seg.min_left<ge>(x - 1);
             add[x - 1] += 1LL * (x - 1 - l) * (y - i + 1) * a[i];
