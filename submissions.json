@@ -17965,6 +17965,23 @@
     ],
     "timestamp": "Jul/09/2024 03:21"
   },
+  "CF270673250": {
+    "contest_id": 1988,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/1988/C..cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Increasing Sequence with Fixed OR",
+    "problem_url": "https://codeforces.com/contest/1988/problem/C",
+    "submission_id": "CF270673250",
+    "submission_url": "https://codeforces.com/contest/1988/submission/270673250",
+    "tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "greedy"
+    ],
+    "timestamp": "Jul/15/2024 16:02"
+  },
   "CF270686223": {
     "contest_id": 1988,
     "language": "C++20 (GCC 13-64)",
