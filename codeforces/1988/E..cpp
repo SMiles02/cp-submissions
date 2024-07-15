@@ -149,7 +149,7 @@ void solve() {
     long long ans = 0, tmp;
     cin >> n;
     vector<int> a(n);
-    vector<long long> b(n + 1), add(n + 1);
+    vector<long long> b(n + 1), add(n + 1), sub(n + 1);
     segment_tree<int, op, e> seg(n);
     for (int i = 0; i < n; ++i) {
         cin >> a[i];
@@ -161,7 +161,7 @@ void solve() {
         y = seg.max_right<ge>(i) - 1;
         tmp = 1LL * (i - x + 1) * (y - i + 1);
         ans += tmp * a[i];
-        add[i] -= tmp * a[i];
+        sub[i] += tmp * a[i];
         tmp = 1LL * (i - x) * (y - i + 1) - 1LL * (i - x + 1) * (y - i + 1);
         b[x] += tmp * a[i];
         b[i] -= tmp * a[i];
@@ -181,7 +181,10 @@ void solve() {
         if (i > 0) {
             b[i] += b[i - 1];
         }
-        cout << ans + add[i] + b[i] << " ";
+        add[i] += b[i];
+    }
+    for (int i = 0; i < n; ++i) {
+        cout << ans + add[i] - sub[i] << " ";
     }
     cout << "\n";
 }
