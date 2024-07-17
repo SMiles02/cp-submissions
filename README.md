@@ -13,11 +13,12 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-1090 | [C - Hungry Games](https://codeforces.com/contest/1994/problem/C) | [C++20 (GCC 13-64)](./codeforces/1994/C..cpp) | `binary search` `dp` `two pointers` | Jul/19/2024 01:14 | 
-1089 | [E - Wooden Game](https://codeforces.com/contest/1994/problem/E) | [C++20 (GCC 13-64)](./codeforces/1994/E..cpp) | `bitmasks` `greedy` `math` `sortings` `trees` | Jul/18/2024 23:02 | 
-1088 | [D - Funny Game](https://codeforces.com/contest/1994/problem/D) | [C++20 (GCC 13-64)](./codeforces/1994/D..cpp) | `constructive algorithms` `dsu` `graphs` `greedy` `math` `number theory` `trees` | Jul/18/2024 23:02 | 
-1087 | [B - Fun Game](https://codeforces.com/contest/1994/problem/B) | [C++20 (GCC 13-64)](./codeforces/1994/B..cpp) | `bitmasks` `constructive algorithms` `greedy` `math` | Jul/18/2024 23:02 | 
-1086 | [A - Diverse Game](https://codeforces.com/contest/1994/problem/A) | [C++20 (GCC 13-64)](./codeforces/1994/A..cpp) | `constructive algorithms` `greedy` | Jul/18/2024 23:02 | 
+1091 | [C - Hungry Games](https://codeforces.com/contest/1994/problem/C) | [C++20 (GCC 13-64)](./codeforces/1994/C..cpp) | `binary search` `dp` `two pointers` | Jul/19/2024 01:14 | 
+1090 | [E - Wooden Game](https://codeforces.com/contest/1994/problem/E) | [C++20 (GCC 13-64)](./codeforces/1994/E..cpp) | `bitmasks` `greedy` `math` `sortings` `trees` | Jul/18/2024 23:02 | 
+1089 | [D - Funny Game](https://codeforces.com/contest/1994/problem/D) | [C++20 (GCC 13-64)](./codeforces/1994/D..cpp) | `constructive algorithms` `dsu` `graphs` `greedy` `math` `number theory` `trees` | Jul/18/2024 23:02 | 
+1088 | [B - Fun Game](https://codeforces.com/contest/1994/problem/B) | [C++20 (GCC 13-64)](./codeforces/1994/B..cpp) | `bitmasks` `constructive algorithms` `greedy` `math` | Jul/18/2024 23:02 | 
+1087 | [A - Diverse Game](https://codeforces.com/contest/1994/problem/A) | [C++20 (GCC 13-64)](./codeforces/1994/A..cpp) | `constructive algorithms` `greedy` | Jul/18/2024 23:02 | 
+1086 | [F - Diameter Cuts](https://codeforces.com/contest/1499/problem/F) | [C++20 (GCC 13-64)](./codeforces/1499/F..cpp) | `combinatorics` `dfs and similar` `dp` `trees` `*2400` | Jul/18/2024 00:48 | 
 1085 | [E - Unique Array](https://codeforces.com/contest/1969/problem/E) | [C++20 (GCC 13-64)](./codeforces/1969/E..cpp) | `binary search` `data structures` `divide and conquer` `dp` `greedy` `*2400` | Jul/16/2024 20:53 | 
 1084 | [F - Session in BSU](https://codeforces.com/contest/1027/problem/F) | [C++20 (GCC 13-64)](./codeforces/1027/F..cpp) | `binary search` `dfs and similar` `dsu` `graph matchings` `graphs` `*2400` | Jul/16/2024 00:46 | 
 1083 | [A - Split the Multiset](https://codeforces.com/contest/1988/problem/A) | [C++20 (GCC 13-64)](./codeforces/1988/A..cpp) | `brute force` `greedy` `math` | Jul/16/2024 00:35 | 
