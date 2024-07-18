@@ -18273,6 +18273,27 @@
     ],
     "timestamp": "Jul/16/2024 20:53"
   },
+  "CF271237693": {
+    "contest_id": 1994,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/1994/D..cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Funny Game",
+    "problem_url": "https://codeforces.com/contest/1994/problem/D",
+    "submission_id": "CF271237693",
+    "submission_url": "https://codeforces.com/contest/1994/submission/271237693",
+    "tags": [
+      "constructive algorithms",
+      "dsu",
+      "graphs",
+      "greedy",
+      "math",
+      "number theory",
+      "trees"
+    ],
+    "timestamp": "Jul/18/2024 16:30"
+  },
   "CF271250592": {
     "contest_id": 1994,
     "language": "C++20 (GCC 13-64)",

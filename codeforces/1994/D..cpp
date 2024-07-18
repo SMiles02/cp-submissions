@@ -52,17 +52,24 @@ void solve() {
                 mod[i][j].pop_back();
                 y = mod[i][j].back();
                 if (!dsu.connected(x, y)) {
+                    // cout << "Step " << i << ": Connect " << x << " and " << y << "\n";
+                    // cout << "Difference: " << abs(a[x] - a[y]) % i << "\n";
                     dsu.unite(x, y);
                     ans.push_back({x, y});
                     done = true;
                 }
             }
         }
+        if (!done) {
+            cout << "NO\n";
+            return;
+        }
     }
     cout << "YES\n";
     reverse(ans.begin(), ans.end());
     for (auto [x, y] : ans) {
         cout << x << " " << y << "\n";
+        // cerr << x << ": " << a[x] << ", " << y << ": " << a[y] << "\n";
     }
 }
 
