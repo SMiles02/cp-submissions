@@ -18273,6 +18273,22 @@
     ],
     "timestamp": "Jul/16/2024 20:53"
   },
+  "CF271293945": {
+    "contest_id": 1994,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/1994/A..cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Diverse Game",
+    "problem_url": "https://codeforces.com/contest/1994/problem/A",
+    "submission_id": "CF271293945",
+    "submission_url": "https://codeforces.com/contest/1994/submission/271293945",
+    "tags": [
+      "constructive algorithms",
+      "greedy"
+    ],
+    "timestamp": "Jul/18/2024 23:02"
+  },
   "CF271293946": {
     "contest_id": 1994,
     "language": "C++20 (GCC 13-64)",
