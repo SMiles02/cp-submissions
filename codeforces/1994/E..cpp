@@ -11,6 +11,7 @@ void solve() {
             cin >> k;
         }
     }
+    sort(sz.rbegin(), sz.rend());
     for (int i = 19; i >= 0; --i) {
         for (int j = 0; j < sz.size(); ++j) {
             if (sz[j] >= (1 << i)) {
