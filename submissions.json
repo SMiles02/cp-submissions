@@ -18273,6 +18273,23 @@
     ],
     "timestamp": "Jul/16/2024 20:53"
   },
+  "CF271300126": {
+    "contest_id": 1994,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/1994/C..cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Hungry Games",
+    "problem_url": "https://codeforces.com/contest/1994/problem/C",
+    "submission_id": "CF271300126",
+    "submission_url": "https://codeforces.com/contest/1994/submission/271300126",
+    "tags": [
+      "binary search",
+      "dp",
+      "two pointers"
+    ],
+    "timestamp": "Jul/19/2024 01:14"
+  },
   "CF36557697": {
     "contest_id": 946,
     "language": "Python 3",

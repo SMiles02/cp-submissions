@@ -13,11 +13,12 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+1086 | [C - Hungry Games](https://codeforces.com/contest/1994/problem/C) | [C++20 (GCC 13-64)](./codeforces/1994/C..cpp) | `binary search` `dp` `two pointers` | Jul/19/2024 01:14 | 
 1085 | [E - Unique Array](https://codeforces.com/contest/1969/problem/E) | [C++20 (GCC 13-64)](./codeforces/1969/E..cpp) | `binary search` `data structures` `divide and conquer` `dp` `greedy` `*2400` | Jul/16/2024 20:53 | 
 1084 | [F - Session in BSU](https://codeforces.com/contest/1027/problem/F) | [C++20 (GCC 13-64)](./codeforces/1027/F..cpp) | `binary search` `dfs and similar` `dsu` `graph matchings` `graphs` `*2400` | Jul/16/2024 00:46 | 
 1083 | [A - Split the Multiset](https://codeforces.com/contest/1988/problem/A) | [C++20 (GCC 13-64)](./codeforces/1988/A..cpp) | `brute force` `greedy` `math` | Jul/16/2024 00:35 | 
-1082 | [B - Make Majority](https://codeforces.com/contest/1988/problem/B) | [C++20 (GCC 13-64)](./codeforces/1988/B..cpp) | `greedy` `implementation` | Jul/16/2024 00:34 | 
-1081 | [C - Increasing Sequence with Fixed OR](https://codeforces.com/contest/1988/problem/C) | [C++20 (GCC 13-64)](./codeforces/1988/C..cpp) | `bitmasks` `constructive algorithms` `greedy` | Jul/16/2024 00:34 | 
+1082 | [C - Increasing Sequence with Fixed OR](https://codeforces.com/contest/1988/problem/C) | [C++20 (GCC 13-64)](./codeforces/1988/C..cpp) | `bitmasks` `constructive algorithms` `greedy` | Jul/16/2024 00:34 | 
+1081 | [B - Make Majority](https://codeforces.com/contest/1988/problem/B) | [C++20 (GCC 13-64)](./codeforces/1988/B..cpp) | `greedy` `implementation` | Jul/16/2024 00:34 | 
 1080 | [D - The Omnipotent Monster Killer](https://codeforces.com/contest/1988/problem/D) | [C++20 (GCC 13-64)](./codeforces/1988/D..cpp) | `brute force` `dfs and similar` `dp` `trees` | Jul/16/2024 00:33 | 
 1079 | [E - Range Minimum Sum](https://codeforces.com/contest/1988/problem/E) | [C++20 (GCC 13-64)](./codeforces/1988/E..cpp) | `binary search` `brute force` `data structures` `implementation` | Jul/15/2024 18:33 | 
 1078 | [A - Array Divisibility](https://codeforces.com/contest/1983/problem/A) | [C++20 (GCC 13-64)](./codeforces/1983/A..cpp) | `constructive algorithms` `math` | Jul/09/2024 03:21 | 
