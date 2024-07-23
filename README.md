@@ -13,8 +13,9 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-1093 | [D - Cases](https://codeforces.com/contest/1995/problem/D) | [C++20 (GCC 13-64)](./codeforces/1995/D..cpp) | `bitmasks` `brute force` `combinatorics` `dp` `graphs` `strings` | Jul/23/2024 19:21 | 
-1092 | [B1 - Bouquet (Easy Version)](https://codeforces.com/contest/1995/problem/B1) | [C++20 (GCC 13-64)](./codeforces/1995/B1..cpp) | `binary search` `greedy` `sortings` `sortings` `two pointers` | Jul/23/2024 16:17 | 
+1094 | [D - Cases](https://codeforces.com/contest/1995/problem/D) | [C++20 (GCC 13-64)](./codeforces/1995/D..cpp) | `bitmasks` `brute force` `combinatorics` `dp` `graphs` `strings` | Jul/23/2024 19:21 | 
+1093 | [B1 - Bouquet (Easy Version)](https://codeforces.com/contest/1995/problem/B1) | [C++20 (GCC 13-64)](./codeforces/1995/B1..cpp) | `binary search` `greedy` `sortings` `sortings` `two pointers` | Jul/23/2024 16:17 | 
+1092 | [B2 - Bouquet (Hard Version)](https://codeforces.com/contest/1995/problem/B2) | [C++20 (GCC 13-64)](./codeforces/1995/B2..cpp) | `greedy` `math` `sortings` `two pointers` | Jul/23/2024 16:11 | 
 1091 | [C - Hungry Games](https://codeforces.com/contest/1994/problem/C) | [C++20 (GCC 13-64)](./codeforces/1994/C..cpp) | `binary search` `dp` `two pointers` | Jul/19/2024 01:14 | 
 1090 | [A - Diverse Game](https://codeforces.com/contest/1994/problem/A) | [C++20 (GCC 13-64)](./codeforces/1994/A..cpp) | `constructive algorithms` `greedy` | Jul/18/2024 23:02 | 
 1089 | [B - Fun Game](https://codeforces.com/contest/1994/problem/B) | [C++20 (GCC 13-64)](./codeforces/1994/B..cpp) | `bitmasks` `constructive algorithms` `greedy` `math` | Jul/18/2024 23:02 | 

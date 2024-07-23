@@ -18491,6 +18491,24 @@
     ],
     "timestamp": "Jul/19/2024 01:14"
   },
+  "CF272115675": {
+    "contest_id": 1995,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/1995/B2..cpp",
+    "platform": "Codeforces",
+    "problem_index": "B2",
+    "problem_name": "Bouquet (Hard Version)",
+    "problem_url": "https://codeforces.com/contest/1995/problem/B2",
+    "submission_id": "CF272115675",
+    "submission_url": "https://codeforces.com/contest/1995/submission/272115675",
+    "tags": [
+      "greedy",
+      "math",
+      "sortings",
+      "two pointers"
+    ],
+    "timestamp": "Jul/23/2024 16:11"
+  },
   "CF272119343": {
     "contest_id": 1995,
     "language": "C++20 (GCC 13-64)",
