@@ -18491,6 +18491,26 @@
     ],
     "timestamp": "Jul/19/2024 01:14"
   },
+  "CF272202586": {
+    "contest_id": 1995,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/1995/D..cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Cases",
+    "problem_url": "https://codeforces.com/contest/1995/problem/D",
+    "submission_id": "CF272202586",
+    "submission_url": "https://codeforces.com/contest/1995/submission/272202586",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "combinatorics",
+      "dp",
+      "graphs",
+      "strings"
+    ],
+    "timestamp": "Jul/23/2024 19:21"
+  },
   "CF36557697": {
     "contest_id": 946,
     "language": "Python 3",
