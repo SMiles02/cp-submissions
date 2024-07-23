@@ -18491,6 +18491,26 @@
     ],
     "timestamp": "Jul/19/2024 01:14"
   },
+  "CF272109033": {
+    "contest_id": 1995,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/1995/C..cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Squaring",
+    "problem_url": "https://codeforces.com/contest/1995/problem/C",
+    "submission_id": "CF272109033",
+    "submission_url": "https://codeforces.com/contest/1995/submission/272109033",
+    "tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "math",
+      "math",
+      "number theory"
+    ],
+    "timestamp": "Jul/23/2024 16:01"
+  },
   "CF272115675": {
     "contest_id": 1995,
     "language": "C++20 (GCC 13-64)",
