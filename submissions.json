@@ -18491,6 +18491,26 @@
     ],
     "timestamp": "Jul/19/2024 01:14"
   },
+  "CF272090460": {
+    "contest_id": 1995,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/1995/A..cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Diagonals",
+    "problem_url": "https://codeforces.com/contest/1995/problem/A",
+    "submission_id": "CF272090460",
+    "submission_url": "https://codeforces.com/contest/1995/submission/272090460",
+    "tags": [
+      "brute force",
+      "greedy",
+      "implementation",
+      "math",
+      "ternary search",
+      "trees"
+    ],
+    "timestamp": "Jul/23/2024 15:37"
+  },
   "CF272109033": {
     "contest_id": 1995,
     "language": "C++20 (GCC 13-64)",
