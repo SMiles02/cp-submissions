@@ -13,9 +13,10 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-1099 | [F - Triangle Formation](https://codeforces.com/contest/1991/problem/F) | [C++20 (GCC 13-64)](./codeforces/1991/F..cpp) | `greedy` `math` `sortings` | Jul/28/2024 18:05 | 
-1098 | [E - Coloring Game](https://codeforces.com/contest/1991/problem/E) | [C++20 (GCC 13-64)](./codeforces/1991/E..cpp) | `games` `graphs` `interactive` | Jul/28/2024 16:48 | 
-1097 | [D - Prime XOR Coloring](https://codeforces.com/contest/1991/problem/D) | [C++20 (GCC 13-64)](./codeforces/1991/D..cpp) | `bitmasks` `constructive algorithms` `graphs` `math` `number theory` | Jul/28/2024 16:14 | 
+1100 | [F - Triangle Formation](https://codeforces.com/contest/1991/problem/F) | [C++20 (GCC 13-64)](./codeforces/1991/F..cpp) | `greedy` `math` `sortings` | Jul/28/2024 18:05 | 
+1099 | [E - Coloring Game](https://codeforces.com/contest/1991/problem/E) | [C++20 (GCC 13-64)](./codeforces/1991/E..cpp) | `games` `graphs` `interactive` | Jul/28/2024 16:48 | 
+1098 | [D - Prime XOR Coloring](https://codeforces.com/contest/1991/problem/D) | [C++20 (GCC 13-64)](./codeforces/1991/D..cpp) | `bitmasks` `constructive algorithms` `graphs` `math` `number theory` | Jul/28/2024 16:14 | 
+1097 | [C - Absolute Zero](https://codeforces.com/contest/1991/problem/C) | [C++20 (GCC 13-64)](./codeforces/1991/C..cpp) | `constructive algorithms` `math` | Jul/28/2024 16:00 | 
 1096 | [D - Cases](https://codeforces.com/contest/1995/problem/D) | [C++20 (GCC 13-64)](./codeforces/1995/D..cpp) | `bitmasks` `brute force` `combinatorics` `dp` `graphs` `strings` | Jul/23/2024 19:21 | 
 1095 | [B1 - Bouquet (Easy Version)](https://codeforces.com/contest/1995/problem/B1) | [C++20 (GCC 13-64)](./codeforces/1995/B1..cpp) | `binary search` `greedy` `sortings` `sortings` `two pointers` | Jul/23/2024 16:17 | 
 1094 | [B2 - Bouquet (Hard Version)](https://codeforces.com/contest/1995/problem/B2) | [C++20 (GCC 13-64)](./codeforces/1995/B2..cpp) | `greedy` `math` `sortings` `two pointers` | Jul/23/2024 16:11 | 
