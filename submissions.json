@@ -18588,6 +18588,22 @@
     ],
     "timestamp": "Jul/23/2024 19:21"
   },
+  "CF273131596": {
+    "contest_id": 1991,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/1991/A..cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Maximize the Last Element",
+    "problem_url": "https://codeforces.com/contest/1991/problem/A",
+    "submission_id": "CF273131596",
+    "submission_url": "https://codeforces.com/contest/1991/submission/273131596",
+    "tags": [
+      "greedy",
+      "implementation"
+    ],
+    "timestamp": "Jul/28/2024 15:36"
+  },
   "CF273139333": {
     "contest_id": 1991,
     "language": "C++20 (GCC 13-64)",

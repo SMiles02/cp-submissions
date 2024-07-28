@@ -13,11 +13,12 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-1101 | [F - Triangle Formation](https://codeforces.com/contest/1991/problem/F) | [C++20 (GCC 13-64)](./codeforces/1991/F..cpp) | `greedy` `math` `sortings` | Jul/28/2024 18:05 | 
-1100 | [E - Coloring Game](https://codeforces.com/contest/1991/problem/E) | [C++20 (GCC 13-64)](./codeforces/1991/E..cpp) | `games` `graphs` `interactive` | Jul/28/2024 16:48 | 
-1099 | [D - Prime XOR Coloring](https://codeforces.com/contest/1991/problem/D) | [C++20 (GCC 13-64)](./codeforces/1991/D..cpp) | `bitmasks` `constructive algorithms` `graphs` `math` `number theory` | Jul/28/2024 16:14 | 
-1098 | [C - Absolute Zero](https://codeforces.com/contest/1991/problem/C) | [C++20 (GCC 13-64)](./codeforces/1991/C..cpp) | `constructive algorithms` `math` | Jul/28/2024 16:00 | 
-1097 | [B - AND Reconstruction](https://codeforces.com/contest/1991/problem/B) | [C++20 (GCC 13-64)](./codeforces/1991/B..cpp) | `bitmasks` `constructive algorithms` `greedy` | Jul/28/2024 15:40 | 
+1102 | [F - Triangle Formation](https://codeforces.com/contest/1991/problem/F) | [C++20 (GCC 13-64)](./codeforces/1991/F..cpp) | `greedy` `math` `sortings` | Jul/28/2024 18:05 | 
+1101 | [E - Coloring Game](https://codeforces.com/contest/1991/problem/E) | [C++20 (GCC 13-64)](./codeforces/1991/E..cpp) | `games` `graphs` `interactive` | Jul/28/2024 16:48 | 
+1100 | [D - Prime XOR Coloring](https://codeforces.com/contest/1991/problem/D) | [C++20 (GCC 13-64)](./codeforces/1991/D..cpp) | `bitmasks` `constructive algorithms` `graphs` `math` `number theory` | Jul/28/2024 16:14 | 
+1099 | [C - Absolute Zero](https://codeforces.com/contest/1991/problem/C) | [C++20 (GCC 13-64)](./codeforces/1991/C..cpp) | `constructive algorithms` `math` | Jul/28/2024 16:00 | 
+1098 | [B - AND Reconstruction](https://codeforces.com/contest/1991/problem/B) | [C++20 (GCC 13-64)](./codeforces/1991/B..cpp) | `bitmasks` `constructive algorithms` `greedy` | Jul/28/2024 15:40 | 
+1097 | [A - Maximize the Last Element](https://codeforces.com/contest/1991/problem/A) | [C++20 (GCC 13-64)](./codeforces/1991/A..cpp) | `greedy` `implementation` | Jul/28/2024 15:36 | 
 1096 | [D - Cases](https://codeforces.com/contest/1995/problem/D) | [C++20 (GCC 13-64)](./codeforces/1995/D..cpp) | `bitmasks` `brute force` `combinatorics` `dp` `graphs` `strings` | Jul/23/2024 19:21 | 
 1095 | [B1 - Bouquet (Easy Version)](https://codeforces.com/contest/1995/problem/B1) | [C++20 (GCC 13-64)](./codeforces/1995/B1..cpp) | `binary search` `greedy` `sortings` `sortings` `two pointers` | Jul/23/2024 16:17 | 
 1094 | [B2 - Bouquet (Hard Version)](https://codeforces.com/contest/1995/problem/B2) | [C++20 (GCC 13-64)](./codeforces/1995/B2..cpp) | `greedy` `math` `sortings` `two pointers` | Jul/23/2024 16:11 | 
