@@ -18588,6 +18588,25 @@
     ],
     "timestamp": "Jul/23/2024 19:21"
   },
+  "CF273165553": {
+    "contest_id": 1991,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces/1991/D..cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Prime XOR Coloring",
+    "problem_url": "https://codeforces.com/contest/1991/problem/D",
+    "submission_id": "CF273165553",
+    "submission_url": "https://codeforces.com/contest/1991/submission/273165553",
+    "tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "graphs",
+      "math",
+      "number theory"
+    ],
+    "timestamp": "Jul/28/2024 16:14"
+  },
   "CF273184181": {
     "contest_id": 1991,
     "language": "C++20 (GCC 13-64)",
